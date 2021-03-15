@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import { Link, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import { GatsbyImage } from "gatsby-plugin-image";
+import SEO from "../components/seo";
 
 const IndexPage = (props) => {
   return (
@@ -24,6 +25,7 @@ const IndexPage = (props) => {
       render={(data) => {
         return (
           <Wrapper>
+            <SEO title="Web" />
             <HeadingWrapper>
               <Heading>
                 <span>DUŠAN</span>
