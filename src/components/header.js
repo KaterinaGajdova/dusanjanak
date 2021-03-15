@@ -1,6 +1,5 @@
 import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const windowGlobal = typeof window !== "undefined" && window;
@@ -15,117 +14,6 @@ const getClass = (urlIncludes) => {
   } else return "";
 };
 
-const MenuScience = () => {
-  const [opened, setOpened] = useState("");
-  return (
-    <>
-      <StyledLink
-        name="science-about"
-        className={getClass("science-about")}
-        to="/science-about/"
-      >
-        ABOUT ME
-      </StyledLink>
-      <StyledLink
-        name="science-cv"
-        className={getClass("science-cv")}
-        to="/science-cv"
-      >
-        ACADEMIC CV
-      </StyledLink>
-      <StyledLink
-        name="science-research"
-        className={getClass("science-research")}
-        to="/"
-      >
-        RESEARCH
-      </StyledLink>
-      <StyledLink
-        name="science-publications"
-        className={getClass("science-publications")}
-        to="/"
-      >
-        PUBLICATIONS
-      </StyledLink>
-      <StyledLink
-        name="science-cooperation"
-        className={getClass("science-cooperation")}
-        to="/"
-      >
-        COOPERATION
-      </StyledLink>
-      <StyledLink
-        name="science-media"
-        className={getClass("science-media")}
-        to="/"
-      >
-        AUDIO/VIDEO
-      </StyledLink>
-      <StyledLink
-        name="science-lectures"
-        className={getClass("science-lectures")}
-        to="/"
-      >
-        LECTURES
-      </StyledLink>
-    </>
-  );
-};
-
-const MenuAlpinism = () => {
-  const [opened, setOpened] = useState("");
-
-  return (
-    <>
-      <StyledLink
-        name="alpinism-about"
-        className={getClass("alpinism-about")}
-        to="/alpinism-about/"
-      >
-        ABOUT ME
-      </StyledLink>
-      <StyledLink name="alpinism-cv" className={getClass("alpinism-cv")} to="/">
-        CLIMBING CV
-      </StyledLink>
-      <StyledLink
-        name="alpinism-climbs"
-        className={getClass("alpinism-climbs")}
-        to="/"
-      >
-        CLIMBS
-      </StyledLink>
-      <StyledLink
-        name="alpinism-writings"
-        className={getClass("alpinism-writings")}
-        to="/"
-      >
-        WRITINGS
-      </StyledLink>
-      <StyledLink
-        name="alpinism-partners"
-        className={getClass("alpinism-partners")}
-        to="/"
-      >
-        PARTNERS
-      </StyledLink>
-      <StyledLink
-        name="alpinism-media"
-        className={getClass("alpinism-media")}
-        to="/"
-      >
-        AUDIO/VIDEO
-      </StyledLink>
-      <StyledLink
-        name="alpinism-lectures"
-        className={getClass("alpinism-lectures")}
-        to="/"
-      >
-        LECTURES
-      </StyledLink>
-    </>
-  );
-};
-
 const Header = ({ location }) => {
   const pathName = location?.pathname;
   const isAlpinism = pathName?.includes("alpinism");
@@ -134,23 +22,114 @@ const Header = ({ location }) => {
   return (
     <HeaderWrapper>
       {isAlpinism ? (
-        <MenuAlpinism />
+        <>
+          <StyledLink
+            name="alpinism-about"
+            className={getClass("alpinism-about")}
+            to="/alpinism-about/"
+          >
+            ABOUT ME
+          </StyledLink>
+          <StyledLink
+            name="alpinism-cv"
+            className={getClass("alpinism-cv")}
+            to="/"
+          >
+            CLIMBING CV
+          </StyledLink>
+          <StyledLink
+            name="alpinism-climbs"
+            className={getClass("alpinism-climbs")}
+            to="/"
+          >
+            CLIMBS
+          </StyledLink>
+          <StyledLink
+            name="alpinism-writings"
+            className={getClass("alpinism-writings")}
+            to="/"
+          >
+            WRITINGS
+          </StyledLink>
+          <StyledLink
+            name="alpinism-partners"
+            className={getClass("alpinism-partners")}
+            to="/"
+          >
+            PARTNERS
+          </StyledLink>
+          <StyledLink
+            name="alpinism-media"
+            className={getClass("alpinism-media")}
+            to="/"
+          >
+            AUDIO/VIDEO
+          </StyledLink>
+          <StyledLink
+            name="alpinism-lectures"
+            className={getClass("alpinism-lectures")}
+            to="/"
+          >
+            LECTURES
+          </StyledLink>
+        </>
       ) : isScience ? (
-        <MenuScience />
+        <>
+          <StyledLink
+            name="science-about"
+            className={getClass("science-about")}
+            to="/science-about/"
+          >
+            ABOUT ME
+          </StyledLink>
+          <StyledLink
+            name="science-cv"
+            className={getClass("science-cv")}
+            to="/science-cv"
+          >
+            ACADEMIC CV
+          </StyledLink>
+          <StyledLink
+            name="science-research"
+            className={getClass("science-research")}
+            to="/"
+          >
+            RESEARCH
+          </StyledLink>
+          <StyledLink
+            name="science-publications"
+            className={getClass("science-publications")}
+            to="/"
+          >
+            PUBLICATIONS
+          </StyledLink>
+          <StyledLink
+            name="science-cooperation"
+            className={getClass("science-cooperation")}
+            to="/"
+          >
+            COOPERATION
+          </StyledLink>
+          <StyledLink
+            name="science-media"
+            className={getClass("science-media")}
+            to="/"
+          >
+            AUDIO/VIDEO
+          </StyledLink>
+          <StyledLink
+            name="science-lectures"
+            className={getClass("science-lectures")}
+            to="/"
+          >
+            LECTURES
+          </StyledLink>
+        </>
       ) : (
         <StyledLink to="/">Go back</StyledLink>
       )}
     </HeaderWrapper>
   );
-};
-//#F0002F
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
 };
 
 const HeaderWrapper = styled.header`

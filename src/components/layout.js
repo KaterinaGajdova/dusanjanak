@@ -66,7 +66,7 @@ const Layout = ({ children, location }) => {
     <>
       <GlobalStyle />
       {/* <Heading>DUŠAN JANÁK</Heading> */}
-      <Header siteTitle={data.site.siteMetadata.title} location={location} />
+      <Header location={location} />
       <Content>
         {children}
         {/* <footer></footer> */}
@@ -85,10 +85,4 @@ const Content = styled.div`
   margin: 0 auto;
   width: 100%;
   font-size: 14px;
-`;
-
-const Heading = styled.h1`
-  color: white;
-  text-align: center;
-  margin: 1rem 0;
 `;
