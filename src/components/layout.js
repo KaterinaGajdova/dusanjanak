@@ -12,7 +12,7 @@ import { Link } from "gatsby";
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family==Open+Sans|Poiret+One&display=swap" rel="stylesheet"');
+  @import url('https://fonts.googleapis.com/css2?family==Open+Sans|Calibri+light&display=swap" rel="stylesheet"');
 
   html, body, #___gatsby, #gatsby-focus-wrapper {
     height: 100%;
@@ -230,7 +230,7 @@ const StyledLink = styled((props) => <Link {...props} />)`
   text-align: center;
   align-items: center;
   display: flex;
-  color: #d8d8d8;
+  color: white;
   font-size: 16px;
   transition: color 1s ease;
   position: relative;
@@ -240,9 +240,9 @@ const StyledLink = styled((props) => <Link {...props} />)`
   &:hover,
   &:focus,
   &.active {
-    color: #f0002f;
+    color: #B8B8B8;;
     div {
-      border-color: #f0002f;
+      border-color: #B8B8B8;;
     }
   }
 
@@ -273,13 +273,13 @@ const StyledLink = styled((props) => <Link {...props} />)`
     height: 100%;
   }
   &:hover:before {
-    border-bottom-color: #f0002f;
-    border-right-color: #f0002f;
+    border-bottom-color: #B8B8B8;
+    border-right-color: #B8B8B8;
   }
 
   &:hover:after {
-    border-top-color: #f0002f;
-    border-left-color: #f0002f;
+    border-top-color: #B8B8B8;
+    border-left-color: #B8B8B8;
   }
 
   @media (min-width: 960px) {

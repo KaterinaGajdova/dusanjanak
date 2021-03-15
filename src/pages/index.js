@@ -31,9 +31,7 @@ const IndexPage = (props) => {
               <SEO title="webpage" />
               <HeadingWrapper>
                 <Heading>
-                  <span>DUŠAN</span>
-                  <br />
-                  <span>JANÁK</span>
+                 DUŠAN JANÁK
                 </Heading>
               </HeadingWrapper>
               <AlpinismScience>
@@ -48,7 +46,7 @@ const IndexPage = (props) => {
                   />
                 </MainLink>
                 <MainLink to="/alpinism-about/">
-                  <Text>ALPINISM</Text>
+                  <Text>ALPINISM & CLIMBING</Text>
 
                   <GatsbyImage
                     image={data.climbing.childImageSharp.gatsbyImageData}
@@ -73,6 +71,7 @@ const Text = styled.div`
 `;
 const Wrapper = styled.div`
   height: 100%;
+  color: white;
 `;
 const HeadingWrapper = styled.div`
   display: flex;
@@ -87,18 +86,10 @@ const HeadingWrapper = styled.div`
   }
 `;
 const Heading = styled.h1`
-  color: white;
   margin: 0;
   text-align: center;
   line-height: 1;
-  font-size: max(40px, 5vw);
-  @media (min-width: 1024px) {
-    font-size: 70px;
-  }
-  /* Landscape */
-  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
-    font-size: 25px;
-  }
+  font-size: 18px;
 `;
 const AlpinismScience = styled.div`
   display: grid;
@@ -132,9 +123,9 @@ const MainLink = styled((props) => <Link {...props} />)`
   &:focus,
   &.active {
     filter: none;
-    color: #f0002f;
+    color: #B8B8B8;
     div {
-      border-color: #f0002f;
+      border-color: #B8B8B8;
     }
   }
 
