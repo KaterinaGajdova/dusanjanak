@@ -22,5 +22,14 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["existence"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
   ],
 };
