@@ -12,12 +12,12 @@ const IndexPage = (props) => {
         {
           science: file(relativePath: { regex: "/science-main.jpg/" }) {
             childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+              gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
             }
           }
           climbing: file(relativePath: { regex: "/climbing-main.jpg/" }) {
             childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+              gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
             }
           }
         }
@@ -25,7 +25,7 @@ const IndexPage = (props) => {
       render={(data) => {
         return (
           <Wrapper>
-            <SEO title="Web" />
+            <SEO title="webpage" />
             <HeadingWrapper>
               <Heading>
                 <span>DUŠAN</span>
