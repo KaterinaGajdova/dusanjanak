@@ -4,6 +4,7 @@ import { Link, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import { GatsbyImage } from "gatsby-plugin-image";
 import SEO from "../components/seo";
+import { GlobalStyle } from "../components/layout";
 
 const IndexPage = (props) => {
   return (
@@ -24,38 +25,41 @@ const IndexPage = (props) => {
       `}
       render={(data) => {
         return (
-          <Wrapper>
-            <SEO title="webpage" />
-            <HeadingWrapper>
-              <Heading>
-                <span>DUŠAN</span>
-                <br />
-                <span>JANÁK</span>
-              </Heading>
-            </HeadingWrapper>
-            <AlpinismScience>
-              <MainLink to="/science-about/">
-                <div>SCIENCE</div>
+          <>
+            <GlobalStyle />
+            <Wrapper>
+              <SEO title="webpage" />
+              <HeadingWrapper>
+                <Heading>
+                  <span>DUŠAN</span>
+                  <br />
+                  <span>JANÁK</span>
+                </Heading>
+              </HeadingWrapper>
+              <AlpinismScience>
+                <MainLink to="/science-about/">
+                  <Text>SCIENCE</Text>
 
-                <GatsbyImage
-                  image={data.science.childImageSharp.gatsbyImageData}
-                  imgStyle={{ objectFit: "cover" }}
-                  alt="Science part"
-                  style={{ maxHeight: "100%" }}
-                />
-              </MainLink>
-              <MainLink to="/alpinism-about/">
-                <div>ALPINISM</div>
+                  <GatsbyImage
+                    image={data.science.childImageSharp.gatsbyImageData}
+                    imgStyle={{ objectFit: "cover" }}
+                    alt="Science part"
+                    style={{ maxHeight: "100%" }}
+                  />
+                </MainLink>
+                <MainLink to="/alpinism-about/">
+                  <Text>ALPINISM</Text>
 
-                <GatsbyImage
-                  image={data.climbing.childImageSharp.gatsbyImageData}
-                  imgStyle={{ objectFit: "cover" }}
-                  alt="Alpinism part"
-                  style={{ maxHeight: "100%" }}
-                />
-              </MainLink>
-            </AlpinismScience>
-          </Wrapper>
+                  <GatsbyImage
+                    image={data.climbing.childImageSharp.gatsbyImageData}
+                    imgStyle={{ objectFit: "cover" }}
+                    alt="Alpinism part"
+                    style={{ maxHeight: "100%" }}
+                  />
+                </MainLink>
+              </AlpinismScience>
+            </Wrapper>
+          </>
         );
       }}
     />
@@ -64,6 +68,9 @@ const IndexPage = (props) => {
 
 export default IndexPage;
 
+const Text = styled.div`
+  margin-bottom: 5px;
+`;
 const Wrapper = styled.div`
   height: 100%;
 `;
@@ -83,6 +90,7 @@ const Heading = styled.h1`
   color: white;
   margin: 0;
   text-align: center;
+  line-height: 1;
   font-size: max(40px, 5vw);
   @media (min-width: 1024px) {
     font-size: 70px;
@@ -110,6 +118,7 @@ const AlpinismScience = styled.div`
 `;
 
 const MainLink = styled((props) => <Link {...props} />)`
+  font-family: "Poiret One", cursive, serif;
   outline: none;
   text-decoration: none;
   text-align: center;

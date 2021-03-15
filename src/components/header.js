@@ -1,22 +1,22 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import styled from "styled-components"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import styled from "styled-components";
 
-const windowGlobal = typeof window !== "undefined" && window
+const windowGlobal = typeof window !== "undefined" && window;
 
-const getClass = urlIncludes => {
+const getClass = (urlIncludes) => {
   if (
     windowGlobal &&
     windowGlobal.location &&
     windowGlobal?.location?.href.includes(urlIncludes)
   ) {
-    return "active"
-  } else return ""
-}
+    return "active";
+  } else return "";
+};
 
 const MenuScience = () => {
-  const [opened, setOpened] = useState("")
+  const [opened, setOpened] = useState("");
   return (
     <>
       <StyledLink
@@ -69,11 +69,11 @@ const MenuScience = () => {
         LECTURES
       </StyledLink>
     </>
-  )
-}
+  );
+};
 
 const MenuAlpinism = () => {
-  const [opened, setOpened] = useState("")
+  const [opened, setOpened] = useState("");
 
   return (
     <>
@@ -123,13 +123,13 @@ const MenuAlpinism = () => {
         LECTURES
       </StyledLink>
     </>
-  )
-}
+  );
+};
 
 const Header = ({ location }) => {
-  const pathName = location?.pathname
-  const isAlpinism = pathName?.includes("alpinism")
-  const isScience = pathName?.includes("science")
+  const pathName = location?.pathname;
+  const isAlpinism = pathName?.includes("alpinism");
+  const isScience = pathName?.includes("science");
 
   return (
     <HeaderWrapper>
@@ -141,40 +141,45 @@ const Header = ({ location }) => {
         <StyledLink to="/">Go back</StyledLink>
       )}
     </HeaderWrapper>
-  )
-}
+  );
+};
 //#F0002F
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
 const HeaderWrapper = styled.header`
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 20px 10px;
 
-  @media (min-width: 756px) {
+  @media (min-width: 960px) {
     flex-direction: row;
     padding: 20px 0;
     max-width: 960px;
     margin: auto;
   }
-`
+`;
 
-const StyledLink = styled(props => <Link {...props} />)`
+const StyledLink = styled((props) => <Link {...props} />)`
   outline: none;
   padding: 0.3rem 0.5rem;
   text-decoration: none;
   text-align: center;
+  align-items: center;
+  display: flex;
   color: #d8d8d8;
   font-size: 16px;
   transition: color 1s ease;
   position: relative;
+  font-variant: small-caps;
+  font-family: "Poiret One", cursive;
 
   &:hover,
   &:focus,
@@ -221,10 +226,11 @@ const StyledLink = styled(props => <Link {...props} />)`
     border-left-color: #f0002f;
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 960px) {
     padding: 0.5rem 1rem;
     font-size: 18px;
+    line-height: 1;
   }
-`
+`;
 
-export default Header
+export default Header;
