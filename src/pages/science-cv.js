@@ -1,17 +1,17 @@
-import React from "react"
-import { Link } from "gatsby"
-import styled from "styled-components"
-import Layout from "../components/layout"
-import {Cz} from "../content/science/cv"
-import SEO from "../components/seo"
+import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
+import Layout from "../layouts";
+import { Cz } from "../content/science/cv";
+import SEO from "../components/seo";
 
-const IndexPage = props => {
+const IndexPage = (props) => {
   return (
-  <Layout location={props.location}>
-    <SEO title="Science" />
-    <Cz />
+    <>
+      <SEO title="Science" />
+      <Cz />
+    </>
+  );
+};
 
-  </Layout>
-)}
-
-export default IndexPage
+export default IndexPage;

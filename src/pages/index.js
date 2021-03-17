@@ -4,7 +4,6 @@ import { Link, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import { GatsbyImage } from "gatsby-plugin-image";
 import SEO from "../components/seo";
-import { GlobalStyle } from "../components/layout";
 
 const IndexPage = (props) => {
   return (
@@ -26,13 +25,10 @@ const IndexPage = (props) => {
       render={(data) => {
         return (
           <>
-            <GlobalStyle />
             <Wrapper>
               <SEO title="webpage" />
               <HeadingWrapper>
-                <Heading>
-                 DUŠAN JANÁK
-                </Heading>
+                <Heading>DUŠAN JANÁK</Heading>
               </HeadingWrapper>
               <AlpinismScience>
                 <MainLink to="/science-about/">
@@ -40,7 +36,7 @@ const IndexPage = (props) => {
 
                   <GatsbyImage
                     image={data.science.childImageSharp.gatsbyImageData}
-                    imgStyle={{ objectFit: "cover" }}
+                    imgStyle={{ objectFit: "cover", objectPosition: "50% 45%" }}
                     alt="Science part"
                     style={{ maxHeight: "100%" }}
                   />
@@ -50,7 +46,10 @@ const IndexPage = (props) => {
 
                   <GatsbyImage
                     image={data.climbing.childImageSharp.gatsbyImageData}
-                    imgStyle={{ objectFit: "cover" }}
+                    imgStyle={{
+                      objectFit: "cover",
+                      objectPosition: "50% 60%",
+                    }}
                     alt="Alpinism part"
                     style={{ maxHeight: "100%" }}
                   />
@@ -69,28 +68,32 @@ export default IndexPage;
 const Text = styled.div`
   margin-bottom: 5px;
 `;
+
 const Wrapper = styled.div`
   height: 100%;
   color: white;
 `;
+
 const HeadingWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-  height: 200px;
+  height: 100px;
 
   /* Landscape */
   @media only screen and (max-device-width: 812px) and (orientation: landscape) {
     height: 70px;
   }
 `;
+
 const Heading = styled.h1`
   margin: 0;
   text-align: center;
   line-height: 1;
-  font-size: 18px;
+  font-size: 20px;
 `;
+
 const AlpinismScience = styled.div`
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -99,7 +102,7 @@ const AlpinismScience = styled.div`
   @media (min-width: 480px) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    height: calc(95% - 200px);
+    height: calc(95% - 100px);
   }
 
   /* Landscape */
@@ -109,7 +112,7 @@ const AlpinismScience = styled.div`
 `;
 
 const MainLink = styled((props) => <Link {...props} />)`
-  font-family: "Poiret One", cursive, serif;
+  font-family: "Open Sans Condensed", cursive, serif;
   outline: none;
   text-decoration: none;
   text-align: center;
@@ -123,9 +126,9 @@ const MainLink = styled((props) => <Link {...props} />)`
   &:focus,
   &.active {
     filter: none;
-    color: #B8B8B8;
+    color: #b8b8b8;
     div {
-      border-color: #B8B8B8;
+      border-color: #b8b8b8;
     }
   }
 

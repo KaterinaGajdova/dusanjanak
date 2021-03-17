@@ -12,7 +12,7 @@ import { Link } from "gatsby";
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family==Open+Sans|Calibri+light&display=swap" rel="stylesheet"');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"');
 
   html, body, #___gatsby, #gatsby-focus-wrapper {
     height: 100%;
@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poiret One', cursive, serif;
+    font-family: 'Open Sans Condensed', cursive, serif;
   }
 
 
@@ -76,6 +76,14 @@ const Layout = ({ children, location }) => {
   const pathName = location?.pathname;
   const isAlpinism = pathName?.includes("alpinism");
   const isScience = pathName?.includes("science");
+  if (location?.pathname === "/")
+    return (
+      <>
+        <GlobalStyle />
+        {children}
+      </>
+    );
+
   return (
     <>
       <GlobalStyle />
@@ -83,6 +91,7 @@ const Layout = ({ children, location }) => {
       <HeaderWrapper>
         {isAlpinism ? (
           <>
+            <StyledLink to="/">HOME</StyledLink>
             <StyledLink
               name="alpinism-about"
               className={getClass("alpinism-about")}
@@ -135,6 +144,7 @@ const Layout = ({ children, location }) => {
           </>
         ) : isScience ? (
           <>
+            <StyledLink to="/">HOME</StyledLink>
             <StyledLink
               name="science-about"
               className={getClass("science-about")}
@@ -186,7 +196,7 @@ const Layout = ({ children, location }) => {
             </StyledLink>
           </>
         ) : (
-          <StyledLink to="/">Go back</StyledLink>
+          <span />
         )}
       </HeaderWrapper>
       <Content>
@@ -213,7 +223,7 @@ const HeaderWrapper = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 10px;
+  padding: 20px 0;
 
   @media (min-width: 960px) {
     flex-direction: row;
@@ -231,18 +241,18 @@ const StyledLink = styled((props) => <Link {...props} />)`
   align-items: center;
   display: flex;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   transition: color 1s ease;
   position: relative;
   font-variant: small-caps;
-  font-family: "Poiret One", cursive;
+  font-family: "Open Sans Condensed", cursive;
 
   &:hover,
   &:focus,
   &.active {
-    color: #B8B8B8;;
+    color: #b8b8b8;
     div {
-      border-color: #B8B8B8;;
+      border-color: #b8b8b8;
     }
   }
 
@@ -273,18 +283,17 @@ const StyledLink = styled((props) => <Link {...props} />)`
     height: 100%;
   }
   &:hover:before {
-    border-bottom-color: #B8B8B8;
-    border-right-color: #B8B8B8;
+    border-bottom-color: #b8b8b8;
+    border-right-color: #b8b8b8;
   }
 
   &:hover:after {
-    border-top-color: #B8B8B8;
-    border-left-color: #B8B8B8;
+    border-top-color: #b8b8b8;
+    border-left-color: #b8b8b8;
   }
 
   @media (min-width: 960px) {
     padding: 0.5rem 1rem;
-    font-size: 18px;
     line-height: 1;
   }
 `;

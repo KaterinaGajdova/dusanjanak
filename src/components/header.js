@@ -126,7 +126,7 @@ const Header = ({ location }) => {
           </StyledLink>
         </>
       ) : (
-        <StyledLink to="/">Go back</StyledLink>
+        <span>fhfgh</span>
       )}
     </HeaderWrapper>
   );

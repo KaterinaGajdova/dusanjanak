@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import Layout from "../components/layout";
+import Layout from "../layouts";
 import SEO from "../components/seo";
 
 const IndexPage = (props) => {
   return (
-    <Layout location={props.location}>
-      <SEO title="Alpinism" />
+    <>
       {/* About - Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
       dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis viverra
       diam non justo. Cum sociis natoque penatibus et magnis dis parturient
@@ -29,7 +28,7 @@ const IndexPage = (props) => {
       fermentum risus id tortor. Nunc tincidunt ante vitae massa. Curabitur
       bibendum justo non orci. Morbi leo mi, nonummy eget tristique non, rhoncus
       non leo. */}
-    </Layout>
+    </>
   );
 };
 
