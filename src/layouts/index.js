@@ -211,7 +211,7 @@ const Layout = ({ children, location }) => {
                       <StyledLink
                         name="science-publications"
                         className={getClass("science-publications")}
-                        to="/"
+                        to="/science-publications"
                       >
                         {content.menu.publication}
                       </StyledLink>
@@ -277,6 +277,7 @@ const HeaderWrapper = styled.header`
     padding: 20px 0;
     max-width: 960px;
     margin: auto;
+    padding-left: 100px;
   }
 `;
 
@@ -347,9 +348,14 @@ const StyledLink = styled((props) => <Link {...props} />)`
 `;
 
 const LanguageSwitcher = styled.div`
+  position: absolute;
   display: flex;
-  margin-left: 2rem;
+  margin-left: 10px;
   margin-top: 10px;
+
+  @media (min-width: 576px) {
+    margin-left: 2rem;
+  }
 `;
 
 const Lang = styled.div`

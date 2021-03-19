@@ -22,7 +22,7 @@ export const cz = {
   climbing: "Alpinismus & Lezení",
   menu: {
     home: "Domů",
-    about: "O mě",
+    about: "O mně",
     academicCv: "Akademické CV",
     climbingCv: "Lezecké CV",
     research: "Výzkumy",

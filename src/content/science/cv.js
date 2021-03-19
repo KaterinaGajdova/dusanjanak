@@ -288,36 +288,73 @@ export const Cz = () => {
         </Project>
       </Section>
 
-      <Section>To be continue... az budu mit cas :)</Section>
-      {/* 
-
-
       <Section>
         <H4>Rozvojové projekty: </H4>
-        <ul>
-          2016-2018: Podpora centra empirických výzkumů, poskytovatel: MŠMT,
-          Slezská univerzita, číslo grantu: č. 0601/2016, doba řešení:
-          2016-2018, role: řešitel 2016 – 2018: název: Indikátory determinující
-          neúspěšnost studentů terciárního vzdělávání na Slezské univerzitě
-          v Opavě, poskytovatel: Interní soutěž institucionálního plánu (ISIP)
-          Slezské univerzity v Opavě, číslo grantu: 24/ISIP/2016, role:
-          spoluřešitel 2015: název: Inovace a rozvoj praktických dovedností v
-          kurzech metodologie a sociálně vědního výzkumu, poskytovatel: ISIP
-          Slezské univerzity v Opavě, číslo grantu: 02/ISIP/2015, role:
-          spoluřešitel 2015: název: Vytvoření kurzu v anglickém jazyce,
+        <Project>
+          <Date> 2016-2018: </Date>
+          <Name>Podpora centra empirických výzkumů </Name>
+          poskytovatel: MŠMT, Slezská univerzita, číslo grantu: č. 0601/2016,
+          doba řešení: 2016-2018 <br />
+          role: řešitel
+        </Project>
+
+        <Project>
+          <Date> 2016 – 2018:</Date>
+          <Name>
+            Indikátory determinující neúspěšnost studentů terciárního vzdělávání
+            na Slezské univerzitě v Opavě
+          </Name>
+          poskytovatel: Interní soutěž institucionálního plánu (ISIP) Slezské
+          univerzity v Opavě, číslo grantu: 24/ISIP/2016 <br /> role:
+          spoluřešitel
+        </Project>
+
+        <Project>
+          <Date> 2015:</Date>
+          <Name>
+            Inovace a rozvoj praktických dovedností v kurzech metodologie a
+            sociálně vědního výzkumu
+          </Name>
+          poskytovatel: ISIP Slezské univerzity v Opavě, číslo grantu:
+          02/ISIP/2015
+          <br /> role: spoluřešitel
+        </Project>
+        <Project>
+          <Date> 2015:</Date> <Name>Vytvoření kurzu v anglickém jazyce,</Name>
           poskytovatel: ISIP Slezské univerzity v Opavě, číslo grantu:
-          09/ISIP/2015, role: spoluřešitel 2014: název: Tvorba vysokoškolské
-          učebnice v anglickém jazyce a zvyšování jazykových kompetencí
-          studentů, poskytovatel: ISIP Slezské univerzity v Opavě, číslo grantu:
-          P10/ISIP/2014, role: řešitel 2010 – 2018: název: Visegrad: Sociální
-          myšlení, struktura a transformace, poskytovatel: Visegrad fund,
-          Visegrad university studies grant, číslo grantu: 60900007, role:
-          řešitel 2005-2007: Systematizace procesů studentského hodnocení
-          kvality v České republice, poskytovatel: MŠMT, nositel projektu:
-          Akademické centrum studentských aktivit, role: člen týmu
-        </ul>
+          09/ISIP/2015
+          <br /> role: spoluřešitel
+        </Project>
+        <Project>
+          <Date> 2014:</Date>
+          <Name>
+            Tvorba vysokoškolské učebnice v anglickém jazyce a zvyšování
+            jazykových kompetencí studentů
+          </Name>
+          poskytovatel: ISIP Slezské univerzity v Opavě, číslo grantu:
+          P10/ISIP/2014
+          <br /> role: řešitel
+        </Project>
+        <Project>
+          <Date> 2010 – 2018:</Date>
+          <Name>Visegrad: Sociální myšlení, struktura a transformace </Name>
+          poskytovatel: Visegrad fund, Visegrad university studies grant, číslo
+          grantu: 60900007
+          <br /> role: řešitel
+        </Project>
+
+        <Project>
+          <Date> 2005-2007:</Date>
+          <Name>
+            Systematizace procesů studentského hodnocení kvality v České
+            republice
+          </Name>
+          poskytovatel: MŠMT, nositel projektu: Akademické centrum studentských
+          aktivit
+          <br /> role: člen týmu
+        </Project>
       </Section>
-      <Section>
+      {/*   <Section>
         <H4>
           Členství a funkce v komisích, radách nebo jiných orgánech
           souvisejících s oborem:
