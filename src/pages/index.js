@@ -4,6 +4,8 @@ import { Link, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import { GatsbyImage } from "gatsby-plugin-image";
 import SEO from "../components/seo";
+import { Consumer } from "../layouts/Context";
+import { cz, en } from "../content/general";
 
 const IndexPage = (props) => {
   return (
@@ -24,39 +26,49 @@ const IndexPage = (props) => {
       `}
       render={(data) => {
         return (
-          <>
-            <Wrapper>
-              <SEO title="webpage" />
-              <HeadingWrapper>
-                <Heading>DUŠAN JANÁK</Heading>
-              </HeadingWrapper>
-              <AlpinismScience>
-                <MainLink to="/science-about/">
-                  <Text>SCIENCE</Text>
+          <Consumer>
+            {({ int }) => {
+              const content = int === "en" ? en : cz;
+              return (
+                <>
+                  <Wrapper>
+                    <SEO title="webpage" />
+                    <HeadingWrapper>
+                      <Heading>DUŠAN JANÁK</Heading>
+                    </HeadingWrapper>
+                    <AlpinismScience>
+                      <MainLink to="/science-about/">
+                        <Text>{content.sciece}</Text>
 
-                  <GatsbyImage
-                    image={data.science.childImageSharp.gatsbyImageData}
-                    imgStyle={{ objectFit: "cover", objectPosition: "50% 45%" }}
-                    alt="Science part"
-                    style={{ maxHeight: "100%" }}
-                  />
-                </MainLink>
-                <MainLink to="/alpinism-about/">
-                  <Text>ALPINISM & CLIMBING</Text>
+                        <GatsbyImage
+                          image={data.science.childImageSharp.gatsbyImageData}
+                          imgStyle={{
+                            objectFit: "cover",
+                            objectPosition: "50% 45%",
+                          }}
+                          alt="Science part"
+                          style={{ maxHeight: "100%" }}
+                        />
+                      </MainLink>
+                      <MainLink to="/alpinism-about/">
+                        <Text>{content.climbing}</Text>
 
-                  <GatsbyImage
-                    image={data.climbing.childImageSharp.gatsbyImageData}
-                    imgStyle={{
-                      objectFit: "cover",
-                      objectPosition: "50% 60%",
-                    }}
-                    alt="Alpinism part"
-                    style={{ maxHeight: "100%" }}
-                  />
-                </MainLink>
-              </AlpinismScience>
-            </Wrapper>
-          </>
+                        <GatsbyImage
+                          image={data.climbing.childImageSharp.gatsbyImageData}
+                          imgStyle={{
+                            objectFit: "cover",
+                            objectPosition: "50% 60%",
+                          }}
+                          alt="Alpinism part"
+                          style={{ maxHeight: "100%" }}
+                        />
+                      </MainLink>
+                    </AlpinismScience>
+                  </Wrapper>
+                </>
+              );
+            }}
+          </Consumer>
         );
       }}
     />
@@ -67,11 +79,13 @@ export default IndexPage;
 
 const Text = styled.div`
   margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 18px;
 `;
 
 const Wrapper = styled.div`
   height: 100%;
-  color: white;
+  color: ${(props) => props.theme.white};
 `;
 
 const HeadingWrapper = styled.div`
@@ -112,11 +126,11 @@ const AlpinismScience = styled.div`
 `;
 
 const MainLink = styled((props) => <Link {...props} />)`
-  font-family: "Open Sans Condensed", cursive, serif;
+  font-family: ${(props) => props.theme.fontHeading};
   outline: none;
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: ${(props) => props.theme.white};
   transition: color 1s ease;
   margin: 10px 0;
   overflow: hidden;
@@ -126,9 +140,9 @@ const MainLink = styled((props) => <Link {...props} />)`
   &:focus,
   &.active {
     filter: none;
-    color: #b8b8b8;
+    color: ${(props) => props.theme.lightGrey};
     div {
-      border-color: #b8b8b8;
+      border-color: ${(props) => props.theme.lightGrey};
     }
   }
 

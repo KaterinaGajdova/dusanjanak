@@ -1,15 +1,9 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
-/* import Header from "./header"; */
-import styled, { createGlobalStyle } from "styled-components";
+import { IntProvider, Consumer } from "./Context";
+import { cz, en } from "../content/general";
+import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"');
@@ -64,146 +58,199 @@ const Layout = ({ children, location }) => {
     } else return "";
   };
 
-  /*   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `); */
+  const mainTheme = {
+    fontBodySize: "14px",
+    white: "white",
+    lightGrey: " #b8b8b8",
+    red: "#f0002f",
+    fontHeading: "Open Sans Condensed",
+
+    main: "#7eb51b",
+    terciary: "#EB5723", //"#dfc524",
+    secondary: "#597723",
+    black: "rgb(53, 53, 53)",
+    grey: "rgb(53, 53, 53, 0.7)",
+    extraSmallDevice: "360px",
+    smallDevice: "480px",
+    mediumDevice: "900px",
+    largeDevice: "1024px",
+    extraLargeDevice: "1600px",
+    paragraphWidth: "1024px",
+  };
+
+  const FlagEN = () => (
+    <Consumer>
+      {({ changeToEn, int }) => {
+        const isActive = int === "en";
+        return (
+          <Lang onClick={() => changeToEn()} active={isActive}>
+            En
+          </Lang>
+        );
+      }}
+    </Consumer>
+  );
+
+  const FlagCZ = () => (
+    <Consumer>
+      {({ changeToCz, int }) => {
+        const isActive = int === "cz";
+        return (
+          <Lang onClick={() => changeToCz()} active={isActive}>
+            Cz
+          </Lang>
+        );
+      }}
+    </Consumer>
+  );
+
   const pathName = location?.pathname;
   const isAlpinism = pathName?.includes("alpinism");
   const isScience = pathName?.includes("science");
-  if (location?.pathname === "/")
-    return (
-      <>
-        <GlobalStyle />
-        {children}
-      </>
-    );
 
   return (
-    <>
-      <GlobalStyle />
-      {/* <Heading>DUŠAN JANÁK</Heading> */}
-      <HeaderWrapper>
-        {isAlpinism ? (
+    <IntProvider>
+      <ThemeProvider theme={mainTheme}>
+        <GlobalStyle />
+        {location?.pathname === "/" ? (
           <>
-            <StyledLink to="/">HOME</StyledLink>
-            <StyledLink
-              name="alpinism-about"
-              className={getClass("alpinism-about")}
-              to="/alpinism-about/"
-            >
-              ABOUT ME
-            </StyledLink>
-            <StyledLink
-              name="alpinism-cv"
-              className={getClass("alpinism-cv")}
-              to="/"
-            >
-              CLIMBING CV
-            </StyledLink>
-            <StyledLink
-              name="alpinism-climbs"
-              className={getClass("alpinism-climbs")}
-              to="/"
-            >
-              CLIMBS
-            </StyledLink>
-            <StyledLink
-              name="alpinism-writings"
-              className={getClass("alpinism-writings")}
-              to="/"
-            >
-              WRITINGS
-            </StyledLink>
-            <StyledLink
-              name="alpinism-partners"
-              className={getClass("alpinism-partners")}
-              to="/"
-            >
-              PARTNERS
-            </StyledLink>
-            <StyledLink
-              name="alpinism-media"
-              className={getClass("alpinism-media")}
-              to="/"
-            >
-              AUDIO/VIDEO
-            </StyledLink>
-            <StyledLink
-              name="alpinism-lectures"
-              className={getClass("alpinism-lectures")}
-              to="/"
-            >
-              LECTURES
-            </StyledLink>
-          </>
-        ) : isScience ? (
-          <>
-            <StyledLink to="/">HOME</StyledLink>
-            <StyledLink
-              name="science-about"
-              className={getClass("science-about")}
-              to="/science-about/"
-            >
-              ABOUT ME
-            </StyledLink>
-            <StyledLink
-              name="science-cv"
-              className={getClass("science-cv")}
-              to="/science-cv"
-            >
-              ACADEMIC CV
-            </StyledLink>
-            <StyledLink
-              name="science-research"
-              className={getClass("science-research")}
-              to="/"
-            >
-              RESEARCH
-            </StyledLink>
-            <StyledLink
-              name="science-publications"
-              className={getClass("science-publications")}
-              to="/"
-            >
-              PUBLICATIONS
-            </StyledLink>
-            <StyledLink
-              name="science-cooperation"
-              className={getClass("science-cooperation")}
-              to="/"
-            >
-              COOPERATION
-            </StyledLink>
-            <StyledLink
-              name="science-media"
-              className={getClass("science-media")}
-              to="/"
-            >
-              AUDIO/VIDEO
-            </StyledLink>
-            <StyledLink
-              name="science-lectures"
-              className={getClass("science-lectures")}
-              to="/"
-            >
-              LECTURES
-            </StyledLink>
+            <LanguageSwitcher>
+              <FlagCZ /> <FlagEN />
+            </LanguageSwitcher>
+            {children}
           </>
         ) : (
-          <span />
+          <>
+            <LanguageSwitcher>
+              <FlagCZ /> <FlagEN />
+            </LanguageSwitcher>
+            {/* <Heading>DUŠAN JANÁK</Heading> */}
+            <HeaderWrapper>
+              {" "}
+              <Consumer>
+                {({ int }) => {
+                  const content = int === "en" ? en : cz;
+
+                  return isAlpinism ? (
+                    <>
+                      <StyledLink to="/"> {content.menu.home}</StyledLink>
+                      <StyledLink
+                        name="alpinism-about"
+                        className={getClass("alpinism-about")}
+                        to="/alpinism-about/"
+                      >
+                        {content.menu.about}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-cv"
+                        className={getClass("alpinism-cv")}
+                        to="/"
+                      >
+                        {content.menu.climbingCv}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-climbs"
+                        className={getClass("alpinism-climbs")}
+                        to="/"
+                      >
+                        {content.menu.climbs}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-writings"
+                        className={getClass("alpinism-writings")}
+                        to="/"
+                      >
+                        {content.menu.writings}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-partners"
+                        className={getClass("alpinism-partners")}
+                        to="/"
+                      >
+                        {content.menu.partners}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-media"
+                        className={getClass("alpinism-media")}
+                        to="/"
+                      >
+                        {content.menu.audVid}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-lectures"
+                        className={getClass("alpinism-lectures")}
+                        to="/"
+                      >
+                        {content.menu.lectures}
+                      </StyledLink>
+                    </>
+                  ) : isScience ? (
+                    <>
+                      <StyledLink to="/">HOME</StyledLink>
+                      <StyledLink
+                        name="science-about"
+                        className={getClass("science-about")}
+                        to="/science-about/"
+                      >
+                        {content.menu.about}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-cv"
+                        className={getClass("science-cv")}
+                        to="/science-cv"
+                      >
+                        {content.menu.academicCv}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-research"
+                        className={getClass("science-research")}
+                        to="/"
+                      >
+                        {content.menu.research}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-publications"
+                        className={getClass("science-publications")}
+                        to="/"
+                      >
+                        {content.menu.publication}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-cooperation"
+                        className={getClass("science-cooperation")}
+                        to="/"
+                      >
+                        {content.menu.cooperation}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-media"
+                        className={getClass("science-media")}
+                        to="/"
+                      >
+                        {content.menu.audVid}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-lectures"
+                        className={getClass("science-lectures")}
+                        to="/"
+                      >
+                        {content.menu.lectures}
+                      </StyledLink>
+                    </>
+                  ) : (
+                    <span />
+                  );
+                }}
+              </Consumer>
+            </HeaderWrapper>
+            <Content>
+              {children}
+              {/* <footer></footer> */}
+            </Content>
+          </>
         )}
-      </HeaderWrapper>
-      <Content>
-        {children}
-        {/* <footer></footer> */}
-      </Content>
-    </>
+      </ThemeProvider>
+    </IntProvider>
   );
 };
 
@@ -216,7 +263,7 @@ export default Layout;
 const Content = styled.div`
   margin: 0 auto;
   width: 100%;
-  font-size: 14px;
+  font-size: ${(props) => props.theme.fontBodySize};
 `;
 
 const HeaderWrapper = styled.header`
@@ -240,19 +287,20 @@ const StyledLink = styled((props) => <Link {...props} />)`
   text-align: center;
   align-items: center;
   display: flex;
-  color: white;
+  color: ${(props) => props.theme.white};
   font-size: 18px;
   transition: color 1s ease;
   position: relative;
   font-variant: small-caps;
-  font-family: "Open Sans Condensed", cursive;
+  font-family: ${(props) => props.theme.fontHeading};
+  text-transform: uppercase;
 
   &:hover,
   &:focus,
   &.active {
-    color: #b8b8b8;
+    color: ${(props) => props.theme.lightGrey};
     div {
-      border-color: #b8b8b8;
+      border-color: ${(props) => props.theme.lightGrey};
     }
   }
 
@@ -283,17 +331,34 @@ const StyledLink = styled((props) => <Link {...props} />)`
     height: 100%;
   }
   &:hover:before {
-    border-bottom-color: #b8b8b8;
-    border-right-color: #b8b8b8;
+    border-bottom-color: ${(props) => props.theme.lightGrey};
+    border-right-color: ${(props) => props.theme.lightGrey};
   }
 
   &:hover:after {
-    border-top-color: #b8b8b8;
-    border-left-color: #b8b8b8;
+    border-top-color: ${(props) => props.theme.lightGrey};
+    border-left-color: ${(props) => props.theme.lightGrey};
   }
 
   @media (min-width: 960px) {
     padding: 0.5rem 1rem;
     line-height: 1;
+  }
+`;
+
+const LanguageSwitcher = styled.div`
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 10px;
+`;
+
+const Lang = styled.div`
+  cursor: ${(props) => (props.active ? "default" : "pointer")};
+  padding: 3px;
+  height: max-content;
+  font-size: ${(props) => (props.active ? "1.75rem" : "1.25rem")};
+  color: ${(props) => props.active && props.theme.white};
+  &:hover {
+    color: ${(props) => !props.active && props.theme.red};
   }
 `;

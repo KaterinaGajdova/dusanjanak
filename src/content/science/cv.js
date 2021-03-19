@@ -1,5 +1,13 @@
 import React from "react";
-import styled from "styled-components";
+import {
+  H4,
+  Red,
+  Date,
+  Content,
+  Section,
+  Project,
+  Name,
+} from "../../components/atoms";
 
 export const Cz = () => {
   return (
@@ -355,47 +363,3 @@ export const Cz = () => {
     </Content>
   );
 };
-const Content = styled.div`
-  font-size: 15px;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 5%;
-  line-height: 1.5;
-  @media (min-width: 756px) {
-    padding: 50px 0 0;
-  }
-`;
-
-const Section = styled.section`
-  max-width: 700px;
-  padding: 10px 0;
-  @media (min-width: 756px) {
-    padding: 10px 20px;
-  }
-  /* background: ${(props) => props.grey && "#1A1A1A"}; */
-`;
-
-const H4 = styled.h4`
-  padding-bottom: 5px;
-  font-size: 18px;
-  border-bottom: 1px dashed #f0002f;
-`;
-
-const Red = styled.span`
-  color: #f0002f;
-  font-size: ${(props) => props.big && "16px"};
-`;
-const Date = styled.span`
-  font-weight: bold;
-  font-family: Lato;
-`;
-
-const Project = styled.div`
-  margin-top: 20px;
-`;
-
-const Name = styled.div`
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-transform: uppercase;
-  text-decoration: underline;
-`;
