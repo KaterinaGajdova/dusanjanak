@@ -354,49 +354,81 @@ export const Cz = () => {
           <br /> role: člen týmu
         </Project>
       </Section>
-      {/*   <Section>
+      <Section>
         <H4>
           Členství a funkce v komisích, radách nebo jiných orgánech
           souvisejících s oborem:
         </H4>
-        <ul>
-          2015 – dosud: člen výkonného výboru České sociologické společnosti
-          2014 – dosud: Člen poroty Ceny Miloslava Petruska (soutěž České
-          sociologické společnosti o nejlepší studenstkou stať) 2013- dosud:
-          redaktor a člen redakční rady časopisu Central European Papers
-        </ul>
+
+        <Project>
+          <Date> 2015 – dosud:</Date> člen výkonného výboru České sociologické
+          společnosti
+        </Project>
+        <Project>
+          <Date>2014 – dosud:</Date> Člen poroty Ceny Miloslava Petruska (soutěž
+          České sociologické společnosti o nejlepší studenstkou stať)
+        </Project>
+        <Project>
+          <Date>2013 – dosud:</Date>
+          redaktor a člen redakční rady časopisu <i>Central European Papers</i>
+        </Project>
       </Section>
       <Section>
         <H4>Pedagogické aktivity na VŠ:</H4>
-        <ul>
-          2009 – dosud: Těžiště pedagogické činnosti na Fakultě veřejných
-          politik leží v oboru Středoevropská studia a ve výuce sociologických a
-          metodologických kurzů napříč obory fakulty. Od roku 2009 garance
-          celkem 48 kurzů v rámci 4 oborů FVP 2014-2018: řešitel jednoho,
-          spoluřešitel dvou a člen týmu jednoho projektu Interní soutěže
-          institucionálního plánu Slezské univerzity zaměřených na rozvoj výuky
-          na FVP SU (viz rozvojové projekty výše) 2015/2016: pedagogické
-          působení na Národní univerzitě veřejných služeb v Budapešti, Fakulta
-          veřejné správy (v zimním semestru výuka na Bc. a Ph.D. stupni, v
-          letním semestru vlastní nový kurz pro doktorandy FVS) 2013 – dosud:
+        <Project>
+          <Date>2009 – dosud:</Date> Těžiště pedagogické činnosti na Fakultě
+          veřejných politik leží v oboru Středoevropská studia a ve výuce
+          sociologických a metodologických kurzů napříč obory fakulty. Od roku
+          2009 garance celkem 48 kurzů v rámci 4 oborů FVP
+        </Project>
+        <Project>
+          <Date> 2014-2018:</Date> řešitel jednoho, spoluřešitel dvou a člen
+          týmu jednoho projektu Interní soutěže institucionálního plánu Slezské
+          univerzity zaměřených na rozvoj výuky na FVP SU (viz rozvojové
+          projekty výše)
+        </Project>
+        <Project>
+          <Date> 2015/2016:</Date> pedagogické působení na Národní univerzitě
+          veřejných služeb v Budapešti, Fakulta veřejné správy (v zimním
+          semestru výuka na Bc. a Ph.D. stupni, v letním semestru vlastní nový
+          kurz pro doktorandy FVS)
+        </Project>
+        <Project>
+          <Date> 2013 – dosud:</Date>
           školitel-specialista v doktorském studiu oboru Moderní dějiny Střední
-          Evropy na FVP SU 2014, 2015: interní projekt SU na rozvoj Centra
+          Evropy na FVP SU
+        </Project>
+        <Project>
+          <Date>2014, 2015:</Date> interní projekt SU na rozvoj Centra
           empirických výzkumů, jehož součástí byla systematizace propojení
-          výzkumu a výuky formou zapojení studentů do výzkumů 2012 – 2016:
+          výzkumu a výuky formou zapojení studentů do výzkumů
+        </Project>
+        <Project>
+          <Date> 2012 – 2016:</Date>
           hlavní řešitel jednoho a spoluřešitel dvou projektů studentského
           grantového systému Slezské univerzity realizujících výzkumy
           akademických pracovníků spolu se studenty (viz přehled výzkumných
-          projektů výše) 2011, 2012, 2015: tvorba pěti učebních textů/skript
-          2010 – 2018: University studies grant Visegradského fondu (VUSG č.
-          60900007) spočívající v tvorbě, koordinaci a výuce kurzu „Visegrad:
-          sociální myšlení, struktura a transformace“ za účasti vědců ze zemí V4
-          na oboru Středoevropská studia FVP 2006 – 2008: externí výuka
-          celofakultního kurzu Sociologie na Ekonomicko-správní fakultě MU
-          v Brně 2005 – 2007: člen týmu projektu Systematizace procesů
+          projektů výše)
+        </Project>
+        <Project>
+          <Date> 2011, 2012, 2015:</Date> tvorba pěti učebních textů/skript
+        </Project>
+        <Project>
+          <Date> 2010 – 2018:</Date> University studies grant Visegradského
+          fondu (VUSG č. 60900007) spočívající v tvorbě, koordinaci a výuce
+          kurzu „Visegrad: sociální myšlení, struktura a transformace“ za účasti
+          vědců ze zemí V4 na oboru Středoevropská studia FVP
+        </Project>
+        <Project>
+          <Date> 2006 – 2008: </Date>externí výuka celofakultního kurzu
+          Sociologie na Ekonomicko-správní fakultě MU v Brně
+        </Project>
+        <Project>
+          <Date>2005 – 2007:</Date> člen týmu projektu Systematizace procesů
           studentského hodnocení kvality v České republice (nositel projektu:
           Akademické centrum studentských aktivit)
-        </ul>
-      </Section> */}
+        </Project>
+      </Section>
     </Content>
   );
 };

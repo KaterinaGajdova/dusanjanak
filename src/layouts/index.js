@@ -137,49 +137,49 @@ const Layout = ({ children, location }) => {
                       <StyledLink
                         name="alpinism-about"
                         className={getClass("alpinism-about")}
-                        to="/alpinism-about/"
+                        to="/alpinism-about"
                       >
                         {content.menu.about}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-cv"
                         className={getClass("alpinism-cv")}
-                        to="/"
+                        to="/alpinism-cv"
                       >
                         {content.menu.climbingCv}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-climbs"
                         className={getClass("alpinism-climbs")}
-                        to="/"
+                        to="/alpinism-climbs"
                       >
                         {content.menu.climbs}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-writings"
                         className={getClass("alpinism-writings")}
-                        to="/"
+                        to="/alpinism-writings"
                       >
                         {content.menu.writings}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-partners"
                         className={getClass("alpinism-partners")}
-                        to="/"
+                        to="/alpinism-partners"
                       >
                         {content.menu.partners}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-media"
                         className={getClass("alpinism-media")}
-                        to="/"
+                        to="/alpinism-media"
                       >
                         {content.menu.audVid}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-lectures"
                         className={getClass("alpinism-lectures")}
-                        to="/"
+                        to="/alpinism-lectures"
                       >
                         {content.menu.lectures}
                       </StyledLink>
@@ -190,7 +190,7 @@ const Layout = ({ children, location }) => {
                       <StyledLink
                         name="science-about"
                         className={getClass("science-about")}
-                        to="/science-about/"
+                        to="/science-about"
                       >
                         {content.menu.about}
                       </StyledLink>
@@ -204,7 +204,7 @@ const Layout = ({ children, location }) => {
                       <StyledLink
                         name="science-research"
                         className={getClass("science-research")}
-                        to="/"
+                        to="/science-research"
                       >
                         {content.menu.research}
                       </StyledLink>
@@ -218,21 +218,21 @@ const Layout = ({ children, location }) => {
                       <StyledLink
                         name="science-cooperation"
                         className={getClass("science-cooperation")}
-                        to="/"
+                        to="/science-cooperation"
                       >
                         {content.menu.cooperation}
                       </StyledLink>
                       <StyledLink
                         name="science-media"
                         className={getClass("science-media")}
-                        to="/"
+                        to="/science-media"
                       >
                         {content.menu.audVid}
                       </StyledLink>
                       <StyledLink
                         name="science-lectures"
                         className={getClass("science-lectures")}
-                        to="/"
+                        to="/science-lectures"
                       >
                         {content.menu.lectures}
                       </StyledLink>
@@ -243,10 +243,7 @@ const Layout = ({ children, location }) => {
                 }}
               </Consumer>
             </HeaderWrapper>
-            <Content>
-              {children}
-              {/* <footer></footer> */}
-            </Content>
+            <Content>{children}</Content>
           </>
         )}
       </ThemeProvider>
