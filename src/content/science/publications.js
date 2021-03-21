@@ -7,18 +7,31 @@ import {
   Section,
   Project,
   Name,
+  ALink,
 } from "../../components/atoms";
 
 export const Cz = () => {
   return (
     <Content>
       <Section>
-        <div>Knihy: 9 (3 jediný autor, 5 hlavní autor, 1 spoluautor)</div>
-        <div>Články v časopisech indexovaných na Web of Science: 12</div>
-        <div>Články v časopisech indexovaných ve SCOPUS: 5</div>
-        <div>Články v ostatních vědeckých časopisech: 10</div>
-        <div>Kapitoly v knihách: 17</div>
-        <div>Slovníková hesla: 18</div>
+        <div>
+          <b>Knihy:</b> 9 (3 jediný autor, 5 hlavní autor, 1 spoluautor)
+        </div>
+        <div>
+          <b>Články v časopisech indexovaných na Web of Science:</b> 12
+        </div>
+        <div>
+          <b>Články v časopisech indexovaných ve SCOPUS:</b> 5
+        </div>
+        <div>
+          <b>Články v ostatních vědeckých časopisech:</b> 10
+        </div>
+        <div>
+          <b>Kapitoly v knihách:</b> 17
+        </div>
+        <div>
+          <b>Slovníková hesla:</b> 18
+        </div>
       </Section>
       <Section>
         <H4>Knihy, odborné monografie</H4>
@@ -102,9 +115,9 @@ export const Cz = () => {
           p. 152-178. DOI: https://doi.org/10.31577/sociologia.2019.51.2.8.
           <br />
           Dostupné{" "}
-          <a href="https://www.sav.sk/journals/uploads/04231017Janak%202-2019.pdf">
+          <ALink href="https://www.sav.sk/journals/uploads/04231017Janak%202-2019.pdf">
             zde
-          </a>
+          </ALink>
         </Project>
         <Project>
           Janák, D. 2018. Tři tradice sociologie venkova v počátcích sociologie

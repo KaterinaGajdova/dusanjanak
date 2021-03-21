@@ -11,6 +11,11 @@ export const Red = styled.span`
   font-size: ${(props) => props.big && "16px"};
 `;
 
+export const ALink = styled.a`
+  color: ${(props) => props.theme.white};
+  font-weight: 600;
+`;
+
 export const Date = styled.span`
   font-weight: bold;
   font-family: Lato;
