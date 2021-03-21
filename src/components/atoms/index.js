@@ -23,7 +23,7 @@ export const Date = styled.span`
 
 export const Content = styled.div`
   font-size: 15px;
-  max-width: 960px;
+  max-width: ${(props) => (props.media ? "854px" : "960px")};
   margin: 0 auto;
   padding: 0 5%;
   line-height: 1.5;
