@@ -1,13 +1,8 @@
 import React from "react";
+import styled from "styled-components";
 
-const Video = ({
-  videoSrcURL,
-  videoTitle,
-  width = "640",
-  height = "360",
-  ...props
-}) => (
-  <div className="video" style={{ margin: "30px auto" }}>
+const Video = ({ videoSrcURL, videoTitle, ...props }) => (
+  <VideoContainer>
     <iframe
       src={videoSrcURL}
       title={videoTitle}
@@ -16,9 +11,26 @@ const Video = ({
       webkitallowfullscreen="true"
       mozallowfullscreen="true"
       allowFullScreen
-      width={width}
-      height={height}
     />
-  </div>
+  </VideoContainer>
 );
 export default Video;
+
+export const VideoContainer = styled.div`
+  margin: 30px auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  &:after {
+    padding-top: 56.25%;
+    display: block;
+    content: "";
+  }
+  > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+`;
