@@ -14,6 +14,8 @@ export const en = {
     climbs: "Climbs",
     writings: "Writings",
     partners: "Partners",
+    awards: "Awards",
+    climbingPartners: "Climbing Partners",
   },
 };
 
@@ -32,6 +34,8 @@ export const cz = {
     lectures: "Přednášky",
     climbs: "Výstupy",
     writings: "Texty",
-    partners: "Spolulezci",
+    partners: "Partneři",
+    awards: "Ocenění",
+    climbingPartners: "Spolulezci",
   },
 };

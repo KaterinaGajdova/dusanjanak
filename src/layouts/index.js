@@ -64,7 +64,7 @@ const Layout = ({ children, location }) => {
     lightGrey: " #b8b8b8",
     red: "#f0002f",
     fontHeading: "Open Sans Condensed",
-
+    /* 
     main: "#7eb51b",
     terciary: "#EB5723", //"#dfc524",
     secondary: "#597723",
@@ -75,7 +75,7 @@ const Layout = ({ children, location }) => {
     mediumDevice: "900px",
     largeDevice: "1024px",
     extraLargeDevice: "1600px",
-    paragraphWidth: "1024px",
+    paragraphWidth: "1024px", */
   };
 
   const FlagEN = () => (
@@ -156,18 +156,11 @@ const Layout = ({ children, location }) => {
                         {content.menu.climbs}
                       </StyledLink>
                       <StyledLink
-                        name="alpinism-writings"
-                        className={getClass("alpinism-writings")}
-                        to="/alpinism-writings"
+                        name="alpinism-awards"
+                        className={getClass("alpinism-awards")}
+                        to="/alpinism-awards"
                       >
-                        {content.menu.writings}
-                      </StyledLink>
-                      <StyledLink
-                        name="alpinism-partners"
-                        className={getClass("alpinism-partners")}
-                        to="/alpinism-partners"
-                      >
-                        {content.menu.partners}
+                        {content.menu.awards}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-media"
@@ -175,6 +168,27 @@ const Layout = ({ children, location }) => {
                         to="/alpinism-media"
                       >
                         {content.menu.audVid}
+                      </StyledLink>
+                      {/*                       <StyledLink
+                        name="alpinism-writings"
+                        className={getClass("alpinism-writings")}
+                        to="/alpinism-writings"
+                      >
+                        {content.menu.writings}
+                      </StyledLink> */}
+                      <StyledLink
+                        name="alpinism-climbing-partners"
+                        className={getClass("alpinism-climbing-partners")}
+                        to="/alpinism-climbing-partners"
+                      >
+                        {content.menu.climbingPartners}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-clartners"
+                        className={getClass("alpinism-partners")}
+                        to="/alpinism-partners"
+                      >
+                        {content.menu.partners}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-lectures"
@@ -195,25 +209,11 @@ const Layout = ({ children, location }) => {
                         {content.menu.about}
                       </StyledLink>
                       <StyledLink
-                        name="science-cv"
-                        className={getClass("science-cv")}
-                        to="/science-cv"
-                      >
-                        {content.menu.academicCv}
-                      </StyledLink>
-                      <StyledLink
                         name="science-research"
                         className={getClass("science-research")}
                         to="/science-research"
                       >
                         {content.menu.research}
-                      </StyledLink>
-                      <StyledLink
-                        name="science-publications"
-                        className={getClass("science-publications")}
-                        to="/science-publications"
-                      >
-                        {content.menu.publication}
                       </StyledLink>
                       <StyledLink
                         name="science-cooperation"
@@ -223,18 +223,39 @@ const Layout = ({ children, location }) => {
                         {content.menu.cooperation}
                       </StyledLink>
                       <StyledLink
+                        name="science-cv"
+                        className={getClass("science-cv")}
+                        to="/science-cv"
+                      >
+                        {content.menu.academicCv}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-publications"
+                        className={getClass("science-publications")}
+                        to="/science-publications"
+                      >
+                        {content.menu.publication}
+                      </StyledLink>
+                      {/* <StyledLink
                         name="science-media"
                         className={getClass("science-media")}
                         to="/science-media"
                       >
                         {content.menu.audVid}
-                      </StyledLink>
+                      </StyledLink> */}
                       <StyledLink
                         name="science-lectures"
                         className={getClass("science-lectures")}
                         to="/science-lectures"
                       >
                         {content.menu.lectures}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-awards"
+                        className={getClass("science-awards")}
+                        to="/science-awards"
+                      >
+                        {content.menu.awards}
                       </StyledLink>
                     </>
                   ) : (
@@ -341,6 +362,9 @@ const StyledLink = styled((props) => <Link {...props} />)`
   @media (min-width: 960px) {
     padding: 0.5rem 1rem;
     line-height: 1;
+    &:first-of-type {
+      margin-right: 3rem;
+    }
   }
 `;
 

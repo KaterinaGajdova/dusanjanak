@@ -21,17 +21,6 @@ export const Date = styled.span`
   font-family: Lato;
 `;
 
-export const Content = styled.div`
-  font-size: 15px;
-  max-width: ${(props) => (props.media ? "854px" : "960px")};
-  margin: 0 auto;
-  padding: 0 5%;
-  line-height: 1.5;
-  @media (min-width: 756px) {
-    padding: 50px 0 0;
-  }
-`;
-
 export const Section = styled.section`
   max-width: 700px;
   padding: 10px 0;
@@ -49,4 +38,24 @@ export const Name = styled.div`
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: uppercase;
   text-decoration: underline;
+`;
+
+export const Content = styled.div`
+  font-size: 16px;
+  max-width: ${(props) => (props.media ? "854px" : "960px")};
+  margin: 0 auto;
+  padding: 0 5% 20px;
+  line-height: 1.5;
+  @media (min-width: 756px) {
+    padding: 50px 3%;
+  }
+  @media (min-width: 1024px) {
+    padding: 50px 0;
+  }
+`;
+
+export const ContentWide = styled(Content)`
+  @media (min-width: 1024px) {
+    max-width: 1460px;
+  }
 `;

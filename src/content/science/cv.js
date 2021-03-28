@@ -11,7 +11,7 @@ import {
 
 export const Cz = () => {
   return (
-    <Content>
+    <>
       <Section>
         <H4>Identifikace osoby:</H4>
         <div>
@@ -429,6 +429,6 @@ export const Cz = () => {
           Akademické centrum studentských aktivit)
         </Project>
       </Section>
-    </Content>
+    </>
   );
 };

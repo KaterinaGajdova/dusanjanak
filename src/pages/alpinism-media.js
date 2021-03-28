@@ -8,6 +8,8 @@ const IndexPage = (props) => {
     <Consumer>
       {({ int }) => (
         <Content media>
+          {" "}
+          IN PROGRESS
           <Video
             videoSrcURL="https://www.youtube.com/embed/dm8aRjXfg1Q"
             videoTitle="Bílá růže"

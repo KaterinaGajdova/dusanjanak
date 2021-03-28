@@ -280,6 +280,20 @@ export const Cz = () => {
           <i>Studia Śląskie</i>, roč. LXIX, s.269-285, ISSN 0039-3355.
         </Project>
       </Section>
+      <Section>
+        <H4>Ediční/redakční činnost</H4>
+        <Project>IN PROGRESS...</Project>
+      </Section>
+      <Section>
+        <H4>
+          Kapitoly v monografiích a knihách, články ve sbornících, kritických
+          katalozích:
+        </H4>
+        <Project>IN PROGRESS...</Project>
+      </Section>
+      <Section>
+        <H4>Slovníková hesla:</H4> <Project>IN PROGRESS...</Project>
+      </Section>
     </Content>
   );
 };
