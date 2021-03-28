@@ -60,7 +60,7 @@ const IndexPage = (props) => {
             <Comment>
               <div>
                 <H4>Padám vzhůru, Klenba Macochy (2019)</H4>
-                Momentka ze života horolezce
+                Momentka ze života horolezce.
               </div>
             </Comment>
             <Video
@@ -73,7 +73,7 @@ const IndexPage = (props) => {
               <div>
                 <H4>Matrix (2008)</H4>
                 Spontánně vzniklý snímek ze studentských let o zimním lezení
-                napěchovaný ostrou muzikou a spoustou piva
+                napěchovaný ostrou muzikou a spoustou piva.
               </div>
             </Comment>
             <Video
@@ -85,7 +85,7 @@ const IndexPage = (props) => {
             <Comment>
               <div>
                 <H4>Podcast Nadzemí (2019)</H4>
-                Rozhovor o lezení
+                Rozhovor o lezení.
               </div>
             </Comment>
             <Video
@@ -118,7 +118,7 @@ const IndexPage = (props) => {
             <Comment>
               <div>
                 <H4>Rozhovory pro pořad Na Luftu (2013, 2014)</H4>
-                Televizní pořad o sportech v přírodě
+                Televizní pořad o sportech v přírodě.
               </div>
             </Comment>
 
@@ -157,7 +157,9 @@ const Grid = styled.div`
 
   @media (min-width: 620px) {
     grid-template-columns: 1fr 1fr;
-    direction: ${(props) => props.reverse && "rtl"};
+    > div:last-of-type {
+      order: ${(props) => props.reverse && "-1"};
+    }
   }
 `;
 
@@ -168,27 +170,3 @@ const Comment = styled.div`
   text-align: center;
   justify-content: center;
 `;
-
-const AudioComment = styled.a`
-  color: ${(props) => props.theme.lightGrey};
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  &:hover {
-    color: ${(props) => props.theme.white};
-  }
-`;
-{
-  /* <AudioComment>
-<div>
-  <H4>Rozhovory pro pořad Na Luftu (2013, 2014):</H4>
-  Televizní pořad o sportech v přírodě.
-  https://polar.cz/porady/na-luftu/na-luftu-09-01-2014-17-29
-  https://polar.cz/porady/na-luftu/na-luftu-12-09-2013-17-29
-  https://polar.cz/porady/na-luftu/na-luftu-12-12-2013-17-29
-</div>
-</AudioComment> */
-}
