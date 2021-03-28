@@ -121,16 +121,14 @@ const IndexPage = (props) => {
                 Televizní pořad o sportech v přírodě.
               </div>
             </Comment>
-            <video controls width="100%">
-              <source
-                src="https://light.polar.cz/videa/polar/porady/publikovano/2014/01/09/na_luftu_84_stoupa2_hq.mp4"
-                type="video/mp4"
-              />
-            </video>
-            {/* <Video
-              videoSrcURL="https://light.polar.cz/videa/polar/porady/publikovano/2014/01/09/na_luftu_84_stoupa2_hq.mp4"
-              videoTitle="Na luftu"
-            /> */}
+            <div>
+              <video controls width="100%">
+                <source
+                  src="https://light.polar.cz/videa/polar/porady/publikovano/2014/01/09/na_luftu_84_stoupa2_hq.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </Grid>
           <Grid>
             <video controls width="100%">
