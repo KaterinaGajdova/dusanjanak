@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 export const H4 = styled.h4`
@@ -11,10 +12,16 @@ export const Red = styled.span`
   font-size: ${(props) => props.big && "16px"};
 `;
 
-export const ALink = styled.a`
+export const ALinkStyled = styled.a`
   color: ${(props) => props.theme.white};
   font-weight: 600;
 `;
+
+export const ALink = ({ href, children }) => (
+  <ALinkStyled href={href} target="_blank" rel="noopener noreferrer">
+    {children}
+  </ALinkStyled>
+);
 
 export const Date = styled.span`
   font-weight: bold;

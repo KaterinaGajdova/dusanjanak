@@ -10,6 +10,7 @@ import {
   Project,
   Name,
   ALink,
+  ALinkStyled,
 } from "../../components/atoms";
 
 export const researchTopicsCz = {
@@ -66,7 +67,147 @@ export const HistorySociologyCz = () => {
         se stručným popisem, úplný seznam publikací a přehled projektů viz CV a
         publikační činnost:
       </p>
-      IN PROGRESS
+
+      <Project>
+        <p>
+          <b>
+            * Studie využívající sociologické klasiky k řešení aktuálních otázek
+            sociologické teorie. Krok směrem k obecné teorii multimodální
+            komunikace:
+          </b>
+        </p>
+        Janák, D. 2020. &quot;Kritický realismus <i>revisited</i>: Příspěvek k
+        sociologické koncepci subjektivity.&quot; <i>Sociální studia</i>, 17
+        (1): 69-88. ISSN: 1803-6104 (on-line), ISSN: 1214-813X (print). <br />
+        Dostupné{" "}
+        <ALink href="https://journals.muni.cz/socialni_studia/article/download/14069/11802">
+          zde
+        </ALink>
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Několik let jsme se věnovali unikátním datům z dosud
+            nezpracovaného sociologického výzkumu města Brna z roku 1947. Data z
+            cca 20 000 dotazníků jsou výjimečná v evropském kontextu a nebyla
+            zpracována kvůli komunistickému převratu v roce 1948, po kterém byla
+            sociologie v zemích východního bloku prohlášena za buržoazní pavědu:
+          </b>
+        </p>
+        Janák, D. 2019. "Brněnští dělníci v roce 1947: sociologický exkurz." Pp
+        534 – 554. in Dušan Janák, Stanislav Kokoška a kol.{" "}
+        <i>Průmyslové dělnictvo v českých zemích v letech 1938 – 1948.</i>{" "}
+        Praha: Ústav pro soudobé dějiny AV ČR.
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Syntéza toho, na co jsem za zhruba 15 let v oblasti výzkumu dějin
+            sociologie a sociologické teorie přišel. Poslední část knihy je
+            věnována náčrtu obecné sociologické teorie vystavěné "na ramenou
+            obrů", která je pro mne vodítkem při výzkumu multimodální
+            mezidruhové komunikace:
+          </b>
+        </p>
+        Janák, D. 2018.
+        <i>Klasická sociologie ve střední Evropě: Mezi centrem a periferií.</i>
+        Praha: Sociologické nakladatelství. ISBN 978-80-7419-278-4.
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Tenhle text věnovaný jednomu ze dvou československých prezidentů a
+            sociologů v jedné osobě vznikal docela dlouho, a jsem s ním docela
+            spokojený. Teoretická sonda do vztahu sociologie a politiky:
+          </b>
+        </p>
+        Janák, D. 2014. „Problém národní identity v díle Edvarda Beneše.“
+        <i>Sociologický časopis.</i> roč. 50 (2): 233-263. ISSN 0038-0288.{" "}
+        <br />
+        Dostupné{" "}
+        <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2014/02/04.pdf">
+          zde
+        </ALink>
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Důkladně zpracované velké téma české meziválečné sociologie, její
+            dělení na brněnskou a pražskou sociologickou školu:
+          </b>
+        </p>
+        Janák, D. 2013. „Brněnská versus pražská sociologická škola: mýtus a
+        skutečnost“. <i>Sociologický časopis.</i> 49 (3): 577-602. ISSN
+        0038-028. <br />
+        Dostupné{" "}
+        <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2013/04/04.pdf">
+          zde
+        </ALink>
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Návrh typologie sociologické teorie, ze které jsem měl docela
+            radost a její aplikace na kalsickou českou sociologii. Text jsem
+            věnoval památce prof. Petruska, který se sociologické teorii v
+            kontextu sociologických dějin věnoval v podstatě celoživotně a
+            nezamýšleně ovlivnil i mé setrvání ve vědecké a nejen horolezecké
+            dráze:
+          </b>
+        </p>
+        Janák, D. 2013. „Počátky teoretické sociologie v českých zemích. Text
+        věnovaný památce prof. M. Petruska.“
+        <i>Sociológia- Slovak Sociological Review.</i> 45 (4): 339-364. ISSN
+        0049-1225, ISSN 1336- 8613. <br />
+        Dostupné{" "}
+        <ALink href="https://www.sav.sk/journals/uploads/09030817Janak%20OK.pdf">
+          zde
+        </ALink>
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Moje první knížka vzniklá z disertace oceněné v soutěži o nejlepší
+            doktorskou práci Fakulty sociálních studií Masarykovy univerzity:
+          </b>
+        </p>
+        Janák, D. 2009. „Ohlédnutí za sociologií Inocence Arnošta Bláhy.“
+        <i>Sociologický časopis</i> roč. 45, č. 5, s. 1081-1090, ISSN 0038-0288.{" "}
+        <br />
+        Dostupné{" "}
+        <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2009/05/12.pdf">
+          zde
+        </ALink>
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Můj úplně první článek, zužitkoval jsem v něm studijní pobyt na
+            Vídeňské univerzitě i svůj trvalý zájem o sociální filosofii a
+            filosofii sociálních věd. Článek byl oceněn v soutěži o nejlepší
+            doktorandskou stať{" "}
+            <i>Sociologického časopisu / Czech Sociological Review</i>:
+          </b>
+        </p>
+        Janák, D. 2006. „Sociální introspekce In. A. Bláhy a Wittgensteinův
+        argument proti soukromému jazyku. Poznámky k introspektivnímu přístupu
+        v sociálních vědách.” <i>Sociologický časopis</i>, Vol. 42 (No.4): 761 –
+        782, ISSN:0038-0288. <br />
+        Dostupné{" "}
+        <ALink
+          href="https://sreview.soc.cas.cz/pdfs/csr/2006/04/08.pdf"
+          /*       target="_blank_" */
+        >
+          zde
+        </ALink>
+      </Project>
     </div>
   );
 };
@@ -141,11 +282,54 @@ export const CommunicationCz = () => {
         "vrabců v hrsti", než si vědci mohou dovolit zkusit lovit "holuby na
         střeše". To je z pohledu zaměstnavatele docela pochopitelné, z pohledu
         vědce trochu frustrující, protože času na tomto světě za jeden lidský
-        život není k dispozici zas až tak moc. Takže pokračuji pomalu, ale
-        jistě. Od roku 2016, kdy jsem se tématu začal věnovat, jsem zrealizoval
-        většinou ve volném čase několik zajímavých aktivit.{" "}
+        život není k dispozici zas až tak moc. Mohl bych klidně co tři roky
+        vydat další knihu z dějin sociologie, každý rok napsat jeden až dva
+        články, občas udělat nějakou výzkumnou zakázku a těšit se na důchod. Ne
+        že by mne taková věda vyloženě nebavila, ale pokud mám to štěstí, že mám
+        výzkumné téma, které samovolně přitahuje mou pozornost, přijde mi škoda
+        času psát o tom, kde jsem to podstatné podle sebe už řekl. Alespoň po
+        nějaký čas…
       </p>
-      IN PROGRESS
+      <p>
+        Takže pokračuji pomalu, ale jistě. Od roku 2016, kdy jsem se tématu
+        začal věnovat, jsem zrealizoval většinou ve volném čase několik
+        zajímavých výzkumných aktivit: Výprava za zvířaty do Britské Kolumbie v
+        roce 2017; výzkum tzv. komunikátorů se zvířaty v letech 2018 – 2019;
+        měření s karatisty v roce 2019 nebo s rostlinami 2019 - 2020. Nerad
+        prezentuji něco, co ještě není hotové.
+      </p>
+      <Project>
+        <p>
+          <b>
+            * Prvním dokončeným výstupem, o kterém je možné se zmínit, je
+            rukopis studie z výzkumu intuitivní mezidruhové komunikace
+            realizovaný s komunikátory se zvířaty v letech 2018 – 2019. Rukopis
+            je nyní v recenzním řízení časopisu <i>Journal of Ethnobiology</i>.
+            Data z výzkumu jsou veřejně dostupná v Českém sociálněvědním datovém
+            archivu Akademie věd:
+          </b>
+        </p>
+        <p>
+          {" "}
+          Janák, D. 2021. “An Uncharted Language? A Content Analysis of the
+          Materials Created by Animal Communicators Using an Animal Photograph”
+          Journal of Ethnobiology (in review).{" "}
+        </p>
+        <p>
+          Data jsou dostupná po registraci v Českém sociálněvědním datovém
+          archivu Akademie věd:{" "}
+          <ALink href=" http://archiv.soc.cas.cz">
+            http://archiv.soc.cas.cz
+          </ALink>
+          ; email:{" "}
+          <ALinkStyled href="mailto:archiv@soc.cas.cz">
+            archiv@soc.cas.cz
+          </ALinkStyled>
+          . The research data title is Invisible language 2019: A sociological
+          view on intra- and interspecies intuitive communication, DOI:
+          10.14473/K0009.
+        </p>
+      </Project>
     </div>
   );
 };
