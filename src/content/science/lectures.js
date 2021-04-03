@@ -52,7 +52,12 @@ export const Cz = () => {
         </p>
 
         <p>
-          <ALinkStyled href="../../documents/modelingBlaha.pptx" download>
+          <ALinkStyled
+            href="/modeling_blaha.pptx"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
             Prezentace ke stažení
           </ALinkStyled>{" "}
           - MODELING CLASSICS: Ve spolupráci s dr. Františkem Kalvasem jsme
@@ -64,3 +69,9 @@ export const Cz = () => {
     </>
   );
 };
+
+export const img1cz =
+  "S Jindřichem Štreitem na vernisáži výstavy z výzkumu menšin v ČR.";
+
+export const img2cz =
+  "APLIKOVANÝ VÝZKUM - někdy je třeba představit účel a výsledky výzkumu samotným respondentům, kterých se týká - v tomto případě zástupcům Ukrajinské menšiny v České republice";

@@ -1,17 +1,18 @@
 import React from "react";
-import { graphql } from "gatsby";
-import { Cz } from "../content/science/lectures";
+import { Cz, img1cz, img2cz } from "../content/science/lectures";
 import SEO from "../components/seo";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
 import { Content } from "../components/atoms";
-import { StaticImage, GatsbyImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 const IndexPage = () => {
   return (
     <Consumer>
       {({ int }) => {
         const content = int === "en" ? <Cz /> : <Cz />;
+        const img1Title = int === "en" ? img1cz : img1cz;
+        const img2Title = int === "en" ? img2cz : img2cz;
         return (
           <>
             <SEO title="Science" />
@@ -30,12 +31,9 @@ const IndexPage = () => {
                       alt=""
                       placeholder="blurred"
                     />
-                    APLIKOVANÝ VÝZKUM - někdy je třeba představit účel a
-                    výsledky výzkumu samotným respondentům, kterých se týká - v
-                    tomto případě zástupcům Ukrajinské menšiny v České republice
+                    {img1Title}
                   </div>
                   <div>
-                    {" "}
                     <StaticImage
                       src="../images/lectures-2.jpg"
                       imgStyle={{
@@ -46,8 +44,7 @@ const IndexPage = () => {
                       alt=""
                       placeholder="blurred"
                     />
-                    S Jindřichem Štreitem na vernisáži výstavy z výzkumu menšin
-                    v ČR.
+                    {img2Title}
                   </div>
                 </LecturesImg>
 

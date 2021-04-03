@@ -1,43 +1,49 @@
 import React from "react";
-import { graphql, StaticQuery } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
-import { Cz } from "../content/science/cooperation";
+import { graphql } from "gatsby";
+import { cooperatorsEn, cooperatorsCz } from "../content/science/cooperation";
 import SEO from "../components/seo";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
 import { Content } from "../components/atoms";
+import Cooperator from "../components/Cooperator";
 
-const IndexPage = (props) => {
+const IndexPage = ({ data }) => {
+  const images = data.allImageSharp.nodes;
   return (
-    <StaticQuery
-      query={graphql`
-        {
-          aboutme: file(relativePath: { regex: "/science-about.jpg/" }) {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
-            }
-          }
-        }
-      `}
-      render={(data) => {
+    <Consumer>
+      {({ int }) => {
+        const cooperatorsData = int === "en" ? cooperatorsEn : cooperatorsCz;
+        console.log(images);
         return (
-          <Consumer>
-            {({ int }) => {
-              const content = int === "en" ? <Cz /> : <Cz />;
-              console.log(data);
-              return (
-                <>
-                  <SEO title="Science" />
-
-                  <Content>{content}</Content>
-                </>
-              );
-            }}
-          </Consumer>
+          <Content>
+            <SEO title="Science" />
+            {cooperatorsData.map((item) => (
+              <Cooperator
+                cooperatorData={item}
+                img={
+                  images.find((img) =>
+                    img.gatsbyImageData.images.fallback.src.includes(
+                      item.imageTitle
+                    )
+                  )?.gatsbyImageData
+                }
+              />
+            ))}
+          </Content>
         );
       }}
-    />
+    </Consumer>
   );
 };
 
 export default IndexPage;
+
+export const query = graphql`
+  query {
+    allImageSharp(filter: { fluid: { src: { regex: "/cooperators/" } } }) {
+      nodes {
+        gatsbyImageData(placeholder: BLURRED)
+      }
+    }
+  }
+`;
