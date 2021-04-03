@@ -158,7 +158,7 @@ const StyledLink = styled((props) => <Link {...props} />)`
   transition: color 1s ease;
   position: relative;
   font-variant: small-caps;
-  font-family: "Poiret One", cursive;
+  font-family: "Open Sans Condensed", cursive;
 
   &:hover,
   &:focus,

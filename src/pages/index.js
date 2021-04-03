@@ -31,7 +31,7 @@ const IndexPage = (props) => {
               return (
                 <>
                   <Wrapper>
-                    <SEO title="webpage" />
+                    <SEO title="" />
                     <HeadingWrapper>
                       <Heading>DUŠAN JANÁK</Heading>
                     </HeadingWrapper>
