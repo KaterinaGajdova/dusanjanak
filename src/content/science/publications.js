@@ -33,6 +33,31 @@ export const Cz = () => {
           <b>Slovníková hesla:</b> 18
         </div>
       </Section>
+
+      <p>
+        I když jsem napsal pravděpodobně několik tisíc stránek vědeckých textů,
+        mám pocit, že výběr toho, kde jsem objevil něco nového a zajímavého, a
+        kde se jedná o opravdu kvalitní příspěvek k vědě, by se výrazně snížil.
+        Je to jako v lezení, vylezl jsem tisíce cest, ale těch, které mi přišly
+        fakt dobré a dostal jsem se na svoje limity, ty by se daly na prstech
+        spočítat.
+      </p>
+      <p>
+        Kdybych měl udělat osobní výběr těch opravdu dobrých nebo zajímavých a
+        nebo osobně důležitých publikací zmínil bych tyto: první článek (Janák
+        2006) a první knihu (Janák 2009), syntézu k dějinám sociologie ve
+        střední Evropě a náčrt vlastní obecné sociologické teorie (Janák 2018).
+        Z článků k dějinám sociologie text o počátcích české sociologické teorie
+        (Janák 2013a) a o sociologických školách v meziválečné české sociologii
+        (Janák 2013b). Důležitý pro formování obecné sociologické teorie a
+        současné výzkumné zaměření je studie o dialogické subjektivitě (Janák
+        2020), pro empirický výzkum mezidruhové komunikace pilotní studie (Janák
+        2021). Z těch s Jindřichem Štreitem bych jmenoval tu první z Osoblažska
+        (Janák, Pilát, Bezděk 2014), která byla zajímavá i velmi komplexní
+        metodologií terénního výzkumu. Pobavilo nás, že zaujala prezidenta
+        republiky Miloše Zemana při jeho návštěvě v regionu.
+      </p>
+
       <Section>
         <H4>Knihy, odborné monografie</H4>
         <Project>

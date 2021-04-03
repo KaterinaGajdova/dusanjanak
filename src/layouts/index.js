@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-size: 16px;
     color: #d8d8d8;
     background: black;

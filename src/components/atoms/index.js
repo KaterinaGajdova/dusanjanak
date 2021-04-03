@@ -25,7 +25,7 @@ export const ALink = ({ href, children }) => (
 
 export const Date = styled.span`
   font-weight: bold;
-  font-family: Lato;
+  font-family: "Open Sans Condensed";
 `;
 
 export const Section = styled.section`
@@ -42,7 +42,7 @@ export const Project = styled.div`
 `;
 
 export const Name = styled.div`
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Open Sans Condensed", "Times New Roman", Times, serif;
   text-transform: uppercase;
   text-decoration: underline;
 `;
