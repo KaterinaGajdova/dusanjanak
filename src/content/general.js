@@ -16,6 +16,7 @@ export const en = {
     partners: "Partners",
     awards: "Awards",
     climbingPartners: "Climbing Partners",
+    photo: "Photo",
   },
 };
 
@@ -37,5 +38,6 @@ export const cz = {
     partners: "Partneři",
     awards: "Ocenění",
     climbingPartners: "Spolulezci",
+    photo: "Foto",
   },
 };

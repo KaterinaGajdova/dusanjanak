@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { H4 } from "./atoms";
 
 const Cooperator = ({ cooperatorData, img }) => {
   return (

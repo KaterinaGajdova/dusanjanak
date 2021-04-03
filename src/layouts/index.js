@@ -141,13 +141,13 @@ const Layout = ({ children, location }) => {
                       >
                         {content.menu.about}
                       </StyledLink>
-                      <StyledLink
+                      {/*        <StyledLink
                         name="alpinism-cv"
                         className={getClass("alpinism-cv")}
                         to="/alpinism-cv"
                       >
                         {content.menu.climbingCv}
-                      </StyledLink>
+                      </StyledLink> */}
                       <StyledLink
                         name="alpinism-climbs"
                         className={getClass("alpinism-climbs")}
@@ -176,6 +176,13 @@ const Layout = ({ children, location }) => {
                       >
                         {content.menu.writings}
                       </StyledLink> */}
+                      <StyledLink
+                        name="alpinism-photo"
+                        className={getClass("alpinism-photo")}
+                        to="/alpinism-photo"
+                      >
+                        {content.menu.photo}
+                      </StyledLink>
                       <StyledLink
                         name="alpinism-climbing-partners"
                         className={getClass("alpinism-climbing-partners")}

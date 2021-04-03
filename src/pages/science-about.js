@@ -23,7 +23,7 @@ const IndexPage = (props) => {
           <Consumer>
             {({ int }) => {
               const content = int === "en" ? <Cz /> : <Cz />;
-              console.log(data);
+
               return (
                 <>
                   <SEO title="Science" />

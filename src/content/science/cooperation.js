@@ -1,13 +1,5 @@
 import React from "react";
 
-export const Cz = () => {
-  return (
-    <>
-      <div>IN PROGRESS</div>
-    </>
-  );
-};
-
 /* pokud chcete přidat dalšího spolupracovníka, tak:
   - zkopírovat objekt {} a přidat na konec (do angličtiny i češtiny)
   - prepsat jmeno a popisek (pripadne webovou stranku) za to, co chceme

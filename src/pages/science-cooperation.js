@@ -2,7 +2,6 @@ import React from "react";
 import { graphql } from "gatsby";
 import { cooperatorsEn, cooperatorsCz } from "../content/science/cooperation";
 import SEO from "../components/seo";
-import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
 import { Content } from "../components/atoms";
 import Cooperator from "../components/Cooperator";

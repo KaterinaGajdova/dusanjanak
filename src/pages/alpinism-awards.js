@@ -6,7 +6,7 @@ import { ContentWide } from "../components/atoms";
 const IndexPage = (props) => {
   return (
     <>
-      <SEO title="Science" />
+      <SEO title="Climbing" />
       <ContentWide>
         <Cz />
       </ContentWide>
