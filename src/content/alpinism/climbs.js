@@ -2,6 +2,7 @@ import React from "react";
 import { Date, Name } from "../../components/atoms";
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
+import { Link } from "gatsby";
 
 export const Cz = () => {
   return (
@@ -21,6 +22,13 @@ export const Cz = () => {
         Legendární cesta z roku 1938 není z hlediska výkonnosti žádný extrém,
         ale vylezená po úraze s parťákem Bačou bude v mém osobním katalogu
         výstupů na emoční stupnici hodně vysoko. (spolulezec: Bača)
+        <br />
+        <Link
+          to="/alpinism-eiger-pdf"
+          style={{ color: "white", textDecoration: "none", fontWeight: 600 }}
+        >
+          článek „Eiger 80letý“
+        </Link>
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -998,4 +1006,5 @@ const Climb = styled.div`
   margin: 3rem auto 0;
   padding: 0 5% 20px;
   line-height: 1.5;
+  font-size: 16px;
 `;
