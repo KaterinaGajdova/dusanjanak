@@ -38,6 +38,7 @@ const IndexPage = (props) => {
                       maxWidth: 150,
                     }}
                     alt="tilak"
+                    placeholder="blurred"
                   />
                 </Link>
               </Content>
