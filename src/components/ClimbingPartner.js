@@ -41,16 +41,18 @@ const Container = styled.div`
 `;
 
 const ImgContainer = styled.div`
-  width: 50%;
   text-align: right;
   margin: 15px;
   @media (min-width: 576px) {
     margin: 0;
+    width: 50%;
   }
 `;
 
 const Text = styled.div`
-  width: 50%;
   padding: 0 15px 25px;
   text-align: center;
+  @media (min-width: 576px) {
+    width: 50%;
+  }
 `;

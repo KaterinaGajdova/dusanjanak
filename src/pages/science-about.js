@@ -76,10 +76,9 @@ const Content = styled.div`
     max-width: 700px;
   }
   @media (min-width: 756px) {
-    > div {
-      font-size: 20px;
-    }
+    margin-top: 2rem;
   }
+
   @media (min-width: 1200px) {
     margin-top: 0;
     > div {
@@ -87,6 +86,13 @@ const Content = styled.div`
     }
   }
   @media (min-width: 1600px) {
+    > div {
+      font-size: calc(17px + 0.2vw);
+      max-width: 40vw;
+    }
+  }
+
+  @media (min-width: 2000px) {
     > div {
       font-size: calc(18px + 0.2vw);
       max-width: 40vw;
