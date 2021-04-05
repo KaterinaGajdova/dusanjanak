@@ -1,5 +1,5 @@
 import React from "react";
-import { Date, Name } from "../../components/atoms";
+import { Date, Name, IMGGrid } from "../../components/atoms";
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 import { Link } from "gatsby";
@@ -36,7 +36,7 @@ export const Cz = () => {
           alt="eiger"
           style={{ maxHeight: 400 }}
           height={400}
-        />{" "}
+        />
         <StaticImage
           src="../../images/climbs/eiger-2018_2.jpg"
           alt="eiger"
@@ -1033,20 +1033,9 @@ export const En = () => {
   );
 };
 
-const IMGGrid = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  gap: 5px;
-  padding-bottom: 15px;
-  border-bottom: ${(props) => !props.noborder && "1px solid white"};
-`;
-
 const Climb = styled.div`
   max-width: 960px;
   margin: 3rem auto 0;
   padding: 0 5% 20px;
   line-height: 1.5;
-  font-size: 16px;
 `;

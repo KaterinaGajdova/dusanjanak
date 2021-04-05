@@ -156,7 +156,6 @@ export default IndexPage;
 const Grid = styled.div`
   display: grid;
   grid-gap: 20px;
-  font-size: 16px;
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 5% 20px;

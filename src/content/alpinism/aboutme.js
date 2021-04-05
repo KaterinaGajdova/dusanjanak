@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import { GatsbyLink } from "../../components/atoms";
 
 export const Cz = () => {

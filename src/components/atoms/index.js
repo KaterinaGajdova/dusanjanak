@@ -10,7 +10,6 @@ export const H4 = styled.h4`
 
 export const Red = styled.span`
   color: ${(props) => props.theme.red};
-  font-size: ${(props) => props.big && "16px"};
 `;
 
 export const ALinkStyled = styled.a`
@@ -52,7 +51,6 @@ export const Name = styled.div`
 `;
 
 export const Content = styled.div`
-  font-size: 16px;
   max-width: 960px;
   margin: 0 auto;
   padding: 0 5% 20px;
@@ -74,4 +72,14 @@ export const ContentWide = styled(Content)`
 export const StyledLink = styled(Link)`
   color: white;
   font-weight: bold;
+`;
+
+export const IMGGrid = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+  padding-bottom: 15px;
+  border-bottom: ${(props) => !props.noborder && "1px solid white"};
 `;

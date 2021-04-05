@@ -15,12 +15,12 @@ export const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
+    font-size: 16px;
   }
 
   body {
     margin: 0;
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: 16px;
     color: #d8d8d8;
     background: black;
     line-height: 1.2;
@@ -126,7 +126,6 @@ const Layout = ({ children, location }) => {
             </LanguageSwitcher>
             {/* <Heading>DUŠAN JANÁK</Heading> */}
             <HeaderWrapper>
-              {" "}
               <Consumer>
                 {({ int }) => {
                   const content = int === "en" ? en : cz;
@@ -169,19 +168,19 @@ const Layout = ({ children, location }) => {
                       >
                         {content.menu.audVid}
                       </StyledLink>
-                      {/*                       <StyledLink
-                        name="alpinism-writings"
-                        className={getClass("alpinism-writings")}
-                        to="/alpinism-writings"
-                      >
-                        {content.menu.writings}
-                      </StyledLink> */}
                       <StyledLink
                         name="alpinism-photo"
                         className={getClass("alpinism-photo")}
                         to="/alpinism-photo"
                       >
                         {content.menu.photo}
+                      </StyledLink>
+                      <StyledLink
+                        name="alpinism-writings"
+                        className={getClass("alpinism-writings")}
+                        to="/alpinism-writings"
+                      >
+                        {content.menu.writings}
                       </StyledLink>
                       <StyledLink
                         name="alpinism-climbing-partners"
@@ -288,7 +287,6 @@ export default Layout;
 const Content = styled.div`
   margin: 0 auto;
   width: 100%;
-  font-size: ${(props) => props.theme.fontBodySize};
 `;
 
 const HeaderWrapper = styled.header`
@@ -369,6 +367,12 @@ const StyledLink = styled((props) => <Link {...props} />)`
   @media (min-width: 960px) {
     padding: 0.5rem 1rem;
     line-height: 1;
+    &:first-of-type {
+      margin-right: 2rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
     &:first-of-type {
       margin-right: 3rem;
     }
