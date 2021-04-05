@@ -250,7 +250,142 @@ export const AppliedResearchCz = () => {
         snažili o akademický přesah výzkumných zakázek a z těch větších jsme
         připravili knihy nebo odborné články nad rámec požadavků zadavatele.
       </p>
-      IN PROGRESS
+
+      <H4>výběr publikací metodologických:</H4>
+      <Project>
+        <p>
+          <b>
+            * K otázkám introspekce, námitkám vůči subjektivismu
+            introspektivních postupů a objektivzačním strategiím v kvalitativním
+            výzkumu:
+          </b>
+        </p>
+        Stanoev M., Janák D. 2013. „Koncepce (sub)kulturního kapitálu a
+        sebereflexivní metodologie při studiu subkultur.“ In: Miroslav Tížik
+        (ed.): <i>Pierre Bourdieu ako inšpirácia pre sociologický výskum</i>. SÚ
+        SAV, Bratislava, 2013. s.75-96. ISBN 978-80-85544-77-0.
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Metodologická studie ke zpracování třičtvrtě století starých
+            primárních sociologických dat:
+          </b>
+        </p>
+        Janák, Dušan, Martin Stanoev a Petr Hušek. 2014. „Poválečný sociologický
+        výzkum města Brna z roku 1947 a metodika jeho soudobého zpracování z
+        pohledu historicko-sociologické analýzy průmyslového dělnictva před
+        rokem 1948.“ <i>Data a výzkum – SDA Info</i> 127 (2): 143-163.
+        <br />
+        Dostupné{" "}
+        <ALink href="http://dx.doi.org/10.13060/23362391.2014.127.2.157">
+          zde
+        </ALink>
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Velké téma sociálních věd: Co plyne z toho, že vědec je součástí
+            předmětu, který zkoumá a má s ním vnitřní zkušenost? Lze ze
+            subjektivních "dojmů" dospět k objektivnímu "poznání"? Upřímně
+            řečeno, tento metodologický problém jsem nevyřešil, ale minimálně si
+            ujasnil principiální problémy, na které sebereflexivní metodologie
+            naráží. A také jsem přesněji uviděl limity tzv. objektivních postupů
+            kvantifikujících metod. Z této prvotní reflexe těžím dosud, i při
+            úvahách o multiomodální mezidruhové komunikaci:
+          </b>
+        </p>
+        Janák, D. 2006. „Sociální introspekce In. A. Bláhy a Wittgensteinův
+        argument proti soukromému jazyku. Poznámky k introspektivnímu přístupu v
+        sociálních vědách.” <i>Sociologický časopis</i>, Vol. 42 (No.4): 761 –
+        782, ISSN:0038-0288. DOI: 10.13060/00380288.2006.42.4.08.
+        <br />
+        Dostupné{" "}
+        <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2006/04/08.pdf">
+          zde
+        </ALink>
+        <p>Mírně upravená anglická verze:</p>
+        Janák, D. 2010."Social Introspection Of I. A. Bláha and Wittgenstein’s’
+        Argument Counter To Private Language. Anniversary Study On Introspection
+        Approach In Social Sciences." <i>Qualitative Sociology Review</i>, roč.6
+        č. 2, s. 51-72, ISSN 1733-8077.
+        <br />
+        Dostupné{" "}
+        <ALink href="http://www.qualitativesociologyreview.org/ENG/Volume16/QSR_6_2_Janak.pdf">
+          zde
+        </ALink>
+      </Project>
+
+      <H4>aplikovaný výzkum:</H4>
+      <b>
+        tři knihy výzkumných týmů, které jsem vedl a které jsem i z větší části
+        napsal
+      </b>
+      <Project>
+        <p>
+          <b>* Role jídla v re/konstrukci národní a regionální identity:</b>
+        </p>
+        Janák, D. a kolektiv. 2020.{" "}
+        <i>
+          Jídlo není jenom "něco k jídlu": Tradiční stravování a pokrmy jako
+          součást regionální a národní identity ve vědomí a paměti současné
+          společnosti.
+        </i>{" "}
+        Opava: Slezská univerzita. ISBN 978-80-7510-428-1
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Nerovnosti a sociální inkluze ve vzdělávání je velké téma veřejné
+            politiky i akademického výzkumu:
+          </b>
+        </p>
+        Janák, D., M. Stanoev a kolektiv. 2015.{" "}
+        <i>
+          Rozšířit řečiště hlavního vzdělávacího proudu. Sociální inkluze žáků a
+          transformace vzdělávacího systému v Krnově a v Sokolově.
+        </i>{" "}
+        foto: J. Štreit. Opava: Slezská univerzita. 978-80-7510-157-0.
+      </Project>
+
+      <Project>
+        <p>
+          <b>
+            * Sociální exkluze v pohraničních regionech, sociálně vyloučené
+            lokality a možnosti jejich socioekonomického rozvoje:
+          </b>
+        </p>
+        Janák, D. – M. Pilát – J. Bezděk. 2014.{" "}
+        <i>
+          Rozdělování sociálních nerovností pod patronací státu. Situační
+          analýza Osoblažska a možností jeho socioekonomického rozvoje.
+        </i>{" "}
+        (foto: J. Štreit) Opava: Slezská univerzita. ISBN: 978-80-7248-947-3.
+      </Project>
+
+      <H4>veřejná sociologie:</H4>
+
+      <Project>
+        <p>
+          <b>
+            * Romové jsou velké téma české společnosti. Tato kniha je pokusem o
+            nestranný příspěvek do veřejné debaty, který bude přístupný i laické
+            veřejnosti. Spolupráce s renomovaným českým fotografem prof.
+            Jindřichem Štreitem. Myslím, že jsme tuto příležitost vyslovit se k
+            velkému tématu plně nevyužili a bude třeba se k němu ještě jednou
+            vrátit. Solidní pilotní studii však už máme:
+          </b>
+        </p>
+        Janák, D., J. Štreit a kolektiv. 2017. Romové obrazem.{" "}
+        <i>
+          Příspěvek ke zkoumání sociálních reprezentací Romů v české
+          společnosti.
+        </i>{" "}
+        Opava: Slezská univerzita. ISBN: 978-80-7510-266-9
+      </Project>
     </div>
   );
 };
