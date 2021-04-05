@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
 import styled from "styled-components";
-import Layout from "../layouts";
 import SEO from "../components/seo";
 import { Cz, En } from "../content/alpinism/aboutme";
 import { StaticImage } from "gatsby-plugin-image";
@@ -31,16 +29,6 @@ const IndexPage = (props) => {
 
               <Content>
                 <div>{content}</div>
-                <Link to="/alpinism-tilak-pdf">
-                  <StaticImage
-                    src="../images/logo-tilak.png"
-                    style={{
-                      maxWidth: 150,
-                    }}
-                    alt="tilak"
-                    placeholder="blurred"
-                  />
-                </Link>
               </Content>
             </AboutMe>
           </>

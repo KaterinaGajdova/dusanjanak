@@ -294,7 +294,28 @@ export const Cz = () => {
         <Name>Vol de Nuit</Name>První cesta ve stupni M8 vylezená v Alpách
         českými lezci (spolulezec: Bača)
       </Climb>
-      <IMGGrid> </IMGGrid>
+      <IMGGrid>
+        <StaticImage
+          src="../../images/climbs/voldenuit-2010_1.jpg"
+          alt="Vol de Nuit"
+          style={{ maxHeight: 400 }}
+          height={400}
+        />
+        <StaticImage
+          src="../../images/climbs/voldenuit-2010_2.jpg"
+          alt="Vol de Nuit"
+          placeholder="blurred"
+          style={{ maxHeight: 400 }}
+          height={400}
+        />
+        <StaticImage
+          src="../../images/climbs/voldenuit-2010_3.jpg"
+          alt="Vol de Nuit"
+          placeholder="blurred"
+          style={{ maxHeight: 400 }}
+          height={400}
+        />
+      </IMGGrid>
       <Climb>
         <Name>Těžká karta</Name>Pro mne první pískovcová jedenáctka.
       </Climb>
@@ -381,8 +402,8 @@ export const Cz = () => {
         />
       </IMGGrid>
       <Climb>
-        <Name>Jet Stream</Name>Posunutí laťky volného lezení v Tatrách
-        (spolulezec: Monika)
+        <Name>Jet Stream</Name>Posunutí laťky volného lezení v Tatrách (jištěn
+        Monikou)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -784,7 +805,28 @@ export const En = () => {
         <Name>Vol de Nuit</Name>První cesta ve stupni M8 vylezená v Alpách
         českými lezci (spolulezec: Bača)
       </Climb>
-      <IMGGrid> </IMGGrid>
+      <IMGGrid>
+        <StaticImage
+          src="../../images/climbs/voldenuit-2010_1.jpg"
+          alt="Vol de Nuit"
+          style={{ maxHeight: 400 }}
+          height={400}
+        />
+        <StaticImage
+          src="../../images/climbs/voldenuit-2010_2.jpg"
+          alt="Vol de Nuit"
+          placeholder="blurred"
+          style={{ maxHeight: 400 }}
+          height={400}
+        />
+        <StaticImage
+          src="../../images/climbs/voldenuit-2010_3.jpg"
+          alt="Vol de Nuit"
+          placeholder="blurred"
+          style={{ maxHeight: 400 }}
+          height={400}
+        />
+      </IMGGrid>
       <Climb>
         <Name>Těžká karta</Name>Pro mne první pískovcová jedenáctka.
       </Climb>
@@ -871,8 +913,8 @@ export const En = () => {
         />
       </IMGGrid>
       <Climb>
-        <Name>Jet Stream</Name>Posunutí laťky volného lezení v Tatrách
-        (spolulezec: Monika)
+        <Name>Jet Stream</Name>Posunutí laťky volného lezení v Tatrách (jištěn
+        Monikou)
       </Climb>
       <IMGGrid>
         <StaticImage

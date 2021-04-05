@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+import { GatsbyLink } from "../../components/atoms";
 
 export const Cz = () => {
   return (
@@ -19,8 +21,9 @@ export const Cz = () => {
 
       <p>
         Stručné shrnutí mého přístupu k lezení z doby, kdy jsem byl tzv. na
-        špici (kolem roku 2010) přináší úvod katalogu firmy, se kterou
-        spolupracuji dodnes:
+        špici (kolem roku 2010) přináší úvod{" "}
+        <GatsbyLink to="/alpinism-tilak-pdf">katalogu firmy Tilak</GatsbyLink>,
+        se kterou spolupracuji dodnes.
       </p>
     </>
   );
@@ -45,8 +48,9 @@ export const En = () => {
 
       <p>
         Stručné shrnutí mého přístupu k lezení z doby, kdy jsem byl tzv. na
-        špici (kolem roku 2010) přináší úvod katalogu firmy, se kterou
-        spolupracuji dodnes:
+        špici (kolem roku 2010) přináší úvod{" "}
+        <GatsbyLink to="/alpinism-tilak-pdf">katalogu firmy Tilak</GatsbyLink>,
+        se kterou spolupracuji dodnes.
       </p>
     </>
   );

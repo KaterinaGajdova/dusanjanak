@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  H4,
-  Red,
-  Date,
-  Content,
-  Section,
-  Project,
-  Name,
-  ALink,
-} from "../../components/atoms";
+import { H4, Section, ALink } from "../../components/atoms";
 
 export const Cz = () => {
   return (

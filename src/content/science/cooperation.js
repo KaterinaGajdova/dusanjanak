@@ -8,7 +8,7 @@ import React from "react";
 export const cooperatorsCz = [
   {
     imageTitle: "streit_1",
-    name: "prof. JINDŘICH ŠTREIT",
+    name: "prof. Mgr. JINDŘICH ŠTREIT Dr.h.c.",
     description:
       "Nepřehlédnutelná postava české fotografie, renomovaný fotograf s desítkami publikací i výstavami po celém světě.",
     website: "https://cs.wikipedia.org/wiki/Jindřich_Štreit",
@@ -37,7 +37,7 @@ export const cooperatorsCz = [
 export const cooperatorsEn = [
   {
     imageTitle: "streit_1",
-    name: "prof. JINDŘICH ŠTREIT",
+    name: "prof. Mgr. JINDŘICH ŠTREIT Dr.h.c.",
     description:
       "Nepřehlédnutelná postava české fotografie, renomovaný fotograf s desítkami publikací i výstavami po celém světě.",
     website: "https://cs.wikipedia.org/wiki/Jindřich_Štreit",

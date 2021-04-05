@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "gatsby";
 
 export const H4 = styled.h4`
   padding-bottom: 5px;
@@ -23,6 +24,9 @@ export const ALink = ({ href, children }) => (
   </ALinkStyled>
 );
 
+export const GatsbyLink = ({ to, children }) => (
+  <StyledLink to={to}>{children}</StyledLink>
+);
 export const Date = styled.span`
   font-weight: bold;
   font-family: "Open Sans Condensed";
@@ -65,4 +69,9 @@ export const ContentWide = styled(Content)`
   @media (min-width: 1024px) {
     max-width: 1460px;
   }
+`;
+
+export const StyledLink = styled(Link)`
+  color: white;
+  font-weight: bold;
 `;
