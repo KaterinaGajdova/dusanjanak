@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: "Open Sans Condensed", sans-serif;
     color: #d8d8d8;
-    background: black;
+    background: #33302b;
     line-height: 1.2;
   }
 
@@ -394,9 +394,6 @@ const Lang = styled.div`
   cursor: ${(props) => (props.active ? "default" : "pointer")};
   padding: 3px;
   height: max-content;
-  font-size: ${(props) => (props.active ? "1.75rem" : "1.25rem")};
+  font-size: ${(props) => (props.active ? "1.15rem" : "1rem")};
   color: ${(props) => props.active && props.theme.white};
-  &:hover {
-    color: ${(props) => !props.active && props.theme.red};
-  }
 `;

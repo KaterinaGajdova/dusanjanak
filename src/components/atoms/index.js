@@ -5,16 +5,17 @@ import { Link } from "gatsby";
 export const H4 = styled.h4`
   padding-bottom: 5px;
   font-size: 18px;
-  border-bottom: 1px dashed ${(props) => props.theme.red}; ;
+  border-bottom: 1px dashed ${(props) => props.theme.darkgrey};
+  font-weight: 700;
 `;
 
-export const Red = styled.span`
-  color: ${(props) => props.theme.red};
+export const Grey = styled.span`
+  color: darkgrey;
 `;
 
 export const ALinkStyled = styled.a`
   color: ${(props) => props.theme.white};
-  font-weight: 600;
+  font-weight: 500;
 `;
 
 export const ALink = ({ href, children }) => (
@@ -71,7 +72,7 @@ export const ContentWide = styled(Content)`
 
 export const StyledLink = styled(Link)`
   color: white;
-  font-weight: bold;
+  font-weight: 500;
 `;
 
 export const IMGGrid = styled.div`

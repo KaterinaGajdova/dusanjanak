@@ -1,15 +1,12 @@
 import React from "react";
-import { H4, Red, Date, Section, Project, Name } from "../../components/atoms";
+import { H4, Grey, Date, Section, Project, Name } from "../../components/atoms";
 
 export const Cz = () => {
   return (
     <>
       <Section>
         <H4>Identifikace osoby:</H4>
-        <div>
-          <Red big>doc. PhDr. Dušan Janák, Ph.D.</Red>, narozen v r. 1979
-          v Ostravě
-        </div>
+        <div>doc. PhDr. Dušan Janák, Ph.D., narozen v r. 1979 v Ostravě</div>
       </Section>
       <Section>
         <H4>Pracovní zařazení:</H4>
@@ -431,7 +428,7 @@ export const En = () => {
       <Section>
         <H4>Identifikace osoby:</H4>
         <div>
-          <Red big>doc. PhDr. Dušan Janák, Ph.D.</Red>, narozen v r. 1979
+          <Grey big>doc. PhDr. Dušan Janák, Ph.D.</Grey>, narozen v r. 1979
           v Ostravě
         </div>
       </Section>

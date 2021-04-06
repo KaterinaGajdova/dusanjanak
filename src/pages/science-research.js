@@ -107,6 +107,6 @@ const GridItem = styled.div`
   font-weight: ${(props) => (props.active ? "bold" : "normal")};
   border-bottom: 1px solid transparent;
   border-bottom-color: ${(props) =>
-    props.active ? props.theme.red : "transparent"};
+    props.active ? "darkgrey" : "transparent"};
   transition: all 1s;
 `;

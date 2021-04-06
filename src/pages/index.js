@@ -79,7 +79,7 @@ export default IndexPage;
 const Text = styled.div`
   margin-bottom: 5px;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
 `;
 
 const Wrapper = styled.div`
@@ -100,11 +100,11 @@ const HeadingWrapper = styled.div`
   }
 `;
 
-const Heading = styled.h1`
+const Heading = styled.div`
   margin: 0;
   text-align: center;
   line-height: 1;
-  font-size: 20px;
+  font-size: 26px;
 `;
 
 const AlpinismScience = styled.div`

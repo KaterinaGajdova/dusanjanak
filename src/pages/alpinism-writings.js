@@ -16,7 +16,7 @@ const IndexPage = (props) => {
           <Content>
             <SEO title="Climbing" />
             {content}
-            <IMGGrid noborder>
+            <Wrapper>
               <StaticImage
                 src="../images/titlepage-montana.jpg"
                 alt="Kyrgyzstán"
@@ -38,7 +38,7 @@ const IndexPage = (props) => {
                 style={{ maxHeight: 300 }}
                 height={300}
               />
-            </IMGGrid>
+            </Wrapper>
           </Content>
         );
       }}
@@ -47,3 +47,12 @@ const IndexPage = (props) => {
 };
 
 export default IndexPage;
+
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  padding-bottom: 15px;
+`;

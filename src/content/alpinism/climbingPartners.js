@@ -96,6 +96,7 @@ export const climbingPartnersCz = [
       "stavěč světového poháru se sklonem k lezení v přírodě. Společné prostoupení největší střechy v Alpách bylo takovou pěknou tečkou, za tou mojí výkonnostní lezeckou kariérou. Nejtěžší délku střechy lezl na prvním konci Honza a nejsem si jistý, jestli bych ji býval ve sportovním stylu sám vylezl. Na začátku následující sezony jsem se rozbil. Je čas poslat dopředu lepší, mladší, perspektivnější…",
   },
 ];
+
 export const Cz1 = () => {
   return (
     <>
@@ -163,7 +164,7 @@ export const climbingPartnersEn = [
     imageTitle: "doudlebak_satavis",
     name: "Honza Doudlebský „Doudlebák“ ",
     description:
-      " Nejlepší lezec v ledu, kterého jsem kdy potkal. Deset dní společného lezení ve stěně Piku 4810 v Kyrgyzstánu patří k nejdivočejším lezeckým zážitkům, které jsem absolvoval. Náš prvovýstup Robinson Crusoe na Cima Grande v Dolomitech patří k psychicky nejnáročnějším cestám v oblasti.",
+      "Nejlepší lezec v ledu, kterého jsem kdy potkal. Deset dní společného lezení ve stěně Piku 4810 v Kyrgyzstánu patří k nejdivočejším lezeckým zážitkům, které jsem absolvoval. Náš prvovýstup Robinson Crusoe na Cima Grande v Dolomitech patří k psychicky nejnáročnějším cestám v oblasti.",
   },
   {
     imageTitle: "dzony",

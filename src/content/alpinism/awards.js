@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import {
   H4,
-  Red,
+  Grey,
   Date,
   Section,
   Project,
@@ -263,18 +263,18 @@ export const Cz = () => {
         <Section>
           <H4>Horolezec roku</H4>
           <Project>
-            <Date>2015</Date> <Red>3. místo</Red> Jan Zbranek a Dušan Janák
+            <Date>2015</Date> <Grey>3. místo</Grey> Jan Zbranek a Dušan Janák
             <br />
             (za volné přelezení cesty Bellavista, Cima Ovest di Lavaredo (8c))
           </Project>
           <Project>
-            <Date>2011</Date> <Red>2. místo</Red> Dušan Janák
+            <Date>2011</Date> <Grey>2. místo</Grey> Dušan Janák
             <br />
             (za Tatranský double na Ganek ve Vysokých Tatrách s Pavlem Vrtíkem a
             přelez Erectissimy v Dolommitech s Miro Peťom)
           </Project>
           <Project>
-            <Date>2010</Date> <Red>3. místo</Red> Dušan Janák a Pavel Vrtík
+            <Date>2010</Date> <Grey>3. místo</Grey> Dušan Janák a Pavel Vrtík
             <br />
             (za přelez cesty Vol de Nuit – Francie, oblast Mont Blanc, Mont
             Blanc du Tacul (4248 m n.m.)
@@ -283,13 +283,13 @@ export const Cz = () => {
           <H4>Závody</H4>
           <Project>
             <Date>2006</Date> <br />
-            <Red>3. místo</Red> Mistrovství České republiky v ledovém lezení{" "}
+            <Grey>3. místo</Grey> Mistrovství České republiky v ledovém lezení{" "}
             <br />
-            <Red>12. místo</Red> Ice World Cup v Tanvaldu
+            <Grey>12. místo</Grey> Ice World Cup v Tanvaldu
           </Project>
           <Project>
             <Date>2005</Date> <br />
-            <Red>1. místo</Red> Mistrovství České republiky v ledovém lezení
+            <Grey>1. místo</Grey> Mistrovství České republiky v ledovém lezení
           </Project>
         </Section>
       </Main>
@@ -534,18 +534,18 @@ export const En = () => {
         <Section>
           <H4>Horolezec roku</H4>
           <Project>
-            <Date>2015</Date> <Red>3. místo</Red> Jan Zbranek a Dušan Janák
+            <Date>2015</Date> <Grey>3. místo</Grey> Jan Zbranek a Dušan Janák
             <br />
             (za volné přelezení cesty Bellavista, Cima Ovest di Lavaredo (8c))
           </Project>
           <Project>
-            <Date>2011</Date> <Red>2. místo</Red> Dušan Janák
+            <Date>2011</Date> <Grey>2. místo</Grey> Dušan Janák
             <br />
             (za Tatranský double na Ganek ve Vysokých Tatrách s Pavlem Vrtíkem a
             přelez Erectissimy v Dolommitech s Miro Peťom)
           </Project>
           <Project>
-            <Date>2010</Date> <Red>3. místo</Red> Dušan Janák a Pavel Vrtík
+            <Date>2010</Date> <Grey>3. místo</Grey> Dušan Janák a Pavel Vrtík
             <br />
             (za přelez cesty Vol de Nuit – Francie, oblast Mont Blanc, Mont
             Blanc du Tacul (4248 m n.m.)
@@ -554,13 +554,13 @@ export const En = () => {
           <H4>Závody</H4>
           <Project>
             <Date>2006</Date> <br />
-            <Red>3. místo</Red> Mistrovství České republiky v ledovém lezení{" "}
+            <Grey>3. místo</Grey> Mistrovství České republiky v ledovém lezení{" "}
             <br />
-            <Red>12. místo</Red> Ice World Cup v Tanvaldu
+            <Grey>12. místo</Grey> Ice World Cup v Tanvaldu
           </Project>
           <Project>
             <Date>2005</Date> <br />
-            <Red>1. místo</Red> Mistrovství České republiky v ledovém lezení
+            <Grey>1. místo</Grey> Mistrovství České republiky v ledovém lezení
           </Project>
         </Section>
       </Main>

@@ -67,19 +67,24 @@ const Content = styled.div`
   }
   @media (min-width: 756px) {
     margin-top: 2rem;
+    padding: 0 30px;
+  }
+
+  @media (min-width: 1200px) {
+    align-items: flex-start;
   }
 
   @media (min-width: 1600px) {
+    align-items: center;
     > div {
       font-size: calc(17px + 0.2vw);
-      max-width: 40vw;
+      max-width: 1000px;
     }
   }
 
   @media (min-width: 2000px) {
     > div {
       font-size: calc(18px + 0.2vw);
-      max-width: 40vw;
     }
   }
 `;
