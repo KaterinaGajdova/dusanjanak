@@ -1,16 +1,22 @@
 import React from "react";
-import { Link } from "gatsby";
-import styled from "styled-components";
-import Layout from "../layouts";
-import { Cz } from "../content/science/publications";
+import { Cz, En } from "../content/science/publications";
 import SEO from "../components/seo";
+import { Consumer } from "../layouts/Context";
+import { Content } from "../components/atoms";
 
-const IndexPage = (props) => {
+const IndexPage = () => {
   return (
-    <>
-      <SEO title="Science" />
-      <Cz />
-    </>
+    <Consumer>
+      {({ int }) => {
+        const content = int === "en" ? <En /> : <Cz />;
+        return (
+          <>
+            <SEO title="Science" />
+            <Content>{content}</Content>
+          </>
+        );
+      }}
+    </Consumer>
   );
 };
 

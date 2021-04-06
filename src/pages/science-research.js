@@ -7,8 +7,14 @@ import {
   HistorySociologyCz,
   AppliedResearchCz,
   CommunicationCz,
+  IntroductionEn,
+  researchTopicsEn,
+  HistorySociologyEn,
+  AppliedResearchEn,
+  CommunicationEn,
 } from "../content/science/research";
 import SEO from "../components/seo";
+import { Consumer } from "../layouts/Context";
 
 const topicsCz = {
   historySociology: <HistorySociologyCz />,
@@ -16,39 +22,55 @@ const topicsCz = {
   communication: <CommunicationCz />,
 };
 
+const topicsEn = {
+  historySociology: <HistorySociologyEn />,
+  appliedResearch: <AppliedResearchEn />,
+  communication: <CommunicationEn />,
+};
+
 const IndexPage = (props) => {
   const [active, setActive] = useState("historySociology");
   return (
-    <>
-      <SEO title="Science" />
-      <Content>
-        <IntroductionCz />
+    <Consumer>
+      {({ int }) => {
+        const topics = int === "en" ? topicsEn : topicsCz;
+        const researchTopics =
+          int === "en" ? researchTopicsEn : researchTopicsCz;
+        const intro = int === "en" ? <IntroductionEn /> : <IntroductionCz />;
+        return (
+          <>
+            <SEO title="Science" />
+            <Content>
+              {intro}
 
-        <Research>
-          <Grid>
-            <GridItem
-              onClick={() => setActive("historySociology")}
-              active={active === "historySociology"}
-            >
-              {researchTopicsCz.historySociology}
-            </GridItem>
-            <GridItem
-              onClick={() => setActive("appliedResearch")}
-              active={active === "appliedResearch"}
-            >
-              {researchTopicsCz.appliedResearch}
-            </GridItem>
-            <GridItem
-              onClick={() => setActive("communication")}
-              active={active === "communication"}
-            >
-              {researchTopicsCz.communication}
-            </GridItem>
-          </Grid>
-          <ContentTopic>{topicsCz[active]}</ContentTopic>
-        </Research>
-      </Content>
-    </>
+              <Research>
+                <Grid>
+                  <GridItem
+                    onClick={() => setActive("historySociology")}
+                    active={active === "historySociology"}
+                  >
+                    {researchTopics.historySociology}
+                  </GridItem>
+                  <GridItem
+                    onClick={() => setActive("appliedResearch")}
+                    active={active === "appliedResearch"}
+                  >
+                    {researchTopics.appliedResearch}
+                  </GridItem>
+                  <GridItem
+                    onClick={() => setActive("communication")}
+                    active={active === "communication"}
+                  >
+                    {researchTopics.communication}
+                  </GridItem>
+                </Grid>
+                <ContentTopic>{topics[active]}</ContentTopic>
+              </Research>
+            </Content>
+          </>
+        );
+      }}
+    </Consumer>
   );
 };
 

@@ -1,5 +1,12 @@
 import React from "react";
-import { Cz, img1cz, img2cz } from "../content/science/lectures";
+import {
+  Cz,
+  En,
+  img1cz,
+  img2cz,
+  img1en,
+  img2en,
+} from "../content/science/lectures";
 import SEO from "../components/seo";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
@@ -10,9 +17,9 @@ const IndexPage = () => {
   return (
     <Consumer>
       {({ int }) => {
-        const content = int === "en" ? <Cz /> : <Cz />;
-        const img1Title = int === "en" ? img1cz : img1cz;
-        const img2Title = int === "en" ? img2cz : img2cz;
+        const content = int === "en" ? <En /> : <Cz />;
+        const img1Title = int === "en" ? img1en : img1cz;
+        const img2Title = int === "en" ? img2en : img2cz;
         return (
           <>
             <SEO title="Science" />

@@ -5,6 +5,7 @@ import { Consumer } from "../layouts/Context";
 import { H4 } from "../components/atoms";
 import logo from "../images/radio-wave.png";
 const IndexPage = (props) => {
+  //TODO: english!
   return (
     <Consumer>
       {({ int }) => (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Cz } from "../content/alpinism/lectures";
+import { Cz, En } from "../content/alpinism/lectures";
 import SEO from "../components/seo";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <Consumer>
       {({ int }) => {
-        const content = int === "en" ? <Cz /> : <Cz />;
+        const content = int === "en" ? <En /> : <Cz />;
 
         return (
           <>
