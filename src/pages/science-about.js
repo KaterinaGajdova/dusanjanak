@@ -72,9 +72,11 @@ const Content = styled.div`
   margin-top: 2rem;
 
   > div {
+    text-align: justify;
     font-size: 18px;
-    max-width: 700px;
+    max-width: 500px;
   }
+
   @media (min-width: 756px) {
     margin-top: 2rem;
   }
@@ -83,6 +85,7 @@ const Content = styled.div`
     margin-top: 0;
     > div {
       padding: 0 2rem;
+      max-width: 700px;
     }
   }
   @media (min-width: 1600px) {

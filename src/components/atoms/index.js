@@ -56,6 +56,7 @@ export const Content = styled.div`
   margin: 0 auto;
   padding: 0 5% 20px;
   line-height: 1.5;
+  text-align: justify;
   @media (min-width: 756px) {
     padding: 50px 3%;
   }

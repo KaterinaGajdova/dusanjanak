@@ -16,6 +16,9 @@ export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
     font-size: 16px;
+    @media (min-width: 1600px) {
+      font-size: 18px;
+    }
   }
 
   body {
@@ -297,22 +300,23 @@ const HeaderWrapper = styled.header`
 
   @media (min-width: 960px) {
     flex-direction: row;
-    padding: 20px 0;
-    max-width: 960px;
-    margin: auto;
-    padding-left: 100px;
+    padding: 30px 0 20px;
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 `;
 
 const StyledLink = styled((props) => <Link {...props} />)`
   outline: none;
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 0.35rem;
   text-decoration: none;
   text-align: center;
   align-items: center;
   display: flex;
   color: ${(props) => props.theme.white};
-  font-size: 18px;
+  font-size: 16px;
   transition: color 1s ease;
   position: relative;
   font-variant: small-caps;
@@ -365,17 +369,24 @@ const StyledLink = styled((props) => <Link {...props} />)`
   }
 
   @media (min-width: 960px) {
-    padding: 0.5rem 1rem;
     line-height: 1;
+    font-size: 14px;
     &:first-of-type {
       margin-right: 2rem;
     }
   }
 
   @media (min-width: 1200px) {
+    padding: 0.3rem 0.7rem;
+    font-size: 16px;
     &:first-of-type {
       margin-right: 3rem;
     }
+  }
+
+  @media (min-width: 1600px) {
+    padding: 0.3rem 1rem;
+    font-size: 18px;
   }
 `;
 

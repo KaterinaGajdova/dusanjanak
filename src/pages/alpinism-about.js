@@ -21,8 +21,14 @@ const IndexPage = (props) => {
                 imgStyle={{
                   objectFit: "contain",
                   minWidth: 280,
+                  maxWidth: "40vw",
                 }}
-                style={{ minWidth: 280 }}
+                style={{
+                  maxHeight: "80vh",
+                  maxWidth: "40vw",
+                  minWidth: 280,
+                  marginLeft: 20,
+                }}
                 alt="About me"
                 placeholder="blurred"
               />
@@ -41,13 +47,19 @@ const IndexPage = (props) => {
 export default IndexPage;
 
 const AboutMe = styled.div`
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 1rem;
   max-height: 80vh;
   height: 80vh;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
   @media (min-width: 1200px) {
     margin-top: 3rem;
-    grid-template-columns: 1fr 1fr;
   }
 `;
 
@@ -63,7 +75,8 @@ const Content = styled.div`
 
   > div {
     font-size: 18px;
-    max-width: 700px;
+    max-width: 500px;
+    text-align: justify;
   }
   @media (min-width: 756px) {
     margin-top: 2rem;
@@ -71,14 +84,14 @@ const Content = styled.div`
   }
 
   @media (min-width: 1200px) {
-    align-items: flex-start;
+    > div {
+      max-width: 700px;
+    }
   }
 
   @media (min-width: 1600px) {
-    align-items: center;
     > div {
       font-size: calc(17px + 0.2vw);
-      max-width: 1000px;
     }
   }
 
