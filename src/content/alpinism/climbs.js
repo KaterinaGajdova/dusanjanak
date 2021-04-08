@@ -2,7 +2,7 @@ import React from "react";
 import { Date, Name, IMGGrid } from "../../components/atoms";
 import { StaticImage } from "gatsby-plugin-image";
 import styled from "styled-components";
-import { Link } from "gatsby";
+import { GatsbyLink } from "../../components/atoms";
 
 export const Cz = () => {
   return (
@@ -23,12 +23,7 @@ export const Cz = () => {
         ale vylezená po úraze s parťákem Bačou bude v mém osobním katalogu
         výstupů na emoční stupnici hodně vysoko. (spolulezec: Bača)
         <br />
-        <Link
-          to="/alpinism-eiger-pdf"
-          style={{ color: "white", textDecoration: "none", fontWeight: 600 }}
-        >
-          článek „Eiger 80letý“
-        </Link>
+        <GatsbyLink to="/alpinism-eiger-pdf">článek „Eiger 80letý“</GatsbyLink>
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -540,6 +535,8 @@ export const En = () => {
         Legendární cesta z roku 1938 není z hlediska výkonnosti žádný extrém,
         ale vylezená po úraze s parťákem Bačou bude v mém osobním katalogu
         výstupů na emoční stupnici hodně vysoko. (spolulezec: Bača)
+        <br />
+        <GatsbyLink to="/alpinism-eiger-pdf">článek „Eiger 80letý“</GatsbyLink>
       </Climb>
       <IMGGrid>
         <StaticImage
