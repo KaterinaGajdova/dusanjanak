@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import { navigate } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { IMGGrid, ALink } from "./atoms";
+import { ALink } from "./atoms";
 
-const Cooperator = ({ cooperatorData, img, otherImgs, active, setActive }) => {
-  const handleClick = (name) => {
-    active === name ? setActive(null) : setActive(name);
-  };
+const Cooperator = ({ cooperatorData, img }) => {
   return (
     <DetailContainer>
-      <Container onClick={() => handleClick(cooperatorData.imageTitle)}>
+      <Container
+        onClick={() => navigate(`/science-${cooperatorData.imageTitle}`)}
+      >
         <ImgContainer>
           {img && (
             <GatsbyImage
@@ -32,29 +32,6 @@ const Cooperator = ({ cooperatorData, img, otherImgs, active, setActive }) => {
           )}
         </Text>
       </Container>
-      {active === cooperatorData.imageTitle && (
-        <>
-          {cooperatorData.detail}
-          <IMGGrid>
-            {!!otherImgs.length &&
-              otherImgs.map((item) => {
-                console.log(item);
-                return (
-                  <GatsbyImage
-                    key={img.gatsbyImageData?.images.fallback.src}
-                    image={item.gatsbyImageData}
-                    alt={cooperatorData.name}
-                    style={{ maxHeight: 300 }}
-                    height={300}
-                    imgStyle={{
-                      objectFit: "contain",
-                    }}
-                  />
-                );
-              })}
-          </IMGGrid>
-        </>
-      )}
     </DetailContainer>
   );
 };

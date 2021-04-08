@@ -15,7 +15,7 @@ export const cooperatorsCz = [
     description:
       "Nepřehlédnutelná postava české fotografie, renomovaný fotograf s desítkami publikací i výstavami po celém světě.",
     website: "https://cs.wikipedia.org/wiki/Jindřich_Štreit",
-    detail: (
+    detail1: (
       <>
         <p>
           Spolupráce s Jindřichem Štreitem patří k nejzajímavějším spoluprací
@@ -35,6 +35,10 @@ export const cooperatorsCz = [
           katalogy k nim [Štreit, Pavelčíková, Janák 2015, Kolář, Janák 2019;
           Hlavienka, Kolář, Janák 2020]).{" "}
         </p>
+      </>
+    ),
+    detail2: (
+      <>
         <p>
           Na základě těchto zkušeností jsme se pustili i do zajímavého projektu
           "Romové obrazem", který je pokusem z aplikovaného výzkumu přejít na
@@ -145,7 +149,7 @@ export const cooperatorsEn = [
     description:
       "Nepřehlédnutelná postava české fotografie, renomovaný fotograf s desítkami publikací i výstavami po celém světě.",
     website: "https://cs.wikipedia.org/wiki/Jindřich_Štreit",
-    detail: (
+    detail1: (
       <>
         <p>
           Spolupráce s Jindřichem Štreitem patří k nejzajímavějším spoluprací
@@ -165,6 +169,10 @@ export const cooperatorsEn = [
           katalogy k nim [Štreit, Pavelčíková, Janák 2015, Kolář, Janák 2019;
           Hlavienka, Kolář, Janák 2020]).{" "}
         </p>
+      </>
+    ),
+    detail2: (
+      <>
         <p>
           Na základě těchto zkušeností jsme se pustili i do zajímavého projektu
           "Romové obrazem", který je pokusem z aplikovaného výzkumu přejít na

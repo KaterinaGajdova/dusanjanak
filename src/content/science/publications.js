@@ -1,12 +1,10 @@
 import React from "react";
 import {
   H4,
-  Red,
-  Date,
   Content,
   Section,
   Project,
-  Name,
+  ALinkStyled,
   ALink,
 } from "../../components/atoms";
 
@@ -81,16 +79,52 @@ export const Cz = () => {
           <i>
             Romové obrazem. Příspěvek ke zkoumání sociálních reprezentací Romů
             v české společnosti.
-          </i>
+          </i>{" "}
           Opava: Slezská univerzita. 138 s., ISBN: 978-80-7510-266-9
+          <br />K stáhnutí{" "}
+          <ALinkStyled
+            href="/romove_obrazem.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
         </Project>
+        <Project>
+          Janák, D., M. Stanoev a kolektiv. 2015.
+          <i>
+            Rozšířit řečiště hlavního vzdělávacího proudu. Sociální inkluze žáků
+            a transformace vzdělávacího systému v Krnově a v Sokolově.
+          </i>{" "}
+          foto: J. Štreit. Opava: Slezská univerzita. 978-80-7510-157-0.
+          <br />K stáhnutí{" "}
+          <ALinkStyled
+            href="/rozsirit_reciste.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
+        </Project>
+
         <Project>
           Janák, D. – M. Pilát – J. Bezděk 2014.
           <i>
             Rozdělování sociálních nerovností pod patronací státu. Situační
             analýza Osoblažska a možností jeho socioekonomického rozvoje.
-          </i>
+          </i>{" "}
           (foto: J. Štreit) Opava: Slezská univerzita. ISBN: 978-80-7248-947-3.
+          <br />K stáhnutí{" "}
+          <ALinkStyled
+            href="/soc_nerovnosti.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
         </Project>
 
         <Project>
@@ -795,16 +829,52 @@ export const En = () => {
           <i>
             Romové obrazem. Příspěvek ke zkoumání sociálních reprezentací Romů
             v české společnosti.
-          </i>
+          </i>{" "}
           Opava: Slezská univerzita. 138 s., ISBN: 978-80-7510-266-9
+          <br />K stáhnutí{" "}
+          <ALinkStyled
+            href="/romove_obrazem.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
         </Project>
+        <Project>
+          Janák, D., M. Stanoev a kolektiv. 2015.
+          <i>
+            Rozšířit řečiště hlavního vzdělávacího proudu. Sociální inkluze žáků
+            a transformace vzdělávacího systému v Krnově a v Sokolově.
+          </i>{" "}
+          foto: J. Štreit. Opava: Slezská univerzita. 978-80-7510-157-0.
+          <br />K stáhnutí{" "}
+          <ALinkStyled
+            href="/rozsirit_reciste.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
+        </Project>
+
         <Project>
           Janák, D. – M. Pilát – J. Bezděk 2014.
           <i>
             Rozdělování sociálních nerovností pod patronací státu. Situační
             analýza Osoblažska a možností jeho socioekonomického rozvoje.
-          </i>
+          </i>{" "}
           (foto: J. Štreit) Opava: Slezská univerzita. ISBN: 978-80-7248-947-3.
+          <br />K stáhnutí{" "}
+          <ALinkStyled
+            href="/soc_nerovnosti.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
         </Project>
 
         <Project>

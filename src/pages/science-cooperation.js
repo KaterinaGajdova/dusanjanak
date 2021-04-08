@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { graphql } from "gatsby";
 import { cooperatorsEn, cooperatorsCz } from "../content/science/cooperation";
 import SEO from "../components/seo";
@@ -8,18 +8,17 @@ import Cooperator from "../components/Cooperator";
 
 const IndexPage = ({ data }) => {
   const images = data.allImageSharp.nodes;
-  const [active, setActive] = useState(null);
+
   return (
     <Consumer>
       {({ int }) => {
         const cooperatorsData = int === "en" ? cooperatorsEn : cooperatorsCz;
+
         return (
           <Content>
             <SEO title="Science" />
             {cooperatorsData.map((item) => (
               <Cooperator
-                active={active}
-                setActive={setActive}
                 cooperatorData={item}
                 img={
                   images.find((img) =>
@@ -28,13 +27,6 @@ const IndexPage = ({ data }) => {
                     )
                   )?.gatsbyImageData
                 }
-                otherImgs={images.filter((img) => {
-                  const { src } = img.gatsbyImageData.images.fallback;
-                  return (
-                    src.includes(item.imageTitle) &&
-                    !src.includes(`${item.imageTitle}_1`)
-                  );
-                })}
               />
             ))}
           </Content>
