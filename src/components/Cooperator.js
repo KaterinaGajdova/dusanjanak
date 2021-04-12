@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { navigate } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { ALink } from "./atoms";
 
 const Cooperator = ({ cooperatorData, img }) => {
   return (
@@ -25,11 +24,6 @@ const Cooperator = ({ cooperatorData, img }) => {
         <Text>
           <h4> {cooperatorData.name}</h4>
           <div> {cooperatorData.description}</div>
-          {cooperatorData.website && (
-            <ALink href={cooperatorData.website}>
-              {cooperatorData.website}
-            </ALink>
-          )}
         </Text>
       </Container>
     </DetailContainer>
@@ -44,6 +38,13 @@ const Container = styled.div`
   margin-top: 5px;
   align-items: center;
 
+  &:hover {
+    img {
+      transition: transform 0.5s;
+      transform: scale(1.1);
+    }
+  }
+
   @media (min-width: 576px) {
     flex-direction: row;
   }
@@ -52,6 +53,7 @@ const Container = styled.div`
 const ImgContainer = styled.div`
   text-align: right;
   margin-top: 30px;
+
   @media (min-width: 576px) {
     margin-top: 0;
     width: 50%;

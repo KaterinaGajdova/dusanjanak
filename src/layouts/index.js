@@ -3,7 +3,12 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import { IntProvider, Consumer } from "./Context";
 import { cz, en } from "../content/general";
-import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
+import styled, {
+  ThemeProvider,
+  createGlobalStyle,
+  keyframes,
+} from "styled-components";
+import { StaticImage } from "gatsby-plugin-image";
 
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"');
@@ -67,18 +72,7 @@ const Layout = ({ children, location }) => {
     lightGrey: " #b8b8b8",
     red: "#f0002f",
     fontHeading: "Open Sans Condensed",
-    /* 
-    main: "#7eb51b",
-    terciary: "#EB5723", //"#dfc524",
-    secondary: "#597723",
-    black: "rgb(53, 53, 53)",
-    grey: "rgb(53, 53, 53, 0.7)",
-    extraSmallDevice: "360px",
-    smallDevice: "480px",
-    mediumDevice: "900px",
-    largeDevice: "1024px",
-    extraLargeDevice: "1600px",
-    paragraphWidth: "1024px", */
+    background: "#33302b",
   };
 
   const FlagEN = () => (
@@ -110,7 +104,7 @@ const Layout = ({ children, location }) => {
   const pathName = location?.pathname;
   const isAlpinism = pathName?.includes("alpinism");
   const isScience = pathName?.includes("science");
-
+  const myRef = React.useRef(null);
   return (
     <IntProvider>
       <ThemeProvider theme={mainTheme}>
@@ -127,8 +121,8 @@ const Layout = ({ children, location }) => {
             <LanguageSwitcher>
               <FlagCZ /> <FlagEN />
             </LanguageSwitcher>
-            {/* <Heading>DUŠAN JANÁK</Heading> */}
-            <HeaderWrapper>
+
+            <HeaderWrapper ref={myRef}>
               <Consumer>
                 {({ int }) => {
                   const content = int === "en" ? en : cz;
@@ -274,6 +268,20 @@ const Layout = ({ children, location }) => {
               </Consumer>
             </HeaderWrapper>
             <Content>{children}</Content>
+            <Up
+              onClick={() =>
+                myRef.current.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+            >
+              <StaticImage
+                src="../images/arrow-up.png"
+                alt="arrow-up"
+                style={{ maxHeight: 50 }}
+                height={50}
+              />
+            </Up>
           </>
         )}
       </ThemeProvider>
@@ -407,4 +415,31 @@ const Lang = styled.div`
   height: max-content;
   font-size: ${(props) => (props.active ? "1.15rem" : "1rem")};
   color: ${(props) => props.active && props.theme.white};
+`;
+
+const upjump = keyframes`
+        0%   { transform: scale(1,1)    translateY(0); }
+        30%  { transform: scale(1,1)    translateY(-7px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        77%  { transform: scale(1,1)    translateY(-5px); }
+        100% { transform: scale(1,1)    translateY(0); }
+`;
+
+const Up = styled.div`
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 3;
+  padding: 20px;
+
+  img {
+    opacity: 0.7;
+  }
+  &:hover {
+    animation: ${upjump} 1s linear forwards;
+    img {
+      opacity: 1;
+    }
+  }
 `;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Video = ({ videoSrcURL, videoTitle, ...props }) => (
+const YoutubeVideo = ({ videoSrcURL, videoTitle, ...props }) => (
   <VideoContainer>
     <iframe
       src={videoSrcURL}
@@ -14,7 +14,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
     />
   </VideoContainer>
 );
-export default Video;
+export default YoutubeVideo;
 
 export const VideoContainer = styled.div`
   margin: 30px auto;

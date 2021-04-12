@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Video from "../components/Video";
+import YoutubeVideo from "../components/YoutubeVideo";
 import { Consumer } from "../layouts/Context";
 import { H4 } from "../components/atoms";
 import logo from "../images/radio-wave.png";
@@ -13,30 +13,17 @@ const IndexPage = (props) => {
           <Grid>
             <Comment>
               <div>
-                <H4>Prezentace Stoupa (2009)</H4>
-                Dobový lezecký portrét od Petra Pavlíčka z doby, kdy jsem měl v
-                lezení "tah na branku" a tak trochu váhal mezi lezením a vědou.
-                Nakonec jsem zůstal u obojího.
+                <H4>Padám vzhůru, Klenba Macochy (2019)</H4>
+                Momentka ze života horolezce.
               </div>
             </Comment>
-            <Video
-              videoSrcURL="https://player.vimeo.com/video/4500851"
-              videoTitle="Prezentace Stoupa"
+            <YoutubeVideo
+              videoSrcURL="https://www.youtube.com/embed/FYsyRBHnA0U"
+              videoTitle="Padám vzhůru, Klenba Macochy"
             />
           </Grid>
+
           <Grid reverse>
-            <Comment>
-              <div>
-                <H4> Bílá růže (2011)</H4>
-                Krátký film o legendární spárové cestě v Adršpachu.
-              </div>
-            </Comment>
-            <Video
-              videoSrcURL="https://www.youtube.com/embed/dm8aRjXfg1Q"
-              videoTitle="Bílá růže"
-            />
-          </Grid>
-          <Grid>
             <Comment>
               <div>
                 <H4>Sandstone (2012)</H4>
@@ -46,30 +33,32 @@ const IndexPage = (props) => {
               </div>
             </Comment>
             {int === "en" ? (
-              <Video
+              <YoutubeVideo
                 videoSrcURL="https://player.vimeo.com/video/105125679"
                 videoTitle="Sandstone"
               />
             ) : (
-              <Video
+              <YoutubeVideo
                 videoSrcURL="https://player.vimeo.com/video/105630516"
                 videoTitle="Sandstone"
               />
             )}
           </Grid>
-          <Grid reverse>
+
+          <Grid>
             <Comment>
               <div>
-                <H4>Padám vzhůru, Klenba Macochy (2019)</H4>
-                Momentka ze života horolezce.
+                <H4> Bílá růže (2011)</H4>
+                Krátký film o legendární spárové cestě v Adršpachu.
               </div>
             </Comment>
-            <Video
-              videoSrcURL="https://www.youtube.com/embed/FYsyRBHnA0U"
-              videoTitle="Padám vzhůru, Klenba Macochy"
+            <YoutubeVideo
+              videoSrcURL="https://www.youtube.com/embed/dm8aRjXfg1Q"
+              videoTitle="Bílá růže"
             />
           </Grid>
-          <Grid>
+
+          <Grid reverse>
             <Comment>
               <div>
                 <H4>Matrix (2008)</H4>
@@ -77,9 +66,24 @@ const IndexPage = (props) => {
                 napěchovaný ostrou muzikou a spoustou piva.
               </div>
             </Comment>
-            <Video
+            <YoutubeVideo
               videoSrcURL="https://www.youtube.com/embed/ciYJs5dGWP0"
               videoTitle="Matrix"
+            />
+          </Grid>
+
+          <Grid>
+            <Comment>
+              <div>
+                <H4>Prezentace Stoupa (2009)</H4>
+                Dobový lezecký portrét od Petra Pavlíčka z doby, kdy jsem měl v
+                lezení "tah na branku" a tak trochu váhal mezi lezením a vědou.
+                Nakonec jsem zůstal u obojího.
+              </div>
+            </Comment>
+            <YoutubeVideo
+              videoSrcURL="https://player.vimeo.com/video/4500851"
+              videoTitle="Prezentace Stoupa"
             />
           </Grid>
           <Grid reverse>
@@ -89,7 +93,7 @@ const IndexPage = (props) => {
                 Rozhovor o lezení.
               </div>
             </Comment>
-            <Video
+            <YoutubeVideo
               videoSrcURL="https://www.youtube.com/embed/Opjrs61nwqk"
               videoTitle="Matrix"
             />
