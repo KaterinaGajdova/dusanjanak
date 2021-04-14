@@ -21,7 +21,6 @@ const PhotoGallery = () => {
           <GalleryWrapper>
             <Gallery images={images} />
           </GalleryWrapper>
-          IN PROGRESS
         </Content>
       )}
     </Consumer>
