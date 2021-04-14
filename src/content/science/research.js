@@ -60,8 +60,8 @@ export const HistorySociologyCz = () => {
       </p>
       <p>
         Vybírám některé práce, které v této oblasti považuji za nejzajímavější,
-        se stručným popisem, úplný seznam publikací a přehled projektů viz CV a
-        publikační činnost:
+        se stručným popisem (plný seznam publikací a přehled projektů viz CV a
+        publikační činnost):
       </p>
 
       <Project>
@@ -149,7 +149,7 @@ export const HistorySociologyCz = () => {
         <p>
           <b>
             * Návrh typologie sociologické teorie, ze které jsem měl docela
-            radost a její aplikace na kalsickou českou sociologii. Text jsem
+            radost a její aplikace na klasickou českou sociologii. Text jsem
             věnoval památce prof. Petruska, který se sociologické teorii v
             kontextu sociologických dějin věnoval v podstatě celoživotně a
             nezamýšleně ovlivnil i mé setrvání ve vědecké a nejen horolezecké

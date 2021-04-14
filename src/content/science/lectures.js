@@ -6,7 +6,7 @@ export const Cz = () => {
     <>
       <div>
         <div>
-          Přednáškovou činnost lze rozdělit oblast výuky a oblast výzkumu.
+          Přednáškovou činnost lze rozdělit na oblast výuky a oblast výzkumu.
         </div>
         <p>
           I ve <b>výuce</b> nejraději mluvím o výzkumech a proto rád přednáším o

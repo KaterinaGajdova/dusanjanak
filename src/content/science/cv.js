@@ -20,7 +20,7 @@ export const Cz = () => {
             Fakulty veřejných politik Slezské univerzity v Opavě
           </li>
           <li>
-            <Date> 2009 – 2013</Date>: Odborný asistent Ústavu středoevropských
+            <Date> 2009 – 2013</Date>: odborný asistent Ústavu středoevropských
             studií Fakulty veřejných politik Slezské univerzity v Opavě
           </li>
         </ul>
