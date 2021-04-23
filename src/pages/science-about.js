@@ -26,7 +26,10 @@ const IndexPage = (props) => {
 
               return (
                 <>
-                  <SEO title="Science" />
+                  <SEO
+                    title="Science"
+                    description="Mé výzkumné aktivity lze rozdělit do třech oblastí. Své odborné působení v oboru sociologie jsem začal výzkumy v oblasti dějin sociologie spojené s obecnou sociologickou teorií"
+                  />
 
                   <AboutMe>
                     <GatsbyImage

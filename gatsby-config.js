@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: "Dusan Janak",
+    title: "Dušan Janák",
+    description: "Dušan Janák - sociolog, lezec, alpinista",
+    siteUrl: "https://dusanjanak.cz/",
   },
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-layout",
     {
       resolve: "gatsby-plugin-manifest",
@@ -30,6 +33,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
       __key: "images",
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://dusanjanak.cz",
+        sitemap: "https://dusanjanak.cz/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
     },
   ],
 };
