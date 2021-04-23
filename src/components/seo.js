@@ -37,6 +37,10 @@ function SEO({ description, lang, meta, title }) {
       }
       meta={[
         {
+          name: "google-site-verification",
+          content: "Osc77vQ3IzlHCNXdiApz7KsK-pCpJIELGiYCQ9W1mgk",
+        },
+        {
           name: `description`,
           content: metaDescription,
         },
