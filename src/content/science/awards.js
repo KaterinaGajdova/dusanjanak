@@ -80,18 +80,14 @@ export const En = () => {
   return (
     <>
       <div>
-        Stejně jako v horolezectví, nejsou ani ve vědě oficiální ocenění cílem a
-        asi ani prostředkem k vědeckému růstu. Za tu námahu by to (alespoň mně)
-        nestálo. Ale potěší a někdy potvrdí, že jdeme správnou cestou.
+        As in mountaineering, also in science it is not official awards that drive one forward, in my view, either as a goal in itself or, likely, even a means towards scientific growth. It wouldn't be worth the effort (at least for me). But of course it is gratifying to get one and sometimes they confirm we are on the right track.
       </div>
 
       <Section>
         <H4>
-          Nominace na Cenu České sociologické společnosti za mimořádný
-          publikační počin v oboru sociologie (2020)
+        A nomination for the Prize of the Czech Sociological Society for an excellent publication in the field of sociology (2020)
         </H4>
-        Cena je vyhlašována jednou za dva roky, v tomto případě za léta 2018 a
-        2019. Místo mojí nominované publikace{" "}
+        The award is announced every two years, in this case for the years 2018 and 2019. Though nominated, my publication {" "}
         <u>
           Janák, D. 2018.{" "}
           <i>
@@ -99,11 +95,9 @@ export const En = () => {
           </i>{" "}
           Praha: Sociologické nakladatelství. ISBN 978-80-7419-278-4.
         </u>{" "}
-        zvítězila po zásluze kniha Martina Ďurďoviče Ďurďovič, M. 2019.
-        <i> Vyprávění a rozhovor: Teorie sociální intersubjektivity.</i> Pro mne
-        je potěšující, že nezávisle na sobě jsme se s kolegou Ďurďovičem setkali
-        nad tématem dialogické (inter)subjektivity a uvidíme, jestli se z toho
-        tematického protnutí v budoucnu vyvine i konkrétnější spolupráce.
+        “lost” to Martin Ďurďovič's book Ďurďovič, M. 2019. 
+        <i> Narrative and Interview: Theory of Social Intersubjectivity which deservedly won. </i> 
+        It is gratifying for me that, independently of each other, my colleague Ďurďovič and I met on the topic of dialogic (inter) subjectivity and the future will show if more specific cooperation will develop from this thematic intersection.
       </Section>
 
       <Section>
