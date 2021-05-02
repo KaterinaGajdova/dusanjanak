@@ -12,7 +12,7 @@ export const en = {
   general:
     "Without the long-term sponsorship of companies producing climbing equipment and the Czech Mountaineering Association, I would undoubtedly also devote myself to climbing, but certainly not to the extent and in the way I had, and in fact still have and  I'm lucky enough to realize it.Although written contracts are concluded in mountaineering, gentleman agreement and friendships still have priority. I have been cooperating with three Czech manufacturers for a long time:",
   singingrock:
-    "Singing Rock - The largest Czech manufacturer of climbing equipment. Their motto „Climbers for climbers„ is not just an advertising gimmick, but a statement of reality.",
+    "The largest Czech manufacturer of climbing equipment. Their motto „Climbers for climbers„ is not just an advertising gimmick, but a statement of reality.",
   tilak: "Czech manufacturer of top quality goretex clothing.",
   triop: "Manufacturer of specialized climbing shoes from the Zlín region.",
   chs:

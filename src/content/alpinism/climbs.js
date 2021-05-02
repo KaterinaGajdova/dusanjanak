@@ -777,10 +777,8 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2011: </Date>
-        <Name>
-          The first free and at the same time first winter climb of an important
+        <Name>CENTRÁLNÍ KOUT NA GALERII GANKU</Name>The first free and at the same time first winter climb of an important
           road in an important Tatra wall. (co-climber: Bača)
-        </Name>
       </Climb>
       <IMGGrid>
         <StaticImage

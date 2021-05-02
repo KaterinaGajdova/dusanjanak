@@ -426,57 +426,58 @@ export const En = () => {
   return (
     <>
       <Section>
-        <H4>Identifikace osoby:</H4>
+        <H4>PERSONAL INFORMATION:</H4>
         <div>
-          <Grey big>doc. PhDr. Dušan Janák, Ph.D.</Grey>, narozen v r. 1979
-          v Ostravě
+          <Grey big>doc. PhDr. Dušan Janák, Ph.D.</Grey>, Year of birth: 1979 
+          in Ostrava
         </div>
       </Section>
       <Section>
-        <H4>Pracovní zařazení:</H4>
+        <H4>working position:</H4>
         <ul>
           <li>
-            <Date>2018 – dosud</Date>: docent Fakulty veřejných politik Slezské
-            univerzity v Opavě
+            <Date>2018 – present</Date>: Doc. (habilitation) in sociology, Faculty of Arts, Palacký University, Olomouc, Czech Republic 
           </li>
           <li>
-            <Date> 2013 – 2017</Date>: vedoucí Centra empirických výzkumů
-            Fakulty veřejných politik Slezské univerzity v Opavě
+            <Date> 2013 – 2017</Date>: Head of the Centre for Empirical Research
+	Faculty of Public Policies, Silesian University in Opava, Czech Republic
+
           </li>
           <li>
-            <Date> 2009 – 2013</Date>: Odborný asistent Ústavu středoevropských
-            studií Fakulty veřejných politik Slezské univerzity v Opavě
+            <Date> 2009 – 2018</Date>: Assistant professor
+	Faculty of Public Policies, Silesian University in Opava, Czech Republic
+
           </li>
         </ul>
       </Section>
 
       <Section>
-        <H4>Vzdělání a akademická kvalifikace:</H4>
+        <H4>Education and academic qualification:</H4>
         <ul>
           <li>
             <Date> 2018: </Date>
-            Doc. Filosofická fakulta University Palackého, sociologie
+            Doc. (habilitation) in sociology, Faculty of Arts, Palacký University, Olomouc, Czech Republic 
           </li>
           <li>
             <Date> 2009: </Date>
-            PhDr. Fakulta sociálních studií MU, Brno, sociologie
+            PhDr. in sociology, Faculty of Social Sciences, Department of Sociology, Masaryk University, Brno, Czech Republic    
           </li>
           <li>
             <Date> 2008: </Date>
-            Ph.D. Fakulta sociálních studií MU, Brno, sociologie
+            Ph.D. in sociology, Faculty of Social Sciences, Department of Sociology, Masaryk University, Brno, Czech Republic
+            Name of PhD Supervisor: Radim Marada
           </li>
           <li>
             <Date> 2004: </Date>
-            Mgr. Fakulta sociálních studií MU, Brno, sociologie
+            Master in sociology, Faculty of Social Sciences, Department of sociology, Masaryk University, Brno, Czech Republic
           </li>
           <li>
-            <Date>2002 :</Date> Bc. Fakulta sociálních studií – Filozofická
-            fakulta MU, Brno, sociologie – filozofie
+            <Date>2002 :</Date> Bc. in sociology and philosophy, Faculty of Social Sciences, Faculty of Arts, Masaryk University, Brno, Czech Republic
           </li>
         </ul>
       </Section>
       <Section>
-        <H4>Oblasti odborného zájmu:</H4>
+        <H4>Fields of professional interest:</H4>
         <div>
           <div>
             - společnosti střední Evropy a jejich sociální a environmentální

@@ -11,7 +11,7 @@ export const Cz = () => {
 export const En = () => {
   return (
     <>
-      <p>I most often publish in these magazines:</p>
+      <p>I publish in these magazines most often:</p>
     </>
   );
 };
