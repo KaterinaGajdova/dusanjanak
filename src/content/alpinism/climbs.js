@@ -523,15 +523,23 @@ export const En = () => {
       <Climb>
         <h4>ASCENTS-HIGHLIGHTS</h4>
         <p>
-        I climbed thousands of paths on rocks, in ice and in the mountains. A few dozen will stick in my memory after death. From the few dozen, I decided to choose as much for the public presentation as can be counted on the fingers… hands and feet.
+          I climbed thousands of paths on rocks, in ice and in the mountains. A
+          few dozen will stick in my memory after death. From the few dozen, I
+          decided to choose as much for the public presentation as can be
+          counted on the fingers… hands and feet.
         </p>
       </Climb>
       <Climb>
         <Date> 2018: </Date>
         <Name>Eiger - North wall</Name>
-        The legendary journey from 1938 is no extreme in terms of performance, but climbed after the accident with my friend Bača, will be very high in my personal catalog of performances on an emotional scale. (co-climber: Bača)
+        The legendary journey from 1938 is no extreme in terms of performance,
+        but climbed after the accident with my friend Bača, will be very high in
+        my personal catalog of performances on an emotional scale. (co-climber:
+        Bača)
         <br />
-        <GatsbyLink to="/alpinism-eiger-pdf">article "Eiger 80 years old"</GatsbyLink>
+        <GatsbyLink to="/alpinism-eiger-pdf">
+          article "Eiger 80 years old"
+        </GatsbyLink>
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -551,7 +559,13 @@ export const En = () => {
       <Climb>
         <Date> 2015: </Date>
         <Name>Bellavista</Name>
-        The first route in stage 8c (10 + / 11-) climbed in the mountains by Czech climbers. The passing through the largest  roof in the Alps was such a nice end to my performance climbing career. Honza climbed the hardest length at the first end and I'm not sure if I would have climbed it myself in a sporty style. I broke down at the beginning of the following season. It's time to send ahead a better, younger, more promising… (co-climber: Honza Zbranek)
+        The first route in stage 8c (10 + / 11-) climbed in the mountains by
+        Czech climbers. The passing through the largest roof in the Alps was
+        such a nice end to my performance climbing career. Honza climbed the
+        hardest length at the first end and I'm not sure if I would have climbed
+        it myself in a sporty style. I broke down at the beginning of the
+        following season. It's time to send ahead a better, younger, more
+        promising… (co-climber: Honza Zbranek)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -578,7 +592,9 @@ export const En = () => {
 
       <Climb>
         <Date> 2014: </Date>
-        <Name>Královský převis</Name>The most difficult mixing route of the Tatras and one of the most difficult routes of this type in the mountains in the world. (co-climber: Stračena)
+        <Name>Královský převis</Name>The most difficult mixing route of the
+        Tatras and one of the most difficult routes of this type in the
+        mountains in the world. (co-climber: Stračena)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -603,7 +619,8 @@ export const En = () => {
         />
       </IMGGrid>
       <Climb>
-        <Name>No siesta</Name>A legendary journey in the legendary Alpine wall and our long-term dream. (co-climber: Bača)
+        <Name>No siesta</Name>A legendary journey in the legendary Alpine wall
+        and our long-term dream. (co-climber: Bača)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -655,7 +672,8 @@ export const En = () => {
 
       <Climb>
         <Date> 2013: </Date>
-        <Name>Dionýzos</Name>Respectable first ascent in a respectable alpine wall. (co-climbers: Šatavis and Miro)
+        <Name>Dionýzos</Name>Respectable first ascent in a respectable alpine
+        wall. (co-climbers: Šatavis and Miro)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -681,7 +699,9 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2012: </Date>
-        <Name>American direct</Name>American diretissima on the Tower of Fools, a legendary first ascent and crampling extreme from the 1960s, now climbed freely. (co-climber: Miro)
+        <Name>American direct</Name>American diretissima on the Tower of Fools,
+        a legendary first ascent and crampling extreme from the 1960s, now
+        climbed freely. (co-climber: Miro)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -707,7 +727,9 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2009 - 2011: </Date>
-        <Name>Erectissima</Name>The first ascent of half a kilometer high wall, in which almost every rope length is overhanging. (co-climbers: Ricardo, Šatavis, Džony, Miro climb on RP)
+        <Name>Erectissima</Name>The first ascent of half a kilometer high wall,
+        in which almost every rope length is overhanging. (co-climbers: Ricardo,
+        Šatavis, Džony, Miro climb on RP)
       </Climb>
       <IMGGrid noborder>
         <StaticImage
@@ -755,7 +777,10 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2011: </Date>
-        <Name>The first free and at the same time first winter climb of an important road in an important Tatra wall. (co-climber: Bača)
+        <Name>
+          The first free and at the same time first winter climb of an important
+          road in an important Tatra wall. (co-climber: Bača)
+        </Name>
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -781,7 +806,8 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2010: </Date>
-        <Name>Vol de Nuit</Name>The first route in the M8 stage climbed in the Alps by Czech climbers (co-climber: Bača)
+        <Name>Vol de Nuit</Name>The first route in the M8 stage climbed in the
+        Alps by Czech climbers (co-climber: Bača)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -818,7 +844,8 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2009: </Date>
-        <Name>Hazard</Name>Nerve-racking do-it-yourselfers crampling in grade A5. (co-climber: Ricardo)
+        <Name>Hazard</Name>Nerve-racking do-it-yourselfers crampling in grade
+        A5. (co-climber: Ricardo)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -844,7 +871,8 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2008: </Date>
-        <Name>Matrix</Name>At the time, shift difficulty in Tatra winter climbing. (co-climber: Bača)
+        <Name>Matrix</Name>At the time, shift difficulty in Tatra winter
+        climbing. (co-climber: Bača)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -870,7 +898,9 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2007: </Date>
-        <Name>Voie Petit</Name>It was and still is probably the most difficult rocky path in the Mont Blanc massif (co-climber: Šatavis, Jona's first attempt)
+        <Name>Voie Petit</Name>It was and still is probably the most difficult
+        rocky path in the Mont Blanc massif (co-climber: Šatavis, Jona's first
+        attempt)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -888,7 +918,8 @@ export const En = () => {
         />
       </IMGGrid>
       <Climb>
-        <Name>Jet Stream</Name>Moving the bar of free climbing in the Tatras (belayed by Monika)
+        <Name>Jet Stream</Name>Moving the bar of free climbing in the Tatras
+        (belayed by Monika)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -914,7 +945,9 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2006: </Date>
-        <Name>Freerider</Name>At that time the most difficult free route climbed in El Capitan in Yosemite by Czech climbers, in 2017 climbed by Alex Honold in a breathtaking free style… (co-climber: Šrůťas)
+        <Name>Freerider</Name>At that time the most difficult free route climbed
+        in El Capitan in Yosemite by Czech climbers, in 2017 climbed by Alex
+        Honold in a breathtaking free style… (co-climber: Šrůťas)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -940,7 +973,8 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2005-2006: </Date>
-        <Name>Fram – End of Mystery</Name>The first Czech 10- match in the Alps (co-climbers: Šatavis, Džony, Šatavis climb on the DP)
+        <Name>Fram – End of Mystery</Name>The first Czech 10- match in the Alps
+        (co-climbers: Šatavis, Džony, Šatavis climb on the DP)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -966,13 +1000,18 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2004: </Date>
-        <Name>Robinson Crusoe</Name>First ascent in super style, still one of the most mentally demanding trips on Tre Cime (co-climber: Doudlebák)
-        <Name>Jean Couzy in memoriam</Name>Amazingly aerial climbing on the edge of my possibilities at the time and the first route in the tenth step climbed by Czech climbers in the mountains (co-climber: Doudlebák, first attempts Kvak)
+        <Name>Robinson Crusoe</Name>First ascent in super style, still one of
+        the most mentally demanding trips on Tre Cime (co-climber: Doudlebák)
+        <Name>Jean Couzy in memoriam</Name>Amazingly aerial climbing on the edge
+        of my possibilities at the time and the first route in the tenth step
+        climbed by Czech climbers in the mountains (co-climber: Doudlebák, first
+        attempts Kvak)
       </Climb>
       <IMGGrid></IMGGrid>
       <Climb>
         <Date> 2002: </Date>
-        <Name>Kyrgyzstán – Pik 4810</Name>Wild climbing in a 1200 meter high rock face. (co-climber: Doudlebák)
+        <Name>Kyrgyzstán – Pik 4810</Name>Wild climbing in a 1200 meter high
+        rock face. (co-climber: Doudlebák)
       </Climb>
       <IMGGrid>
         <StaticImage

@@ -176,13 +176,13 @@ export const climbingPartnersEn = [
     imageTitle: "stracena",
     name: "Jan Straka „Stračena“",
     description:
-      "Strong and cool, "homo stropus" with which I am connected by the love of overhangs.",
+      "Strong and cool, „homo stropus„ with which I am connected by the love of overhangs.",
   },
   {
     imageTitle: "miro",
     name: "Miro Peťo",
     description:
-      "An extreme skier who climbs well in the rocky mountain walls, with whom we climbed a few rock "bumps" in the Dolomites and around Mont Blanc. Few people know what his first name and last name is.",
+      "An extreme skier who climbs well in the rocky mountain walls, with whom we climbed a few rock „bumps„ in the Dolomites and around Mont Blanc. Few people know what his first name and last name is.",
   },
   {
     name: "Honza Kreisinger „Kreisik“",
@@ -242,7 +242,11 @@ export const En1 = () => {
   return (
     <>
       <p>
-      The older I get, the more I don't care what and where I climb, but with whom. I owe the climbing to a lot of friends. Not all of them can be mentioned, but some of them are connected by mountain experiences that are more intense than from the rocks. An exception is sandstone climbing, these are small mountains and often large experiences…
+        The older I get, the more I don't care what and where I climb, but with
+        whom. I owe the climbing to a lot of friends. Not all of them can be
+        mentioned, but some of them are connected by mountain experiences that
+        are more intense than from the rocks. An exception is sandstone
+        climbing, these are small mountains and often large experiences…
       </p>
     </>
   );
@@ -251,11 +255,14 @@ export const En2 = () => {
   return (
     <>
       <p>
-      The beginnings of climbing are friends from the mountaineering club HO Lokomotiva - Ingstav Brno as  <b>Vojta Dvořák "Watt"</b>,{" "}
-        <b>Radek Lienerth "Zoban"</b>, <b>Petr Holzer "Hop"</b>, who took me on a rope in the mountains when I was looking out climbing.
+        The beginnings of climbing are friends from the mountaineering club HO
+        Lokomotiva - Ingstav Brno as <b>Vojta Dvořák "Watt"</b>,{" "}
+        <b>Radek Lienerth "Zoban"</b>, <b>Petr Holzer "Hop"</b>, who took me on
+        a rope in the mountains when I was looking out climbing.
       </p>
       <p>
-      As a sociologist, I pay attention to gender equality and not to mention my fellow women would be at least incorrect. So last but not least:
+        As a sociologist, I pay attention to gender equality and not to mention
+        my fellow women would be at least incorrect. So last but not least:
       </p>
     </>
   );
