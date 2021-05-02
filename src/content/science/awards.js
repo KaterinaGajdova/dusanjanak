@@ -96,18 +96,15 @@ export const En = () => {
           Praha: Sociologické nakladatelství. ISBN 978-80-7419-278-4.
         </u>{" "}
         “lost” to Martin Ďurďovič's book Ďurďovič, M. 2019. 
-        <i> Narrative and Interview: Theory of Social Intersubjectivity which deservedly won. </i> 
+        <i> Narrative and Interview: Theory of Social Intersubjectivity  </i> which deservedly won.
         It is gratifying for me that, independently of each other, my colleague Ďurďovič and I met on the topic of dialogic (inter) subjectivity and the future will show if more specific cooperation will develop from this thematic intersection.
       </Section>
 
       <Section>
         <H4>
-          Nejlepší disertace Fakulty sociálních studií Masarykovy univerzity v
-          Brně (2008)
+        The best dissertation of the Faculty of Social Studies, Masaryk University, Brno (2008)
         </H4>
-        Disertace věnovaná dílu jednoho z klasiků české sociologie uspěla v
-        každoroční soutěži Fakulty sociálních studií Masarykovy univerzity a v
-        roce 2009 díky tomu vyšla tiskem. Moje první knížka… <br />
+        The dissertation dedicated to the work of one of the classics of Czech sociology succeeded in the annual competition of the Faculty of Social Studies of Masaryk University, and in 2009 it was published. My first book… <br />
         <br />
         Janák, D. 2009.{" "}
         <i>
@@ -119,17 +116,10 @@ export const En = () => {
 
       <Section>
         <H4>
-          Soutěž o nejlepší doktorandskou stať <i>Sociologického časopisu</i> /{" "}
+        A competition for the best doctoral article of the <i>Sociological Journal </i> /{" "}
           <i>Czech Sociological review</i> (2005)
         </H4>
-        Můj úplně první vědecký článek, který jsem kdy napsal, uspěl spolu s
-        dalšími dvěma v soutěži hlavního českého sociologického periodika (první
-        cena tehdy nebyla udělena). Víc než ocenění a finanční odměna mne však
-        potěšilo, když mi několik měsíců po publikaci přistála v e-mailu
-        pochvalná zpráva od věhlasného českého profesora (M. Petruska), se
-        kterým jsem se v podstatě neznal. Mám pocit, že jeho e-mail byl jedním z
-        faktorů, proč se ze mne nestal profesionální horolezec. A jsem za to
-        rád. <br />
+        The very first scientific article I ever wrote succeeded, together with another two, in the competition organized by the main Czech sociological periodical (the first prize was not awarded then). Nonetheless, more than by the award and the financial reward I was pleased when, a few months after the publication, a laudatory message landed in my e-mail from a renowned Czech Professor (M. Petrusek), whom I had practically not known until then. I feel that his e-mail was one of the factors why I did not become a professional climber. And I'm grateful for that. <br />
         <br />
         Janák, D. 2006. „Sociální introspekce In. A. Bláhy a Wittgensteinův
         argument proti soukromému jazyku. Poznámky k introspektivnímu přístupu v
