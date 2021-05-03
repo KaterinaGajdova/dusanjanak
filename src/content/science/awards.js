@@ -96,7 +96,7 @@ export const En = () => {
           Praha: Sociologické nakladatelství. ISBN 978-80-7419-278-4.
         </u>{" "}
         “lost” to Martin Ďurďovič's book Ďurďovič, M. 2019. 
-        <i> Narrative and Interview: Theory of Social Intersubjectivity  </i> which deservedly won.
+        <i> Narrative and Interview: Theory of Social Intersubjectivity  </i> , which deservedly won.
         It is gratifying for me that, independently of each other, my colleague Ďurďovič and I met on the topic of dialogic (inter) subjectivity and the future will show if more specific cooperation will develop from this thematic intersection.
       </Section>
 
