@@ -24,8 +24,8 @@ const IndexPage = ({ data }) => {
           int === "en" ? climbingPartnersEn : climbingPartnersCz;
         const parntnersFData =
           int === "en" ? climbingPartnersFEn : climbingPartnersFCz;
-        const general1 = int === "en" ? <Cz1 /> : <En1 />;
-        const general2 = int === "en" ? <Cz2 /> : <En2 />;
+        const general1 = int === "en" ? <En1 /> : <Cz1 />;
+        const general2 = int === "en" ? <En2 /> : <Cz2 />;
 
         return (
           <Content>

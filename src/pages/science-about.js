@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { Cz } from "../content/science/aboutme";
+import { En, Cz } from "../content/science/aboutme";
 import SEO from "../components/seo";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
@@ -22,7 +22,7 @@ const IndexPage = (props) => {
         return (
           <Consumer>
             {({ int }) => {
-              const content = int === "en" ? <Cz /> : <Cz />;
+              const content = int === "en" ? <En /> : <Cz />;
 
               return (
                 <>
