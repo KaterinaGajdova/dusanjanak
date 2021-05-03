@@ -333,7 +333,7 @@ export const En = () => {
             <Name>
             HONORARY RECOGNITION IN THE HIGH MOUNTAINS CATEGORY UNDER 6000 meters above sea level  ROCK CLIMBING AND BIG WALL:
             </Name>
-            Dušan Janák, Václav Šatava, Miro Peťo - Dionýsos Alpy, Mont Blanc area, Petit Jorasses; first exit through the wall; 7 b / c fr., Ascent length 600 m, 18 lengths; 14.- 16.8. 2013.
+            Dušan Janák, Václav Šatava, Miro Peťo - Dionýsos Alpy, Mont Blanc area, Petit Jorasses; first exit through the wall; 7 b / c fr., Ascent length 600 m, 18 lengths; 14.- 16.8. 2013
           </Project>
           <Project>
             <Date>2011</Date>
@@ -373,20 +373,20 @@ export const En = () => {
             <Name>
             ASCENT OF THE YEAR IN THE MOUNTAIN CATEGORY BELOW 6000 meters above sea level MIX AND ICE CHARACTER:
             </Name>
-            High Tatras, north wall of Malý Kežmarský štít, Matrix road M9-, Dušan Janák, Pavel Vrtík.
+            High Tatras, north wall of Malý Kežmarský štít, Matrix road M9-, Dušan Janák, Pavel Vrtík
           </Project>
           <Project>
             <Date>2007</Date>
             <Name>
             ASCENT OF THE YEAR IN CATEGORY HIGH MOUNTAINS UNDER 6000 meters above sea level ROCK ALPINIST CHARACTER:
             </Name>
-            France, Mt. Blanc, Grand Capucin, Voie Petit, 8b, E3, 2nd free climb Václav Šatava, Dušan Janák, 26 August 2007. After the success of A. Huber in 2005, it is probably the only other (ie second) free climb. It is about 14 lengths of joints, plates and overhangs (approx. 450 m). Although rivets are used in the way, most of them are secured with wedges and their use is necessary even in the heaviest lengths. When climbing, they both took turns in leading the individual lengths, the second climber jumared.
+            France, Mt. Blanc, Grand Capucin, Voie Petit, 8b, E3, 2nd free climb Václav Šatava, Dušan Janák, 26 August 2007. After the success of A. Huber in 2005, it is probably the only other (ie second) free climb. It is about 14 lengths of joints, plates and overhangs (approx. 450 m). Although rivets are used in the way, most of them are secured with wedges and their use is necessary even in the heaviest lengths. When climbing, they both took turns in leading the individual lengths, the second climber jumared
             <br />
             <br />
             <Name>
             ASCENT OF THE YEAR IN CATEGORY HIGH MOUNTAINS UNDER 6000 METERS ABOVE SEA LEVEL. ROCK ALPINIST CHARACTER:
             </Name>
-            High Tatras, Jastrabia veža, SE wall, 200 m, Jet Stream, 10- / 10 UIAA, E4, PP style. Dušan Janák, 24. 9. 2007 1st free climbing of grade 10- / 10 UIAA E4 ("E" in Jasper's six-digit scale expresses psychological demands and danger of ascent), the most difficult lengths were climbed in the PP style. There are a total of 3 progressive rivets in the Jet Stream, otherwise the path is provided by copersheads, rurps and wedges. Free climbing managed to push the boundaries of free climbing in the Tatras in the whistling intentions - the balance of physical and mental demands of the route. Other difficult routes (reaching level 10- in Poland, 9+ in Slovakia) are mostly of a sports nature, ie riveted, without much psychological demands.
+            High Tatras, Jastrabia veža, SE wall, 200 m, Jet Stream, 10- / 10 UIAA, E4, PP style. Dušan Janák, 24. 9. 2007 1st free climbing of grade 10- / 10 UIAA E4 ("E" in Jasper's six-digit scale expresses psychological demands and danger of ascent), the most difficult lengths were climbed in the PP style. There are a total of 3 progressive rivets in the Jet Stream, otherwise the path is provided by copersheads, rurps and wedges. Free climbing managed to push the boundaries of free climbing in the Tatras in the whistling intentions - the balance of physical and mental demands of the route. Other difficult routes (reaching level 10- in Poland, 9+ in Slovakia) are mostly of a sports nature, ie riveted, without much psychological demands
           </Project>
           <Project>
             <Date>2006</Date>
@@ -441,7 +441,7 @@ export const En = () => {
             <Name>
             HONORARY RECOGNITION IN THE MIDDLE MOUNTAIN CATEGORY - SPORTS CHARACTER:
             </Name>
-            Cima Ovest - "AKUT" (group Tre Cime, Dolomites, Italy) kl. 10- UIAA, 15. 7. 2003, climbed by RP team style except 2 lengths Dušan Janák, Stanislav Hovanec difficult path climbed by the upcoming climbing generation in good style (RP with the exception of 4th length PP and 5th length RK). The road from Kurt Astner leads in the right part of Cima Ovest between the Roof of the World and the Whisper of Flowers by T. Gross. The first 300m of the path is overhanging, the difficulties culminate on the 10th length of difficulty X-.
+            Cima Ovest - "AKUT" (group Tre Cime, Dolomites, Italy) kl. 10- UIAA, 15. 7. 2003, climbed by RP team style except 2 lengths Dušan Janák, Stanislav Hovanec difficult path climbed by the upcoming climbing generation in good style (RP with the exception of 4th length PP and 5th length RK). The road from Kurt Astner leads in the right part of Cima Ovest between the Roof of the World and the Whisper of Flowers by T. Gross. The first 300m of the path is overhanging, the difficulties culminate on the 10th length of difficulty X-
           </Project>
         </Section>
 

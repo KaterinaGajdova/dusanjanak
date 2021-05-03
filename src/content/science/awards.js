@@ -126,9 +126,9 @@ export const En = () => {
         sociálních vědách.” <i>Sociologický časopis</i>, Vol. 42 (No.4): 761 –
         782, ISSN:0038-0288. DOI: 10.13060/00380288.2006.42.4.08.
         <br />
-        Dostupné{" "}
+        Available{" "}
         <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2006/04/08.pdf">
-          zde
+          here
         </ALink>
       </Section>
     </>

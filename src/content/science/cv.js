@@ -495,7 +495,7 @@ export const En = () => {
           <Date>Academic year 2015/2016:</Date> Visiting professor, National University of Public Service, Budapest, Hungary
         </Project>
         <Project>
-          <Date>2014 :</Date> The Institute for Sociology of the Slovak Academy of Sciences - eight months, National Scholarship Programme of the Slovak Republic.
+          <Date>2014 :</Date> The Institute for Sociology of the Slovak Academy of Sciences - eight months, National Scholarship Programme of the Slovak Republic
         </Project>
         <Project>
           <Date>2013:</Date> University of Primorska, Koper (Slovenia) – one-week visit, Erasmus – November 2013
@@ -504,7 +504,7 @@ export const En = () => {
           <Date>2012:</Date> The National University of Public Services, Budapest (Hungary) – two-week visit CEEPUS  – November 2012
         </Project>
         <Project>
-          <Date>ak. rok 2011/2012:</Date> Sociologický ústav SAV v Bratislavě
+          <Date>Academic year 2011/2012:</Date> Sociologický ústav SAV v Bratislavě
           (Visegrad Scholarship) 2011 Univerzita v Terstu (Itálie) –Fakulta
           politických věd - týdenní stáž – listopad 2011
         </Project>
@@ -512,7 +512,7 @@ export const En = () => {
           <Date>Academic year 2011/2012: </Date> The Institute for Sociology of the Slovak Academy of Sciences - ten months stay from September 2011 to June 2012, Visegrad scholarship, one week Erasmus stay at University of Terst, Italy, November 2011 
         </Project>
         <Project>
-          <Date>Academic year 2010/2011: </Date> The Institute for Sociology of the Slovak Academy of Sciences - ten months stay from September 2010 to June 2011,Visegrad scholarship.  
+          <Date>Academic year 2010/2011: </Date> The Institute for Sociology of the Slovak Academy of Sciences - ten months stay from September 2010 to June 2011,Visegrad scholarship  
         </Project>
         <Project>
           <Date>2009:</Date> The Institute for Sociology of the Slovak Academy of Sciences (five months stay)
@@ -580,7 +580,7 @@ export const En = () => {
           <Name>
           CONTENT ANALYSIS AS A METHOD OF HISTORICAL AND SOCIOLOGICAL RESEARCH
           </Name>
-          funding: Silesian University in Opava, grant no. SGS/2/2014,
+          funding: Silesian University in Opava, grant no. SGS/2/2014
           <br />
           role: principal investigator
         </Project>

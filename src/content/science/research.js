@@ -468,9 +468,9 @@ export const CommunicationCz = () => {
 // english
 
 export const researchTopicsEn = {
-  historySociology: `1.	History of sociology and sociological theory`,
-  appliedResearch: "2. Applied research and public sociology",
-  communication: "3. Multimodal interspecies and intraspecific communication",
+  historySociology: `History of sociology and sociological theory`,
+  appliedResearch: "Applied research and public sociology",
+  communication: "Multimodal interspecies and intraspecific communication",
 };
 
 export const IntroductionEn = () => {

@@ -187,7 +187,7 @@ export const cooperatorsEn = [
         Robert and I started cooperating thanks to my study stays at the Institute of Sociology of the Academy of Sciences of the Slovak Republic during my doctoral studies. His interest in the history of sociology in Slovakia and mine in the history of the field in the Czech lands gradually expanded to Central Europe complemented each other well and led to several comparative publications (Janák, Klobucký…,…), joint conference papers, my later work at the SAS and Robert´s lectures at the Faculty of Public Policy of the Silesian University in Opava.
         </p>
         <p>
-        Basic information about Robert's activities can be found on the stands of the Slovak Academy of Sciences{" "}
+        Basic information about Robert's activities can be found on the stands of the Slovak Academy of Sciences.{" "}
           <ALink href="https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=3167">
           </ALink>
         </p>
@@ -205,7 +205,7 @@ export const cooperatorsEn = [
         Although Ivan and I collaborated as the authors on only one book (Janák et al. 2014), without his help, I would find it difficult to cross the language barrier and to a number of valuable contacts in the Hungarian academic environment when researching the history of Hungarian sociology. Based on our cooperation, Ivan has been a guest at the Silesian University since 2010, where he ran the Central European Papers magazine from 2015 to 2021 as editor-in-chief. At Ivan's workplace in Budapest at the University of Public Services, I lectured to undergraduate and postgraduate students in the academic year 2015/2016 and completed part of my research on the beginnings of sociology in Hungary.
         </p>
         <p>
-        Basic information about Ivan's activities can be found on the website of the Hungarian Academy of Sciences{" "}
+        Basic information about Ivan's activities can be found on the website of the Hungarian Academy of Sciences.{" "}
           <ALink href="https://jog.tk.hu/en/researcher/halasz-ivan">
           </ALink>
         </p>
@@ -216,7 +216,7 @@ export const cooperatorsEn = [
     imageTitle: "bittner",
     name: "dr. DAVID BITTNER",
     description:
-      "Basic information about Ivan's activities can be found on the website of the Hungarian Academy of Sciences",
+      "Biologist, lover of grizzly bears and expert in interacting with them.",
     website: "https://davidbittner.ch/",
     detail: (
       <>

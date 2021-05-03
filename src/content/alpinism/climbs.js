@@ -805,7 +805,7 @@ export const En = () => {
       <Climb>
         <Date> 2010: </Date>
         <Name>Vol de Nuit</Name>The first route in the M8 stage climbed in the
-        Alps by Czech climbers (co-climber: Bača)
+        Alps by Czech climbers. (co-climber: Bača)
       </Climb>
       <IMGGrid>
         <StaticImage
@@ -897,7 +897,7 @@ export const En = () => {
       <Climb>
         <Date> 2007: </Date>
         <Name>Voie Petit</Name>It was and still is probably the most difficult
-        rocky path in the Mont Blanc massif (co-climber: Šatavis, Jona's first
+        rocky path in the Mont Blanc massif. (co-climber: Šatavis, Jona's first
         attempt)
       </Climb>
       <IMGGrid>
@@ -916,7 +916,7 @@ export const En = () => {
         />
       </IMGGrid>
       <Climb>
-        <Name>Jet Stream</Name>Moving the bar of free climbing in the Tatras
+        <Name>Jet Stream</Name>Moving the bar of free climbing in the Tatras.
         (belayed by Monika)
       </Climb>
       <IMGGrid>
@@ -971,7 +971,7 @@ export const En = () => {
       </IMGGrid>
       <Climb>
         <Date> 2005-2006: </Date>
-        <Name>Fram – End of Mystery</Name>The first Czech 10- match in the Alps
+        <Name>Fram – End of Mystery</Name>The first Czech 10- match in the Alps.
         (co-climbers: Šatavis, Džony, Šatavis climb on the DP)
       </Climb>
       <IMGGrid>
@@ -1002,7 +1002,7 @@ export const En = () => {
         the most mentally demanding trips on Tre Cime (co-climber: Doudlebák)
         <Name>Jean Couzy in memoriam</Name>Amazingly aerial climbing on the edge
         of my possibilities at the time and the first route in the tenth step
-        climbed by Czech climbers in the mountains (co-climber: Doudlebák, first
+        climbed by Czech climbers in the mountains. (co-climber: Doudlebák, first
         attempts Kvak)
       </Climb>
       <IMGGrid></IMGGrid>
