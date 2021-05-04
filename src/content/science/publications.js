@@ -50,7 +50,16 @@ export const Cz = () => {
         (Janák 2013b). Důležitý pro formování obecné sociologické teorie a
         současné výzkumné zaměření je studie o dialogické subjektivitě (Janák
         2020), pro empirický výzkum mezidruhové komunikace pilotní studie (Janák
-        2021). Z těch s Jindřichem Štreitem bych jmenoval tu první z Osoblažska
+        2021 -{" "}
+        <ALinkStyled
+          href="/Abstract_UNCHARTED_LANGUAGE.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          abstrakt dostupný zde
+        </ALinkStyled>
+        ). Z těch s Jindřichem Štreitem bych jmenoval tu první z Osoblažska
         (Janák, Pilát, Bezděk 2014), která byla zajímavá i velmi komplexní
         metodologií terénního výzkumu. Pobavilo nás, že zaujala prezidenta
         republiky Miloše Zemana při jeho návštěvě v regionu.
@@ -638,19 +647,22 @@ export const Cz = () => {
         <Project>
           Janák, D. – M. Kuděla. 2013. „Alan Josef“ Pp. 15-17, In: Nešpor, Z. R.
           a kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
           Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Alan_Josef">zde</ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Bláha Inocenc Arnošt“ Pp. 27-38, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Bl%C3%A1ha_Inocenc_Arno%C5%A1t">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Bolzano Bernard“ Pp. 45-47, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Bolzano_Bernard">
             zde
           </ALink>
@@ -658,6 +670,7 @@ export const Cz = () => {
         <Project>
           Janák, D. – M. Kuděla. 2013. „Gál Fedor“ Pp. 96-98, In: Nešpor, Z. R.
           a kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
           Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/G%C3%A1l_Fedor">
             zde
@@ -665,7 +678,8 @@ export const Cz = () => {
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Hájek Mojmír“ Pp. 109-111, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/H%C3%A1jek_Mojm%C3%ADr">
             zde
           </ALink>
@@ -673,82 +687,94 @@ export const Cz = () => {
         <Project>
           Janák, D. – R. Przeczek. 2013. „Keller Jan“ Pp. 164-169, In: Nešpor,
           Z. R. a kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
           Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Keller_Jan">zde</ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Macků Jan“ Pp. 215-216, In: Nešpor, Z. R. a kolektiv.{" "}
-          <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Mack%C5%AF_Jan">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Možný Ivo“ Pp. 269-274, In: Nešpor, Z. R. a kolektiv.{" "}
-          <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Mo%C5%BEn%C3%BD_Ivo">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Obrdlík Antonín“ Pp. 289-291, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Obrdl%C3%ADk_Anton%C3%ADn">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Obrdlíková Juliana“ Pp. 291-293, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Obrdl%C3%ADkov%C3%A1_Juliana">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Ovesný Miroslav“ Pp. 293-294, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Ovesn%C3%BD_Miroslav">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Sekot Aleš“ Pp. 341-344, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Sekot_Ale%C5%A1">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Solař Josef“ Pp. 353-355, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Sola%C5%99_Josef">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Střítecký Jaroslav“ Pp. 369-372, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/St%C5%99%C3%ADteck%C3%BD_Jaroslav">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Svoboda Ludvík“ Pp. 378-379, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Svoboda_Ludv%C3%ADk">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Štefánek Anton“ Pp. 398-400, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/%C5%A0tef%C3%A1nek_Anton">
             zde
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Weyr František“ Pp. 451-452, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Dostupné{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Dostupné{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Weyr_Franti%C5%A1ek">
             zde
           </ALink>
@@ -783,10 +809,39 @@ export const En = () => {
       </Section>
 
       <p>
-      Although I have probably written several thousand pages of scientific texts, I feel that the choice of those where I have discovered something new and important, and where I have made a real contribution to science, would be far smaller. It's like in climbing, I've climbed thousands of routes, but the ones I know were really good and where I got to my limits could be counted on my fingers.
+        Although I have probably written several thousand pages of scientific
+        texts, I feel that the choice of those where I have discovered something
+        new and important, and where I have made a real contribution to science,
+        would be far smaller. It's like in climbing, I've climbed thousands of
+        routes, but the ones I know were really good and where I got to my
+        limits could be counted on my fingers.
       </p>
       <p>
-      If I was to make a personal selection of those really good or inspiring publications, or those of personal interest or importance to me, I would mention the following: the first article (Janák 2006) and the first book (Janák 2009), a synthesis regarding the history of sociology in Central Europe and an outline of my own general sociological theory (Janák 2018). Among the articles on the history of sociology, I would choose a text about the beginnings of Czech sociological theory (Janák 2013a) and about sociological schools in interwar Czech sociology (Janák 2013b). Important for the formation of general sociological theory and the current research focus is the study of dialogic subjectivity (Janák 2020), for the empirical research of interspecies communication the pilot study (Janák 2021). Of the ones with Jindřich Štreit, I would like to name the first one from Osoblažsko (Janák, Pilát, Bezděk 2014), which is also noteworthy for its use of a very complex methodology of field research. It amused us that it had caught the attention of the President of the Czech Republic Miloš Zeman during his visit to the region.
+        If I was to make a personal selection of those really good or inspiring
+        publications, or those of personal interest or importance to me, I would
+        mention the following: the first article (Janák 2006) and the first book
+        (Janák 2009), a synthesis regarding the history of sociology in Central
+        Europe and an outline of my own general sociological theory (Janák
+        2018). Among the articles on the history of sociology, I would choose a
+        text about the beginnings of Czech sociological theory (Janák 2013a) and
+        about sociological schools in interwar Czech sociology (Janák 2013b).
+        Important for the formation of general sociological theory and the
+        current research focus is the study of dialogic subjectivity (Janák
+        2020), for the empirical research of interspecies communication the
+        pilot study (Janák 2021 –{" "}
+        <ALinkStyled
+          href="/Abstract_UNCHARTED_LANGUAGE.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          download abstract here
+        </ALinkStyled>
+        ). Of the ones with Jindřich Štreit, I would like to name the first one
+        from Osoblažsko (Janák, Pilát, Bezděk 2014), which is also noteworthy
+        for its use of a very complex methodology of field research. It amused
+        us that it had caught the attention of the President of the Czech
+        Republic Miloš Zeman during his visit to the region.
       </p>
 
       <Section>
@@ -814,7 +869,8 @@ export const En = () => {
             v české společnosti.
           </i>{" "}
           Opava: Slezská univerzita. 138 s., ISBN: 978-80-7510-266-9
-          <br />Download{" "}
+          <br />
+          Download{" "}
           <ALinkStyled
             href="/romove_obrazem.pdf"
             target="_blank"
@@ -831,7 +887,8 @@ export const En = () => {
             a transformace vzdělávacího systému v Krnově a v Sokolově.
           </i>{" "}
           foto: J. Štreit. Opava: Slezská univerzita. 978-80-7510-157-0.
-          <br />Download{" "}
+          <br />
+          Download{" "}
           <ALinkStyled
             href="/rozsirit_reciste.pdf"
             target="_blank"
@@ -849,7 +906,8 @@ export const En = () => {
             analýza Osoblažska a možností jeho socioekonomického rozvoje.
           </i>{" "}
           (foto: J. Štreit) Opava: Slezská univerzita. ISBN: 978-80-7248-947-3.
-          <br />Download{" "}
+          <br />
+          Download{" "}
           <ALinkStyled
             href="/soc_nerovnosti.pdf"
             target="_blank"
@@ -1210,7 +1268,8 @@ export const En = () => {
 
       <Section>
         <H4>
-        Chapters in monographs and books, articles in proceedings, critical catalogues:
+          Chapters in monographs and books, articles in proceedings, critical
+          catalogues:
         </H4>
         <Project>
           Janák, D., Oláh, G. 2020. "Teoretické souvislosti poznávání
@@ -1370,19 +1429,24 @@ export const En = () => {
         <Project>
           Janák, D. – M. Kuděla. 2013. „Alan Josef“ Pp. 15-17, In: Nešpor, Z. R.
           a kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
           Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Alan_Josef">zde</ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Bláha Inocenc Arnošt“ Pp. 27-38, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Bl%C3%A1ha_Inocenc_Arno%C5%A1t">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Bolzano Bernard“ Pp. 45-47, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Bolzano_Bernard">
             here
           </ALink>
@@ -1390,6 +1454,7 @@ export const En = () => {
         <Project>
           Janák, D. – M. Kuděla. 2013. „Gál Fedor“ Pp. 96-98, In: Nešpor, Z. R.
           a kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
           Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/G%C3%A1l_Fedor">
             here
@@ -1397,7 +1462,9 @@ export const En = () => {
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Hájek Mojmír“ Pp. 109-111, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/H%C3%A1jek_Mojm%C3%ADr">
             here
           </ALink>
@@ -1405,82 +1472,105 @@ export const En = () => {
         <Project>
           Janák, D. – R. Przeczek. 2013. „Keller Jan“ Pp. 164-169, In: Nešpor,
           Z. R. a kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
           Available{" "}
-          <ALink href="https://encyklopedie.soc.cas.cz/w/Keller_Jan">here</ALink>
+          <ALink href="https://encyklopedie.soc.cas.cz/w/Keller_Jan">
+            here
+          </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Macků Jan“ Pp. 215-216, In: Nešpor, Z. R. a kolektiv.{" "}
-          <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Mack%C5%AF_Jan">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Možný Ivo“ Pp. 269-274, In: Nešpor, Z. R. a kolektiv.{" "}
-          <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          <i>Slovníku českých sociologů</i>. Praha: Academia. <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Mo%C5%BEn%C3%BD_Ivo">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Obrdlík Antonín“ Pp. 289-291, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Obrdl%C3%ADk_Anton%C3%ADn">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Obrdlíková Juliana“ Pp. 291-293, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Obrdl%C3%ADkov%C3%A1_Juliana">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Ovesný Miroslav“ Pp. 293-294, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Ovesn%C3%BD_Miroslav">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Sekot Aleš“ Pp. 341-344, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Sekot_Ale%C5%A1">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Solař Josef“ Pp. 353-355, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Sola%C5%99_Josef">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Střítecký Jaroslav“ Pp. 369-372, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/St%C5%99%C3%ADteck%C3%BD_Jaroslav">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Svoboda Ludvík“ Pp. 378-379, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Svoboda_Ludv%C3%ADk">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Štefánek Anton“ Pp. 398-400, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/%C5%A0tef%C3%A1nek_Anton">
             here
           </ALink>
         </Project>{" "}
         <Project>
           Janák, D. 2013. „Weyr František“ Pp. 451-452, In: Nešpor, Z. R. a
-          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia. Available{" "}
+          kolektiv. <i>Slovníku českých sociologů</i>. Praha: Academia.
+          <br />
+          Available{" "}
           <ALink href="https://encyklopedie.soc.cas.cz/w/Weyr_Franti%C5%A1ek">
             here
           </ALink>
