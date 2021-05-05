@@ -686,11 +686,10 @@ export const En = () => {
           <Name>
           INDICATORS DETERMINING THE FAILURE OF TERTIARY EDUCATION STUDENTS AT THE SILESIA UNIVERSITY IN OPAVA
           </Name>
-          funding: Silesian University in Opava (ISIP), grant no. 24/ISIP/2016 <br /> role:
-          co-investigator
-        </Project>
-
-        <Project>
+          funding: Silesian University in Opava (ISIP), grant no. 24/ISIP/2016   
+          <br /> role: co-investigator
+         </Project>
+         <Project>
           <Date> 2015:</Date>
           <Name>
           INNOVATION AND DEVELOPMENT OF PRACTICAL SKILLS IN COURSES OF METHODOLOGY AND SOCIAL SCIENTIFIC RESEARCH

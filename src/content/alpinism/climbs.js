@@ -523,10 +523,7 @@ export const En = () => {
       <Climb>
         <h4>ASCENTS-HIGHLIGHTS</h4>
         <p>
-          I climbed thousands of paths on rocks, in ice and in the mountains. A
-          few dozen will stick in my memory after death. From the few dozen, I
-          decided to choose as much for the public presentation as can be
-          counted on the fingers… hands and feet.
+        I climbed thousands of routes on rocks, on ice and in the mountains. A few dozen will stick in my memory untill the end of my life. From the few dozen, I decided to choose as much for the public presentation as can be counted on the fingers… of hands and feet.
         </p>
       </Climb>
       <Climb>
