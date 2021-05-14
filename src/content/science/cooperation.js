@@ -152,17 +152,17 @@ export const cooperatorsEn = [
     detail1: (
       <>
         <p>
-        The collaboration with Jindřich Štreit is one of the most interesting collaborations arising from applied research. On the one hand, from the methodological point of view (connection of science and art) and on the other hand, thanks to the possibility to see "under the hood" the creation of extremely interesting photographic works.
+        The collaboration with Jindřich Štreit is one of the most interesting collaborations arising from the applied research. This concerns first the methodological aspects (connection of science and art) and second the possibility of seeing  the fascinating photographic works in the making.
         </p>
         <p>
-        Štreit's work moves on the border between art and documentary photography, and the combination of such photography and sociological field research makes it possible to take an unconventional perspective and expand the knowledge gained by standard methods. Thanks to the collaboration with Jindřich Štreit, I thought about the possibilities of thinking by painting, using a work of art for scientific purposes and tried new forms of presenting the results of scientific research to the general public (not only scientific publications [Janák, Pilát, Bezděk 2014, Janák, Stanoev et al. also exhibitions and critical catalogs for them [Štreit, Pavelčíková, Janák 2015, Kolář, Janák 2019; Hlavienka, Kolář, Janák 2020]).{" "}
+        Štreit's work is poised on the boundary between artistic and documentary photography, and the combination of such approach to photography and sociological field research makes it possible to take an unconventional perspective and expand the knowledge gained through standard methods. The collaboration with Jindřich Štreit gave me an impetus to contemplate possibilities of thinking in images, using a work of art for scientific purposes, and I tried new forms of presenting the results of scientific research to the general public (not only in scientific publications [Janák, Pilát, Bezděk 2014, Janák, Stanoev et al. also at exhibitions and critical catalogues for them [Štreit, Pavelčíková, Janák 2015, Kolář, Janák 2019; Hlavienka, Kolář, Janák 2020]).{" "}
         </p>
       </>
     ),
     detail2: (
       <>
         <p>
-        Based on this experience, we embarked on an interesting project "Roma Image", which is an attempt to move from applied research to the field of so-called public sociology, i.e sociology intended for the general public. The Roma are a big topic of Czech society, and I hope that after a pilot publication (Janák, Štreit et al. 2017) and a series of exhibitions, we will bring this challenging topic to a satisfactory end with Jindřich Štreit.{" "}
+        Based on this experience, we embarked on an interesting project “The Roma in Images”, which is an attempt to move from the applied research to the field of “public sociology”, i.e. sociology intended for the general public. The Roma are a big topic of Czech society, and I hope that after the pilot publication (Janák, Štreit et al. 2017) and a series of exhibitions, we will bring this challenging topic to the satisfactory end with Jindřich Štreit.{" "}
         </p>
         <p>
         You can learn more about Jindřich Štreit here{" "}
@@ -177,17 +177,17 @@ export const cooperatorsEn = [
     imageTitle: "klobucky",
     name: "dr. ROBERT KLOBUCKÝ",
     description:
-      "Slovak sociologist and former director of the Institute of Sociology of the Academy of Sciences of the Slovak Republic, with whom we have a common interest in classical sociology.",
+      "A Slovak sociologist and former director of the Institute of Sociology of the Academy of Sciences of the Slovak Republic, with whom I share an interest in classical sociology.",
     detail: (
       <>
         <p>
           <b>dr. Robert Klobucký and the Institute of Sociology of the Academy of Sciences of the Slovak Republic</b>
         </p>
         <p>
-        Robert and I started cooperating thanks to my study stays at the Institute of Sociology of the Academy of Sciences of the Slovak Republic during my doctoral studies. His interest in the history of sociology in Slovakia and mine in the history of the field in the Czech lands gradually expanded to Central Europe complemented each other well and led to several comparative publications (Janák, Klobucký…,…), joint conference papers, my later work at the SAS and Robert´s lectures at the Faculty of Public Policy of the Silesian University in Opava.
+        Robert and I started cooperating thanks to my study stays at the Institute of Sociology of the Academy of Sciences of the Slovak Republic during my doctoral studies. His interest in the history of sociology in Slovakia, and mine in the history of the field in the Czech lands, gradually extending to the whole of Central Europe, well complemented each other and resulted in several comparative publications (Janák, Klobucký…,…), joint conference papers, my later work at the SAS and Robert´s lectures at the Faculty of Public Policies of the Silesian University in Opava.
         </p>
         <p>
-        Basic information about Robert's activities can be found on the stands of the Slovak Academy of Sciences.{" "}
+        Basic information about Robert's activities can be found on the website of the Slovak Academy of Sciences.{" "}
           <ALink href="https://www.sav.sk/?lang=sk&doc=user-org-user&user_no=3167">
           </ALink>
         </p>
@@ -198,14 +198,14 @@ export const cooperatorsEn = [
     imageTitle: "halasz",
     name: "prof. IVAN HALÁSZ ",
     description:
-      "Hungarian historian and lawyer, head of probably the largest department of constitutional law in Europe.",
+      "A Hungarian historian and lawyer, Head of probably the largest department of constitutional law in Europe.",
     detail: (
       <>
         <p>
-        Although Ivan and I collaborated as the authors on only one book (Janák et al. 2014), without his help, I would find it difficult to cross the language barrier and to a number of valuable contacts in the Hungarian academic environment when researching the history of Hungarian sociology. Based on our cooperation, Ivan has been a guest at the Silesian University since 2010, where he ran the Central European Papers magazine from 2015 to 2021 as editor-in-chief. At Ivan's workplace in Budapest at the University of Public Services, I lectured to undergraduate and postgraduate students in the academic year 2015/2016 and completed part of my research on the beginnings of sociology in Hungary.
+        Although Ivan and I collaborated as authors on only one book (Janák et al. 2014), without his help, I would have found it difficult to overcome the language barrier and establish a number of valuable contacts in the Hungarian academic environment when researching the history of Hungarian sociology. Based on our cooperation, Ivan has been visiting at the Silesian University since 2010, where he ran the Central European Papers magazine from 2015 to 2021 as editor-in-chief. At Ivan's workplace in Budapest, at the University of Public Services, I taught undergraduate and postgraduate students in the academic year 2015/2016 and worked on finalizing part of my research on the beginnings of sociology in Hungary.
         </p>
         <p>
-        Basic information about Ivan's activities can be found on the website of the Hungarian Academy of Sciences.{" "}
+        Basic information about Ivan's activities can be found on the website of the Hungarian Academy of Sciences{" "}
           <ALink href="https://jog.tk.hu/en/researcher/halasz-ivan">
           </ALink>
         </p>
@@ -216,12 +216,12 @@ export const cooperatorsEn = [
     imageTitle: "bittner",
     name: "dr. DAVID BITTNER",
     description:
-      "Biologist, lover of grizzly bears and expert in interacting with them.",
+      "A biologist, lover of grizzly bears and expert in interacting with them.",
     website: "https://davidbittner.ch/",
     detail: (
       <>
         <p>
-        The collaboration with David Bittner started only as a result of the shift of my interest to interspecies communication. During a pilot study trip for wild animals to British Columbia in 2017, prof. Tom Reimchen (University of Victoria, BC) alerted me on David as he is one of the few people in the world who is able to establish friendly relationships with grizzly bears. We met David for the first time in 2018, but it was not until 2021 that it seems that if the covid situation does not make travel impossible, there is a chance for pilot data for research into multimodal communication from David's expedition to Alaska.
+        The collaboration with David Bittner only started as a result of the shift in my interest to interspecies communication. During a pilot study trip in 2017 to observe wild animals in British Columbia, Prof. Tom Reimchen (University of Victoria, BC) mentioned David to me as one of the few people in the world who are able to make friendly relationships with grizzly bears. I met David for the first time in 2018, but it seems that only now, in 2021 – unless the covid situation makes travel impossible - there is a chance of obtaining pilot data for research into multimodal communication from David's expedition to Alaska.
         </p>
         <p>
         David has a well-designed {" "}
