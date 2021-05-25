@@ -302,102 +302,102 @@ export const En = () => {
     <>
       <Introduction>
         <p>
-        Awards are not the reason why I climb. On the other hand, like most people, I will enjoy patting my shoulders or congratulating myself on success. In 2005 and 2006 I also went to a few World Cup ice climbing competitions and participated in competitions in the Czech Republic and Slovakia to find out that the stress from the point of view of dozens of spectators ties my hands and encouragement disturbs me while climbing, so in climbing competitions I climb under my options. Although I enjoy success, I'm not a racing type. I am far better in nature. Awards are also given in this area of free activity, although evaluating which performance is best, is often similar to deciding whether a Cubist or Impressionist image is better. In fact, it's similar to science. What others appreciate is not always what the recipient appreciates the most.
+        Awards are not the reason why I climb. On the other hand, like most people, I will enjoy patting on the shoulder or congratulations on success. In 2005 and 2006, I also took part in a few World Cup ice climbing competitions as well as competitions in the Czech Republic and Slovakia to find out that the stress coming from dozens of spectators watching my performance ties my hands and their encouragement disturbs me when climbing, so in climbing competitions I perform below my potential. Although I enjoy success, I'm not a competitive type. I feel far better in nature. Awards are also given in this area of free activity, although evaluating which performance is the best, is often similar to deciding whether a Cubist or an Impressionist painting is better. In fact, it's similar to science. What others appreciate is not always what the Tecipient values the most.
         </p>
         <p>
-        In the Czech Republic, the Ascent of the Year competition has a tradition of about half a century. Every year, the best ascents of Czech climbers are announced in approximately six different categories (rocks, the highest mountains, ice, etc.). The Climber of the Year award is a much younger initiative of the Alps company in partial coordination with the Czech Mountaineering Association. In the Ascents of the Year, individual performances are evaluated, Climber of the Year is the price for certain climbers for the past season.
+        The Ascent of the Year competition has a tradition of about half a century in the Czech Republic. Every year, the best ascents of Czech climbers are announced in approximately six different categories (rocks, the highest mountains, ice, etc.). The Climber of the Year award is a much younger initiative of the Alps company, in partial coordination with the Czech Mountaineering Association. In the Ascents of the Year, individual achievements are evaluated, the Climber of the Year is a prize for some climbers appreciating the past season.
         </p>
       </Introduction>
       <Main>
         <Section>
-          <H4>Ascents of the year</H4>
+          <H4>Ascents of the Year</H4>
           <p>
-          In the competition for the ascent of the year, you can obtain the Ascent of the Year * (with an asterisk) for a breakthrough performance on a global scale, the Ascent of the Year for performance comparable to the world's top and the Honorable Mention for excellent performance in the Czech context.
+          In the competition for the ascent of the year, you can win the Ascent of the Year * (with an asterisk) for a breakthrough achievement on the global scale, the Ascent of the Year for an achievement comparable to the world's best, and the Honorable Mention for an excellent achievement in the Czech context.
           </p>
           <Project>
             <Date>2015</Date>
             <Name>
-            ASCENT OF THE YEAR IN CATEGORY HIGH MOUNTAINS UNDER 6000 meters above sea level  ROCK CLIMBING AND BIG WALL:
+            ASCENT OF THE YEAR IN THE CATEGORY HIGH MOUNTAINS BELOW 6000 m.a.s.l.,  ROCK CLIMBING AND BIG WALL:
             </Name>
-            Bellavista - Jan Zbranek, Dusan Janak; 8c (8b +), climbing the road of A. Huber, 500 m, the most difficult length climbed in the style of PP, Dolomites, Cima Ovest; September 2015
+            Bellavista - Jan Zbranek, Dusan Janak; 8c (8b +), climbing the route of A. Huber, 500 m, the most difficult length climbed in the style of PP, the Dolomites, Cima Ovest; September 2015
           </Project>
           <Project>
             <Date>2014</Date>
             <Name>
-            HONORARY RECOGNITION IN THE MOUNTAIN CATEGORY BELOW 6000 meters above sea level   MIX AND ICE CHARACTER:
+            HONORARY MENTION IN THE CATEGORY MOUNTAINS BELOW 6000 m.a.s.l.   MIXED AND ICE CHARACTER:
             </Name>
             No Siesta via Bonnatti Voucher - Pavel Vrtík and Dušan Janák; Grandes Jorasses, 1200 m mixed climbing to M7, OS; September 2014
           </Project>
           <Project>
             <Date>2013</Date>
             <Name>
-            HONORARY RECOGNITION IN THE HIGH MOUNTAINS CATEGORY UNDER 6000 meters above sea level  ROCK CLIMBING AND BIG WALL:
+            HONORARY MENTION IN THE CATEGORY HIGH MOUNTAINS BELOW 6000 m.a.s.l., ROCK CLIMBING AND BIG WALL:
             </Name>
-            Dušan Janák, Václav Šatava, Miro Peťo - Dionýsos Alpy, Mont Blanc area, Petit Jorasses; first exit through the wall; 7 b / c fr., Ascent length 600 m, 18 lengths; 14.- 16.8. 2013
+            Dušan Janák, Václav Šatava, Miro Peťo – Dionýsos, the Alps, Mont Blanc area, Petit Jorasses; first exit through the wall; 7 b / c fr., Ascent length 600 m, 18 lengths; 14 – 16 August 2013.
           </Project>
           <Project>
             <Date>2011</Date>
             <Name>
-            ASCENT OF THE YEAR IN THE MOUNTAIN CATEGORY BELOW 6000 meters above sea level  MIX AND ICE CHARACTER:
+            ASCENT OF THE YEAR IN THE CATEGORY MOUNTAINS BELOW 6000 m.a.s.l.  MIXED AND ICE CHARACTER:
             </Name>
-            Dušan Janák, Pavel Vrtík (both HO Lokomotiva Brno), Tatranský double na Ganek - the first free climbing of the Central Corner at the Ganek Gallery in the High Tatras clas. 8 UIAA, M8-, (Gank Gallery and ascent to Velký Ganek, VI +), 9.-12.3. 2011
+            Dušan Janák, Pavel Vrtík (both Lokomotiva Brno Mountaineering Section), The Tatras Double to Ganek - the first free climbing of the Central Corner at the Ganek Gallery in the High Tatras classif. 8 UIAA, M8-, (Gank Gallery and ascent to Velký Ganek, VI +), 9 -12 March 2011
             <br />
             <br />
             <Name>
-            HONORARY RECOGNITION IN THE HIGH MOUNTAINS CATEGORY UNDER 6000 meters above sea level ROCK CLIMBING AND BIG WALL:
+            HONORARY MENTION IN THE CATEGORY HIGH MOUNTAINS BELOW 6000 m.a.s.l. ROCK CLIMBING AND BIG WALL:
             </Name>
             Dušan Janák and Miro Peťo - Erectissima, the first continuous free climb, 8a / 8a +
           </Project>
           <Project>
             <Date>2010</Date>
             <Name>
-            ASENT OF THE YEAR IN THE MOUNTAIN CATEGORY BELOW 6000 meters above sea level MIX AND ICE CHARACTER:
+            ASCENT OF THE YEAR IN THE CATEGORY MOUNTAINS BELOW 6000 m.a.s.l. MIXED AND ICE CHARACTER:
             </Name>
-            Dušan Janák, Pavel Vrtík - climb of the Vol de Nuit road - France, Mont Blanc area, Mont Blanc du Tacul (4248 m above sea level) M8-, 450 m, OS style Repetition of Robert Jasper's road from 1998 and probably the first Czech climb. The route is described as one of the most difficult mixing routes in the Alps, it was repeated in quite demanding conditions, with a small amount of ice and at temperatures below -25 ° C. January 2010
+            Dušan Janák, Pavel Vrtík – the climb of the Vol de Nuit route - France, Mont Blanc area, Mont Blanc du Tacul (4248 m above sea level) M8-, 450 m, OS style Repeat of Robert Jasper's route from 1998 and probably the first Czech climb. The route is described as one of the most difficult mixing routes in the Alps, it was repeated in rather demanding conditions, with a small amount of ice and at temperatures below -25 ° C. January 2010
             <br />
             <br />
             <Name>
-            HONORARY RECOGNITION IN THE MOUNTAIN CATEGORY BELOW 6000 meters above sea level ROCK CHARACTER:
+            HONORARY MENTION IN THE CATEGORY MOUNTAINS BELOW 6000 m.a.s.l., ROCK CHARACTER:
             </Name>
-            Pavel Jonák, Václav Šatava, Dušan Janák, Richard Jurečka - first ascent of Erectissima + Supererectissima - Italy, Dolomites, Tre Cime di Lavaredo, Cima Grande 8a + fr. (10-UIAA; most difficult 2nd length 8a +; difficulties 8-, 10-, 9-, 9-, 9, 7 + / 8-, 7+, 7, 9, 9-, 8/8 +, 7 + / 8-, 7,7-, 7, 8-, 5+), 17 lengths, 560 m first ascent - July 2009, first free climb of individual lengths - July 2010
+            Pavel Jonák, Václav Šatava, Dušan Janák, Richard Jurečka - first ascent of Erectissima + Supererectissima - Italy, the Dolomites, Tre Cime di Lavaredo, Cima Grande 8a + fr. (10-UIAA; the most difficult 2nd length 8a +; grades 8-, 10-, 9-, 9-, 9, 7 + / 8-, 7+, 7, 9, 9-, 8/8 +, 7 + / 8-, 7,7-, 7, 8-, 5+), 17 lengths, 560 m first ascent - July 2009, first free climb of individual lengths - July 2010
           </Project>
           <Project>
             <Date>2009</Date>
             <Name>
-            HONORARY RECOGNITION IN THE CATEGORY OF THE MIX AND ICE OF THE SPORT CHARACTER:
+            HONORARY MENTION IN THE MIX AND ICE CATEGORY OF SPORTS CHARACTER:
             </Name>
-            Dušan Janák, Richard Jurečka - Hazard - High Tatras, north wall of the Velký kostol 8 / A5, length approx. 250 m first repetition of the most difficult technical route in the Tatras
+            Dušan Janák, Richard Jurečka - Hazard – The High Tatras, northern wall of Velký kostol 8 / A5, length approx. 250 m, first repeat of the most difficult technical route in the Tatras
           </Project>
           <Project>
             <Date>2008</Date>
             <Name>
-            ASCENT OF THE YEAR IN THE MOUNTAIN CATEGORY BELOW 6000 meters above sea level MIX AND ICE CHARACTER:
+            ASCENT OF THE YEAR IN THE CATEGORY MOUNTAINS BELOW 6000 m.a.s.l., MIXED AND ICE CHARACTER:
             </Name>
-            High Tatras, north wall of Malý Kežmarský štít, Matrix road M9-, Dušan Janák, Pavel Vrtík
+            The High Tatras, northern wall of Malý Kežmarský Peak, Matrix route M9-, Dušan Janák, Pavel Vrtík.
           </Project>
           <Project>
             <Date>2007</Date>
             <Name>
-            ASCENT OF THE YEAR IN CATEGORY HIGH MOUNTAINS UNDER 6000 meters above sea level ROCK ALPINIST CHARACTER:
+            ASCENT OF THE YEAR IN THE CATEGORY HIGH MOUNTAINS BELOW 6000 m.a.s.l., ROCK ALPINIST CHARACTER:
             </Name>
-            France, Mt. Blanc, Grand Capucin, Voie Petit, 8b, E3, 2nd free climb Václav Šatava, Dušan Janák, 26 August 2007. After the success of A. Huber in 2005, it is probably the only other (ie second) free climb. It is about 14 lengths of joints, plates and overhangs (approx. 450 m). Although rivets are used in the way, most of them are secured with wedges and their use is necessary even in the heaviest lengths. When climbing, they both took turns in leading the individual lengths, the second climber jumared
+            France, Mt. Blanc, Grand Capucin, Voie Petit, 8b, E3, 2nd free climb Václav Šatava, Dušan Janák, 26 August 2007. After the success of A. Huber in 2005, it is probably the only one (i.e. second) free climb that followed so far. It is about 14 lengths of joints, slabs and overhangs (approx. 450m). There are bolts placed along the route, but its largest part is secured with nuts and their use is also necessary within the most difficult lengths. Both climbers took turns in leading the individual lengths, the one in second position jumared.
             <br />
             <br />
             <Name>
-            ASCENT OF THE YEAR IN CATEGORY HIGH MOUNTAINS UNDER 6000 METERS ABOVE SEA LEVEL. ROCK ALPINIST CHARACTER:
+            ASCENT OF THE YEAR IN THE CATEGORY HIGH MOUNTAINS BELOW 6000 m.a.s.l., ROCK ALPINIST CHARACTER:
             </Name>
-            High Tatras, Jastrabia veža, SE wall, 200 m, Jet Stream, 10- / 10 UIAA, E4, PP style. Dušan Janák, 24. 9. 2007 1st free climbing of grade 10- / 10 UIAA E4 ("E" in Jasper's six-digit scale expresses psychological demands and danger of ascent), the most difficult lengths were climbed in the PP style. There are a total of 3 progressive rivets in the Jet Stream, otherwise the path is provided by copersheads, rurps and wedges. Free climbing managed to push the boundaries of free climbing in the Tatras in the whistling intentions - the balance of physical and mental demands of the route. Other difficult routes (reaching level 10- in Poland, 9+ in Slovakia) are mostly of a sports nature, ie riveted, without much psychological demands
+            The High Tatras, Jastrabia veža, SE wall, 200m, Jet Stream, 10- / 10 UIAA, E4, PP style. Dušan Janák, 24/09/2007 1st free ascent of grade 10- / 10 UIAA E4 ("E" on Jasper's six-digit scale indicates psychological demands and danger of ascent), the most difficult lengths were climbed in the PP style. There are 3 advance bolts altogether in the Jet Stream, the rest of the route is secured with coppersheads, rurps and bolts. Free climbing managed to push back the boundaries of free climbing in the Tatras in terms of adding to it the quality of sandstone climbing - the balance of physical and mental demands of the route. Other difficult routes (reaching level 10- in Poland, level 9+ in Slovakia) are mostly of a sports nature, i.e. bolted, without much psychological demands.
           </Project>
           <Project>
             <Date>2006</Date>
             <Name>
-            ASCENT OF THE YEAR IN THE MOUNTAIN CATEGORY BELOW 6000 METRESABOVE SEA LEVEL ROCK CHARACTER:
+            ASCENT OF THE YEAR IN THE CATEGORY MOUNTAINS BELOW 6000 M.A.S.L., ROCK CHARACTER:
             </Name>
             Dušan Janák, Václav Šatava, Dolomites, Marmolada, Fram: End of Mystery, first RP climb
             <br />
             <br />
             <Name>
-            HONORARY RECOGNITION IN THE FAIR CATEGORY UP TO 6000 METRES ABOVE SEA LEVEL ROCK CLIMBING AND BIG WALL:
+            HONORARY MENTION IN THE CATEGORY HIGH MOUNTAINS UP TO 6000 M.A.S.L., ROCK CLIMBING AND BIG WALL:
             </Name>
             Dušan Janák, Jiří Šrůtek, Josemity, El Capitan, Free Rider 5.12d, 38 lengths
           </Project>
@@ -405,33 +405,33 @@ export const En = () => {
           <Project>
             <Date>2005</Date>
             <Name>
-            HONORARY RECOGNITION IN THE CATEGORY OF THE MIX AND ICE OF THE SPORT CHARACTER:
+            HONORARY MENTION IN THE MIXED AND ICE SPORT CATEGORY:
             </Name>
-            Gastein (Austria) Rodeo WI7, M8 + / 9-, E5, AF (orig.M8, A2) 1st clear climb Jan Doudlebský, Dušan Janák
+            Gastein (Austria) Rodeo WI7, M8 + / 9-, E5, AF (orig.M8, A2) 1st clean climb Jan Doudlebský, Dušan Janák
             <br />
             <br />
             <Name>SPECIAL AWARDS:</Name>
-            High Tatras, Jastrabia tower, „Jet Stream“ - 1st clear climb 9+, E4 / 5 (AF), without adding permanent protection (originally 6 + A3 +) Dušan Janák and Jan Kreisinger
+            The High Tatras, Jastrabia Tower, ‟Jet Stream” - 1st clean climb 9+, E4 / 5 (AF), without  permanent protection added (originally 6 + A3 +), Dušan Janák and Jan Kreisinger
             <br />
             <br />
             <Name>SPECIAL AWARDS:</Name>
-            Lofoten, Vogokollen, Freya E5 (9 UIAA, A3 +) Dušan Janák and Jan Kreisinger, June 2005, 1st repetition
+            Lofoten, Vogokollen, Freya E5 (9 UIAA, A3 +) Dušan Janák and Jan Kreisinger, June 2005, 1st repeat
             <br />
             <br /> <Name>SPECIAL AWARDS:</Name>
-            Dolomites, Marmolada - „End of Mystery“ 9+ AF, E4 Pavel Jonák, Václav Šatava, Dušan Janák, August 2005 (completion of the "Fram" path from the Fish to the shelf in the middle of the wall, climbing from the bottom)
+            The Dolomites, Marmolada - ‟End of Mystery” 9+ AF, E4 Pavel Jonák, Václav Šatava, Dušan Janák, August 2005 (completion of the ‟Fram” Route from the Fish to the shelf in the middle of the wall, climbing from the bottom)
           </Project>
 
           <Project>
             <Date>2004</Date>
             <Name>
-            ASCENT OF THE YEAR IN THE MOUNTAIN CATEGORY BELOW 6000 METRESABOVE SEA LEVEL ROCK CHARACTER:
+            ASCENT OF THE YEAR IN THE CATEGORY MOUNTAINS BELOW 6000 m.a.s.l., ROCK CHARACTER:
             </Name>
-            Cima Ovest, Dolomites - "In Memory of Jean Couzy" 8b (8a +) D. Janák, J. Doudlebský "Ascent of 2004" <br />
+            Cima Ovest, the Dolomites - ‟In Memory of Jean Couzy” 8b (8a +) D. Janák, J. Doudlebský ‟The Ascent of 2004” <br />
             <br />
             <Name>
-            HONORARY RECOGNITION IN THE MOUNTAIN CATEGORY BELOW 6000 METRES ABOVE SEA LEVEL  ROCK CHARACTER:
+            HONORARY MENTION IN THE CATEGORY MOUNTAINS BELOW 6000 m.a.s.l.,  ROCK CHARACTER:
             </Name>
-            Cima Grande, Dolomites - road Camilotto Pellesier 8b (8a / a +) D.Janák, S. Hovanec
+            Cima Grande, the Dolomites - route Camilotto Pellesier 8b (8a / a +) D.Janák, S. Hovanec
             <p>
               - The Commission also assessed the following ascents as excellent: Dolomites, Tre Cime - "Via Robinson Crusoe" - first ascent 8 + / 9-, connection to the "Alpine Rose" route D. Janák, J. Doudlebský
             </p>
@@ -439,9 +439,9 @@ export const En = () => {
           <Project>
             <Date>2003</Date>
             <Name>
-            HONORARY RECOGNITION IN THE MIDDLE MOUNTAIN CATEGORY - SPORTS CHARACTER:
+            HONORARY MENTION IN THE CATEGORY MIDDLE MOUNTAINS - SPORTS CHARACTER:
             </Name>
-            Cima Ovest - "AKUT" (group Tre Cime, Dolomites, Italy) kl. 10- UIAA, 15. 7. 2003, climbed by RP team style except 2 lengths Dušan Janák, Stanislav Hovanec difficult path climbed by the upcoming climbing generation in good style (RP with the exception of 4th length PP and 5th length RK). The road from Kurt Astner leads in the right part of Cima Ovest between the Roof of the World and the Whisper of Flowers by T. Gross. The first 300m of the path is overhanging, the difficulties culminate on the 10th length of difficulty X-
+            Cima Ovest - ‟AKUT” (group Tre Cime, the Dolomites, Italy) classif. 10- UIAA, 15/07/ 2003, climbed by RP team style except for 2 lengths, Dušan Janák, Stanislav Hovanec, a difficult route climbed by the coming climbing generation in a good style (RP with the exception of 4th length PP and 5th length RK). Kurt Astner’s route leads in the right part of Cima Ovest between the Roof of the World and the Whisper of Flowers of T. Gross. The first 300m of the route is overhanging, the difficulties culminate on the 10th length of difficulty X-.
           </Project>
         </Section>
 
@@ -450,7 +450,7 @@ export const En = () => {
           <Project>
             <Date>2015</Date> <Grey>3rd place</Grey> Jan Zbranek and Dušan Janák
             <br />
-            (for free climbing Bellavista, Cima Ovest di Lavaredo (8c))
+            (for the free climbing Bellavista, Cima Ovest di Lavaredo (8c))
           </Project>
           <Project>
             <Date>2011</Date> <Grey>2nd place</Grey> Dušan Janák
@@ -460,19 +460,19 @@ export const En = () => {
           <Project>
             <Date>2010</Date> <Grey>3rd place</Grey> Dušan Janák and Pavel Vrtík
             <br />
-            (for the crossing of the road Vol de Nuit - France, Mont Blanc area, Mont Blanc du Tacul (4248 m above sea level))
+            (for the ascent of the route Vol de Nuit - France, Mont Blanc area, Mont Blanc du Tacul (4248 m above sea level))
           </Project>
           <br />
           <H4>Racing</H4>
           <Project>
             <Date>2006</Date> <br />
-            <Grey>3rd place</Grey> Championship of the Czech Republic in ice climbing{" "}
+            <Grey>3rd place</Grey> The Czech Republic Championship in Ice Climbing{" "}
             <br />
-            <Grey>12th place</Grey> Ice World Cup in Tanvald
+            <Grey>12th place</Grey> The Ice World Cup in Tanvald
           </Project>
           <Project>
             <Date>2005</Date> <br />
-            <Grey>1st place</Grey> Championship of the Czech Republic in ice climbing
+            <Grey>1st place</Grey> The Czech Republic Championship in Ice Climbing
           </Project>
         </Section>
       </Main>
