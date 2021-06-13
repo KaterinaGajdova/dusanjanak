@@ -32,13 +32,13 @@ export const En = () => {
   return (
     <>
       <p>
-      I got in mountaineering in the mid-90s thanks to a combination of the joy of staying in nature and the desire for adventure. Although I have spent many years climbing semi-professionally, these two basic notes have always been the main thing for me. Mountaineering complements science well: in cold bivouacs, I was really looking forward to the overheated university library and in the library, or after sitting at a computer for a long time and writing texts, was looking forward to cold bivouacs and staying in the mountains and rocks. After the accident in 2016, my opportunities to devote myself to mountaineering were significantly reduced, but on the other hand, my research interests shifted from the library and from the history of social thought, more to nature to interspecies communication. Rather, the two previously separate worlds are beginning to merge…
+      I got into mountaineering in the mid-90s as it combined for me the joy of staying in the outdoors and desire for adventure. Although I have done climbing semi-professionally for many years, the two characteristics have always been essential to me. Mountaineering complements science well: in cold bivouacs, I was really looking forward to the overheated university library and in the library, while after sitting at the computer for a long time and writing texts, I was looking forward to cold bivouacs and spending time in the mountains and rocks. After my accident in 2016, my opportunities to devote myself to mountaineering were significantly reduced, but on the other hand, my research interests shifted from the library and from the history of social thought more towards the outdoors and interspecies communication. Or rather, the two previously separate worlds have begun to merge…
       </p>
 
       <p>
-      A brief summary of my approach to climbing from the time when I was at the top (around 2010) brings an introduction to the{" "}
-        <GatsbyLink to="/alpinism-tilak-pdf">catalog company Tilak</GatsbyLink>,
-        with which I cooperate today.
+      A brief summary of my approach to climbing from the time when I was “at the top” (around 2010) is included in the introductory article of the catalog of the {" "}
+        <GatsbyLink to="/alpinism-tilak-pdf">Tilak company</GatsbyLink>,
+        with which I continue to cooperate.
       </p>
     </>
   );
