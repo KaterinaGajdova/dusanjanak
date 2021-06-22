@@ -152,13 +152,13 @@ export const climbingPartnersEn = [
     imageTitle: "baca",
     name: "Pavel Vrtík „Bača“",
     description:
-      "We started climbing together and Bača is still one of my closest people. When climbing, it has an interesting feature, the worse it is in the mountains, the better his mood. We most often climb together in the winter mountains. I was very happy when we climbed the north face of the Eiger together two years after my accident.",
+      "We started climbing together and Bača is still one of my closest people. When climbing, he demonstrates an interesting quality: the worse it gets in the mountains, the better his mood. We most often climb together in the winter mountains. I was very happy when, two years after my accident, we climbed the north face of the Eiger together.",
   },
   {
     imageTitle: "satavis",
     name: "Vašek Šatava „Šatavis“",
     description:
-      "Climbing handyman: from bouldering to slapping in the snow. That he looks harmless, climb dangerously well. We have several first ascents in the mountains and on the rocks, broke ours teeth on the wall of the Trolls in Norway, knocked a bloody cold in winter Scotland or climbed around Mont Blanc. He bites into the raw mushroom, snorts, scratches his ear and climbs without warming up Xc. What else to say.",
+      "A take-all climber: from bouldering to making his way through snow. Though he may look harmless, he climbs dangerously well. We have made several first ascents in the mountains and on the rocks together, but our attempt to climb the Wall of the Trolls in Norway cost us some teeth, we shivered with cold in winter Scotland, or climbed around Mont Blanc. He bites into a raw mushroom, gives a burp, scratches behind his ear and climbs Xc without warming up. That says it all.",
   },
   {
     imageTitle: "doudlebak_satavis",
@@ -170,83 +170,79 @@ export const climbingPartnersEn = [
     imageTitle: "dzony",
     name: "Pavel Jonák  „Džony“",
     description:
-      "A positioner, indulging in smooth plates without grips and steps climbing on friction, able to balance in uncertain positions damn high above the safety. Common first ascents in the Dolomites and sand climbing.",
+      "A “positioner” crazy about  climbing smooth slabs without hand and foot holds, enjoying friction climbing, able to balance in uncertain positions damn high above the protection. Common first ascents in the Dolomites and sand climbing.",
   },
   {
     imageTitle: "stracena",
     name: "Jan Straka „Stračena“",
     description:
-      "Strong and cool, „homo stropus„ with which I am connected by the love of overhangs.",
+      "Strong and cool, "homo stropus" with whom I share the love of overhangs.",
   },
   {
     imageTitle: "miro",
     name: "Miro Peťo",
     description:
-      "An extreme skier who climbs well in the rocky mountain walls, with whom we climbed a few rock „bumps„ in the Dolomites and around Mont Blanc. Few people know what his first name and last name is.",
+      "An extreme skier who climbs well in the rocky mountain walls, with whom we made a few rock “prásks”, which means “great climbs”, in the Dolomites and around Mont Blanc. Few people can tell his first name from his last name and vice versa.",
   },
   {
     name: "Honza Kreisinger „Kreisik“",
     description:
-      "Thoughtful type, slowly but surely climbs almost everything. We shared the hanging bed behind the Arctic Circle with Freya and meditated in the Tatra rock extremes.",
+      "A thoughtful type, slowly but surely he climbs almost everything. We shared the hanging bed beyond the Arctic Circle with Freya and meditated in the Tatra rock extremes.",
   },
   {
     imageTitle: "srutas",
     name: "Jiří Šrutek „Šruťas“",
-    description: "Motor mouse for joints and Freerider for Yosemit.",
+    description: "A “motor mouse” for joints and Freerider for Yosemite.",
   },
   {
     imageTitle: "ricardo",
     name: "Richard Jurečka „Ricardo“",
     description:
-      "Forever busy specialist in technical staple climbing. We have the first ascents together in the Tatras and Dolomites, unfinished ascent in the wall of the Trolls and we played Hazard in the Tatras.",
+      "An always busy specialist in technical climbing with pitons. We have the first ascents together in the Tatras and Dolomites, an unfinished ascent in the Wall of the Trolls and we played Hazard in the Tatras.",
   },
   {
     imageTitle: "asu",
     name: "Lukáš Abt „Asu“",
     description:
-      "A hunter of short journeys and forgotten walls, the only person without a cell phone I know. We picked up the Miss Italia 1961 together and sharpened the Saber in the Tatras in the winter.",
+      "A hunter of short routes and forgotten walls, the only person without a cell phone I know. We picked up Miss Italia 1961 together and sharpened the Saber in the Tatras in the winter.",
   },
   {
     name: "Lumír Fajkoš",
     description:
-      "Lumír and I haven't climbed much yet, but we tried to climb all the more.",
+      "Lumír and I haven't climbed many routes yet, but the more we have tried.",
   },
   {
     name: "Marek Žák „Mára“ ",
     description:
-      "Sandstone lover and leader type, independent personality with original ideas. His strongest and weakest point is that he can do most of what he chooses.",
+      "A sandstone lover and leader type, an independent personality with original ideas. His strongest and weakest point at the same time is that he can do most of what he sets out to do.",
   },
   {
     name: "Standa Hovanec „Kvak“",
     description:
-      "At one point it looked like the hope of Czech rock mountaineering and the top ten in the mountains for Czech climbers, but in the end they showed stronger talents for business.",
+      "At some point it looked like he was the hope for Czech rock mountaineering and the top ten in the mountains for Czech climbers, but in the end his entrepreneurial talent prevailed.",
   },
   {
     name: "Vilém Pavelka",
     description:
-      "Strongman, sweetheart, cheerleader and handyman at home. He made our first rivets and we are connected by the first rocky paths in the mountains.",
+      "Mr Strong and Cool, a sweet tooth and useful handyman in one person, He made our first bolts and we are connected through our first rocky routes climbed in the mountains.",
   },
   {
     name: "Michal Drašar „Hormon a Moták“",
     description:
-      "We climbed some nines together in the Dolomites, but it's been so long that I hardly remember it. Instead, I remember interesting discussions in the rocks and that he lent me a car so I could go and have Atomic coffee in Italy.",
+      "We climbed some nines together in the Dolomites, but it's such a long time ago that I hardly remember it. Instead, I have vivid memories of our discussions in the rocks and that he lent me a car so I could go and have Atomic coffee in Italy.",
   },
   {
     imageTitle: "zbrana",
     name: "Honza Zbranek „Zbráňa“",
     description:
-      "World Cup builder with a tendency to climb in nature. The passing through the largest roof in the Alps together was such a nice point, behind my performance climbing career. Honza climbed the hardest length of the roof at the first end, and I'm not sure if I would have climbed it myself in a sporty style. I broke down at the beginning of the following season. It's time to move forward better, younger, more promising…",
+      "A World Cup builder inclined to climb in the great outdoors. The passing through the largest  roof in the Alps was a nice ending to my performance climbing career. Honza climbed the hardest length at the first end and I'm not sure if I would have climbed it myself in the sport style. I broke apart at the beginning of the following season. It's time to send forward the better, younger, more promising…",
   },
 ];
 export const En1 = () => {
   return (
     <>
       <p>
-        The older I get, the more I don't care what and where I climb, but with
-        whom. I owe the climbing to a lot of friends. Not all of them can be
-        mentioned, but some of them are connected by mountain experiences that
-        are more intense than from the rocks. An exception is sandstone
-        climbing, these are small mountains and often large experiences…
+      The older I get, the less I care about what and where I climb, and the more with whom. I gained a lot of friends thanks to climbing. I cannot mention them all here, but with some of them, I am connected by mountain experiences that are more powerful than those from the rocks. An exception is sandstone climbing, as sandstones are small mountains and climbing experiences often big…
       </p>
     </>
   );
@@ -255,14 +251,11 @@ export const En2 = () => {
   return (
     <>
       <p>
-        The beginnings of climbing are friends from the mountaineering club HO
-        Lokomotiva - Ingstav Brno as <b>Vojta Dvořák "Watt"</b>,{" "}
-        <b>Radek Lienerth "Zoban"</b>, <b>Petr Holzer "Hop"</b>, who took me on
-        a rope in the mountains when I was looking out climbing.
+      The beginnings of my climbing activities are closely linked with my friends from the mountaineering club HO Lokomotiva - Ingstav Brno, such as  <b>Vojta Dvořák "Watt"</b>,{" "}
+        <b>Radek Lienerth "Zoban"</b>,or <b>Petr Holzer "Hop"</b>, who took me on a climbing trip in the mountains as a novice and watched over me.
       </p>
       <p>
-        As a sociologist, I pay attention to gender equality and not to mention
-        my fellow women would be at least incorrect. So last but not least:
+      As a sociologist, I pay attention to gender equality and omitting ladies as my fellow climbers would be at least incorrect. So last but not least:
       </p>
     </>
   );
@@ -272,7 +265,7 @@ export const climbingPartnersFEn = [
   {
     name: "Monika Podbraná / Janáková",
     description:
-      "Together we climbed mainly sports routes on the rocks for more than twenty years and we managed to make one big first ascent of life - daughter Magdalénka.",
+      "Together we climbed mainly sports routes on the rocks for more than twenty years and we managed to make one big first ascent of life - our daughter Magdalénka.",
   },
   {
     name: "Míša Boudová",
@@ -282,6 +275,6 @@ export const climbingPartnersFEn = [
   {
     name: "Kateřina Gajdová „Kača“",
     description:
-      "The common love of climbing sandstone towers led to the fact that we built a log house together near the Adršpach Rocks. When it's nice and God willing, I hope we reach the top many more times in the towers.",
+      "Our common love of climbing sandstone towers led us to build a timbered house together near the Adršpach Rocks. When it's nice and God willing, I hope we’ll reach the top many more times in the towers.",
   },
 ];
