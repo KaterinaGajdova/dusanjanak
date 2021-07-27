@@ -163,9 +163,7 @@ export const En = () => {
         <Comment>
           <div>
             <H4>Sandstone (2012)</H4>
-            Documentary film about sandstone climbing awarded the main prize at
-            the International Mountaineering Film Festival in Teplice nad Metují
-            - the best documentary and the viewer&#39;s prize.
+            A documentary film about sandstone climbing awarded the main prize at the International Mountaineering Film Festival in Teplice nad Metují - the best documentary and the viewer&#39;s prize.
           </div>
         </Comment>
         <YoutubeVideo
@@ -177,8 +175,7 @@ export const En = () => {
       <Grid>
         <Comment>
           <div>
-            <H4> Bílá růže (White Rose) (2011)</H4>A short film about the
-            legendary crack climbing route in Adršpach.
+            <H4> Bílá růže (White Rose) (2011)</H4>A short film about the legendary joint route in Adršpach.
           </div>
         </Comment>
         <YoutubeVideo
@@ -190,9 +187,7 @@ export const En = () => {
       <Grid reverse>
         <Comment>
           <div>
-            <H4>Matrix (2008)</H4>A spontaneously created film from the student
-            years about winter climbing packed with sharp music and lots of
-            beer.
+            <H4>Matrix (2008)</H4>A spontaneously created film from the student years about winter climbing, packed with rough music and lots of beer.
           </div>
         </Comment>
         <YoutubeVideo
@@ -204,10 +199,7 @@ export const En = () => {
       <Grid>
         <Comment>
           <div>
-            <H4>Stoupa presentation (2009)</H4>A period climbing portrait by
-            Petr Pavlíček from the time when I had a &quot;move to the
-            goal&quot; in climbing and was a bit hesitant between climbing and
-            science. In the end, I stayed with both.
+            <H4>Stoupa presentation (2009)</H4>A climber’s portrait by Petr Pavlíček from the time when I had a  &quot;focus and drive&quot; in climbing and was a bit of two minds about which way to take, climbing or science. In the end, I stayed with both of them.
           </div>
         </Comment>
         <YoutubeVideo
@@ -219,7 +211,7 @@ export const En = () => {
         <Comment>
           <div>
             <H4>Podcast Nadzemí (2019)</H4>
-            Interview about climbing.
+            An interview about climbing.
           </div>
         </Comment>
         <YoutubeVideo
@@ -232,9 +224,9 @@ export const En = () => {
         <Comment>
           <div>
             <H4>
-              Interview for Wave Radio, Honnold&#39;s Freerider Output (2019)
+            An interview for the Radio Wave, Honnold&#39;s Freerider Output (2019)
             </H4>
-            Interview for Wave Radio, Honnold&#39;s Freerider Output
+            An interview for the Radio Wave, Honnold&#39;s Freerider Output
           </div>
         </Comment>
         <a
