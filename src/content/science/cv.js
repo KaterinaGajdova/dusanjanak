@@ -428,7 +428,7 @@ export const En = () => {
       <Section>
         <H4>PERSONAL INFORMATION:</H4>
         <div>
-          <Grey big>doc. PhDr. Dušan Janák, Ph.D.</Grey>, Year of birth: 1979 
+          <Grey big>doc. PhDr. Dušan Janák, Ph.D.</Grey>, Year of birth: 1979
           in Ostrava
         </div>
       </Section>
@@ -436,17 +436,18 @@ export const En = () => {
         <H4>working position:</H4>
         <ul>
           <li>
-            <Date>2018 – present</Date>: Doc. (habilitation) in sociology, Faculty of Arts, Palacký University, Olomouc, Czech Republic 
+            <Date>2018 – present</Date>: docent (senior lecturer) in sociology,
+            Faculty of Public Policies, Silesian University in Opava, Czech
+            Republic
           </li>
           <li>
             <Date> 2013 – 2017</Date>: Head of the Centre for Empirical Research
-	Faculty of Public Policies, Silesian University in Opava, Czech Republic
-
+            Faculty of Public Policies, Silesian University in Opava, Czech
+            Republic
           </li>
           <li>
-            <Date> 2009 – 2018</Date>: Assistant professor
-	Faculty of Public Policies, Silesian University in Opava, Czech Republic
-
+            <Date> 2009 – 2018</Date>: Assistant professor Faculty of Public
+            Policies, Silesian University in Opava, Czech Republic
           </li>
         </ul>
       </Section>
@@ -456,23 +457,29 @@ export const En = () => {
         <ul>
           <li>
             <Date> 2018: </Date>
-            Doc. (habilitation) in sociology, Faculty of Arts, Palacký University, Olomouc, Czech Republic 
+            Doc. (habilitation) in sociology, Faculty of Arts, Palacký
+            University, Olomouc, Czech Republic
           </li>
           <li>
             <Date> 2009: </Date>
-            PhDr. in sociology, Faculty of Social Sciences, Department of Sociology, Masaryk University, Brno, Czech Republic    
+            PhDr. in sociology, Faculty of Social Sciences, Department of
+            Sociology, Masaryk University, Brno, Czech Republic
           </li>
           <li>
             <Date> 2008: </Date>
-            Ph.D. in sociology, Faculty of Social Sciences, Department of Sociology, Masaryk University, Brno, Czech Republic
-            Name of PhD Supervisor: Radim Marada
+            Ph.D. in sociology, Faculty of Social Sciences, Department of
+            Sociology, Masaryk University, Brno, Czech Republic Name of PhD
+            Supervisor: Radim Marada
           </li>
           <li>
             <Date> 2004: </Date>
-            Master in sociology, Faculty of Social Sciences, Department of sociology, Masaryk University, Brno, Czech Republic
+            Master in sociology, Faculty of Social Sciences, Department of
+            sociology, Masaryk University, Brno, Czech Republic
           </li>
           <li>
-            <Date>2002 :</Date> Bc. in sociology and philosophy, Faculty of Social Sciences, Faculty of Arts, Masaryk University, Brno, Czech Republic
+            <Date>2002 :</Date> Bc. in sociology and philosophy, Faculty of
+            Social Sciences, Faculty of Arts, Masaryk University, Brno, Czech
+            Republic
           </li>
         </ul>
       </Section>
@@ -480,105 +487,133 @@ export const En = () => {
         <H4>Fields of professional interest:</H4>
         <div>
           <div>
-            - Central European societies and their social and environmental problems
+            - Central European societies and their social and environmental
+            problems
           </div>
           <div> - history of social thought</div>
           <div> - methodology of social sciences</div>
           <div> - social philosophy and philosophy of social sciences</div>
-          <div> - interspecies communication and human-animal relationships</div>
+          <div>
+            {" "}
+            - interspecies communication and human-animal relationships
+          </div>
         </div>
       </Section>
       <Section>
         <H4>Study visits and academic stays </H4>
 
         <Project>
-          <Date>Academic year 2015/2016:</Date> Visiting professor, National University of Public Service, Budapest, Hungary
+          <Date>Academic year 2015/2016:</Date> Visiting professor, National
+          University of Public Service, Budapest, Hungary
         </Project>
         <Project>
-          <Date>2014 :</Date> The Institute for Sociology of the Slovak Academy of Sciences - eight months, National Scholarship Programme of the Slovak Republic
+          <Date>2014 :</Date> The Institute for Sociology of the Slovak Academy
+          of Sciences - eight months, National Scholarship Programme of the
+          Slovak Republic
         </Project>
         <Project>
-          <Date>2013:</Date> University of Primorska, Koper (Slovenia) – one-week visit, Erasmus – November 2013
+          <Date>2013:</Date> University of Primorska, Koper (Slovenia) –
+          one-week visit, Erasmus – November 2013
         </Project>
         <Project>
-          <Date>2012:</Date> The National University of Public Services, Budapest (Hungary) – two-week visit CEEPUS  – November 2012
+          <Date>2012:</Date> The National University of Public Services,
+          Budapest (Hungary) – two-week visit CEEPUS – November 2012
         </Project>
         <Project>
-          <Date>Academic year 2011/2012:</Date> Sociologický ústav SAV v Bratislavě
-          (Visegrad Scholarship) 2011 Univerzita v Terstu (Itálie) –Fakulta
-          politických věd - týdenní stáž – listopad 2011
+          <Date>Academic year 2011/2012:</Date> Sociologický ústav SAV
+          v Bratislavě (Visegrad Scholarship) 2011 Univerzita v Terstu (Itálie)
+          –Fakulta politických věd - týdenní stáž – listopad 2011
         </Project>
         <Project>
-          <Date>Academic year 2011/2012: </Date> The Institute for Sociology of the Slovak Academy of Sciences - ten months stay from September 2011 to June 2012, Visegrad scholarship, one week Erasmus stay at University of Terst, Italy, November 2011 
+          <Date>Academic year 2011/2012: </Date> The Institute for Sociology of
+          the Slovak Academy of Sciences - ten months stay from September 2011
+          to June 2012, Visegrad scholarship, one week Erasmus stay at
+          University of Terst, Italy, November 2011
         </Project>
         <Project>
-          <Date>Academic year 2010/2011: </Date> The Institute for Sociology of the Slovak Academy of Sciences - ten months stay from September 2010 to June 2011,Visegrad scholarship  
+          <Date>Academic year 2010/2011: </Date> The Institute for Sociology of
+          the Slovak Academy of Sciences - ten months stay from September 2010
+          to June 2011,Visegrad scholarship
         </Project>
         <Project>
-          <Date>2009:</Date> The Institute for Sociology of the Slovak Academy of Sciences (five months stay)
+          <Date>2009:</Date> The Institute for Sociology of the Slovak Academy
+          of Sciences (five months stay)
         </Project>
         <Project>
-          <Date>2004:</Date> University of Vienna – Institute for Philosophy – one semester stay
+          <Date>2004:</Date> University of Vienna – Institute for Philosophy –
+          one semester stay
         </Project>
       </Section>
 
       <Section>
-        <H4>
-        Research grant projects (basic as well as applied research)
-        </H4>
+        <H4>Research grant projects (basic as well as applied research)</H4>
         <Project>
           <Date>2018 – 2021:</Date>
           <Name>
-          LEGAL, HISTORICAL AND SOCIAL SCIENTIFIC ASPECTS OF NEW AND TRADITIONAL MINORITIES IN THE CZECH REPUBLIC
+            LEGAL, HISTORICAL AND SOCIAL SCIENTIFIC ASPECTS OF NEW AND
+            TRADITIONAL MINORITIES IN THE CZECH REPUBLIC
           </Name>
-          funding: Ministry of Culture, project NAKI II, no. DG18P02OVV064 <br /> role: team member, guarantee of sociological part
+          funding: Ministry of Culture, project NAKI II, no. DG18P02OVV064{" "}
+          <br /> role: team member, guarantee of sociological part
         </Project>
         <Project>
           <Date>2018 – 2022:</Date>
           <Name>
-          CULINARY HERITAGE OF THE CZECH LANDS: MEMORY, PRESENTATION AND EDUCATION
+            CULINARY HERITAGE OF THE CZECH LANDS: MEMORY, PRESENTATION AND
+            EDUCATION
           </Name>
           funding: Ministry of Culture, project NAKI II, no. DG18P02OVV067
-           <br /> role: team member, guarantee of the stage 01 - empirical sociological research
+          <br /> role: team member, guarantee of the stage 01 - empirical
+          sociological research
         </Project>
         <Project>
           <Date>2015 – 2017 (2018):</Date>
           <Name>
-          SOCIOLOGY IN CENTRAL EUROPE BEFORE THE SECOND WORLD WAR IN A COMPARATIVE PERSPECTIVE
+            SOCIOLOGY IN CENTRAL EUROPE BEFORE THE SECOND WORLD WAR IN A
+            COMPARATIVE PERSPECTIVE
           </Name>
-          funding: Grant Agency of the Czech Republic (GA CR), no. 15-04099Y <br /> role: principal investigator
+          funding: Grant Agency of the Czech Republic (GA CR), no. 15-04099Y{" "}
+          <br /> role: principal investigator
         </Project>
         <Project>
           <Date>2013 – 2017:</Date>
-          <Name>INDUSTRIAL WORKERS IN THE CZECH LANDS BETWEEN 1938 – 1948  </Name>
+          <Name>
+            INDUSTRIAL WORKERS IN THE CZECH LANDS BETWEEN 1938 – 1948{" "}
+          </Name>
           funding: project GA CR no.13-10279S <br /> role: team member
         </Project>
         <Project>
           <Date>2015-2016:</Date>
           <Name>
-          CONNECTING SOCIAL-SCIENTIFIC ANALYSIS AND PHOTOGRAPHY OF JINDŘICH ŠTREIT AS A TOOL FOR CAPTURING THE LIVING CONDITIONS OF ROMA
+            CONNECTING SOCIAL-SCIENTIFIC ANALYSIS AND PHOTOGRAPHY OF JINDŘICH
+            ŠTREIT AS A TOOL FOR CAPTURING THE LIVING CONDITIONS OF ROMA
           </Name>
-          funding:  Silesian University in Opava, grant no. SGS/1/2015
-          role: co-investigator
+          funding: Silesian University in Opava, grant no. SGS/1/2015 role:
+          co-investigator
         </Project>
         <Project>
           <Date>2014-2015:</Date>
           <Name>
-          SOCIOLOGICAL MONITORING OF EDUCATIONAL INPUTS AND OUTPUTS OF CHILDREN AND PUPILS, INCLUDING CHILDREN AND PUPILS WITH SPECIAL EDUCATIONAL NEEDS IN THE CZECH REPUBLIC
+            SOCIOLOGICAL MONITORING OF EDUCATIONAL INPUTS AND OUTPUTS OF
+            CHILDREN AND PUPILS, INCLUDING CHILDREN AND PUPILS WITH SPECIAL
+            EDUCATIONAL NEEDS IN THE CZECH REPUBLIC
           </Name>
-          funding:  Ministry of Education, Youth and Sports, grant no. CZ1.07./1.2.00/47.0009 <br /> role: co-investigator
+          funding: Ministry of Education, Youth and Sports, grant no.
+          CZ1.07./1.2.00/47.0009 <br /> role: co-investigator
         </Project>
         <Project>
           <Date>2014-2015:</Date>
           <Name>
-          SPECIALIZED MAPS AND A SYSTEM TO SUPPORT SENIORS AND COOPERATION OF PARTICIPATING ACTORS FOR THE DEVELOPMENT OF VOLUNTEERING
+            SPECIALIZED MAPS AND A SYSTEM TO SUPPORT SENIORS AND COOPERATION OF
+            PARTICIPATING ACTORS FOR THE DEVELOPMENT OF VOLUNTEERING
           </Name>
-          funding: Technological agency of the Czech Republic (TA CR), grant no. TD020048 <br /> role: team member
+          funding: Technological agency of the Czech Republic (TA CR), grant no.
+          TD020048 <br /> role: team member
         </Project>
         <Project>
           <Date>2014-2015:</Date>
           <Name>
-          CONTENT ANALYSIS AS A METHOD OF HISTORICAL AND SOCIOLOGICAL RESEARCH
+            CONTENT ANALYSIS AS A METHOD OF HISTORICAL AND SOCIOLOGICAL RESEARCH
           </Name>
           funding: Silesian University in Opava, grant no. SGS/2/2014
           <br />
@@ -595,35 +630,44 @@ export const En = () => {
         <Project>
           <Date>2014:</Date>
           <Name>
-          INTERCONNECTION OF POLITICAL ELITES AT NATIONAL AND REGIONAL LEVEL
+            INTERCONNECTION OF POLITICAL ELITES AT NATIONAL AND REGIONAL LEVEL
           </Name>
-          funding: Euroregion Silesia, grantu no. CZ.3.22/3.3.04/13.03881{" "}
-          <br /> role: team member
+          funding: Euroregion Silesia, grantu no. CZ.3.22/3.3.04/13.03881 <br />{" "}
+          role: team member
         </Project>
         <Project>
           <Date>2014:</Date>
-          <Name> CREATION OF A COMMUNITY-BASED LOCAL DEVELOPMENT STRATEGY ON THE TERRITORY OF KRNOVSKO FOR THE PROGRAMMING PERIOD 2014-2020</Name>
-          funding:  MAS Rozvoj Krnovska, research contract{" "}
-          <br /> role: professional contract guarantor
+          <Name>
+            {" "}
+            CREATION OF A COMMUNITY-BASED LOCAL DEVELOPMENT STRATEGY ON THE
+            TERRITORY OF KRNOVSKO FOR THE PROGRAMMING PERIOD 2014-2020
+          </Name>
+          funding: MAS Rozvoj Krnovska, research contract <br /> role:
+          professional contract guarantor
         </Project>
         <Project>
           <Date>2010-2013:</Date>
           <Name> THE HISTORY AND PRESENT OF CZECH SOCIOLOGY</Name>
-          funding: project GA CR no. P404/10/0032 <br /> role: external associate
+          funding: project GA CR no. P404/10/0032 <br /> role: external
+          associate
         </Project>
         <Project>
           <Date>2013:</Date>
           <Name>
-          THE POLISH PERSPECTIVE ON NATIONAL ISSUES IN THE HISTORICAL AND SOCIOLOGICAL APPROACH IN THE FIRST HALF OF THE 20TH CENTURY
+            THE POLISH PERSPECTIVE ON NATIONAL ISSUES IN THE HISTORICAL AND
+            SOCIOLOGICAL APPROACH IN THE FIRST HALF OF THE 20TH CENTURY
           </Name>
-          funding: Silesian University in Opava, grant no. SGS/3/2013{" "}
-          <br />
-          role: team  member
+          funding: Silesian University in Opava, grant no. SGS/3/2013 <br />
+          role: team member
         </Project>
         <Project>
           <Date>2013:</Date>
-          <Name> SITUATION ANALYSIS OF THE SOCIALLY EXCLUDED LOCALITIES IN OSOBLAŽSKO</Name>
-          funding:  The Office of the Government of the Czech Republic, project no. CZ.1.04/3.2.00/90.0001
+          <Name>
+            {" "}
+            SITUATION ANALYSIS OF THE SOCIALLY EXCLUDED LOCALITIES IN OSOBLAŽSKO
+          </Name>
+          funding: The Office of the Government of the Czech Republic, project
+          no. CZ.1.04/3.2.00/90.0001
           <br />
           role: principal investigator
         </Project>
@@ -637,36 +681,44 @@ export const En = () => {
         <Project>
           <Date> 2011: </Date>
           <Name>
-          MICRO ENTERPRISE IN THE AREA OF SOCIAL SERVICES AND OTHER MODELS OF PROVISION OF CARE FOR PEOPLE DEPENDING ON THE ASSISTANCE OF OTHERS UNDER THE SOCIAL SERVICES ACT (SOCIAL CARE ASSISTANT)
+            MICRO ENTERPRISE IN THE AREA OF SOCIAL SERVICES AND OTHER MODELS OF
+            PROVISION OF CARE FOR PEOPLE DEPENDING ON THE ASSISTANCE OF OTHERS
+            UNDER THE SOCIAL SERVICES ACT (SOCIAL CARE ASSISTANT)
           </Name>
-          funding:  Ministry of Labour and Social Affairs of the Czech Republic, Výzkumný projekt MPSV ČR č. HC 218/1
+          funding: Ministry of Labour and Social Affairs of the Czech Republic,
+          Výzkumný projekt MPSV ČR č. HC 218/1
           <br />
           role: team member
         </Project>
         <Project>
           <Date> 2010: </Date>
           <Name>
-          CZECH AND POLISH SOCIETY 1918-1938: SOCIOLOGICAL REFLECTIONS OF POLITICAL AND SOCIAL ISSUES
+            CZECH AND POLISH SOCIETY 1918-1938: SOCIOLOGICAL REFLECTIONS OF
+            POLITICAL AND SOCIAL ISSUES
           </Name>
-          funding: Ministry of Foreign Affairs (Czech-Polish Forum), grant no. 11/2010/DT/czpl
+          funding: Ministry of Foreign Affairs (Czech-Polish Forum), grant no.
+          11/2010/DT/czpl
           <br />
           role: principal investigator
         </Project>
         <Project>
           <Date> 2010: </Date>
           <Name>
-          RESEARCH ON THE RELATION OF SOCIAL SCIENCES AND MODERNIZATION PROCESSES IN CENTRAL EUROPE
+            RESEARCH ON THE RELATION OF SOCIAL SCIENCES AND MODERNIZATION
+            PROCESSES IN CENTRAL EUROPE
           </Name>
-          funding:  Silesian University in Opava, grant no. IGS/28/2010,
+          funding: Silesian University in Opava, grant no. IGS/28/2010,
           <br />
           role: principal investigator
         </Project>
         <Project>
           <Date> 2009:</Date>
           <Name>
-          CZECH AND POLISH SOCIETY 1918-1938: SOCIOLOGICAL DISCUSSIONS AND POLEMICS
+            CZECH AND POLISH SOCIETY 1918-1938: SOCIOLOGICAL DISCUSSIONS AND
+            POLEMICS
           </Name>
-          funding:  Ministry of Foreign Affairs (Czech-Polish Forum), grant no. 8/2009/DT/czpl
+          funding: Ministry of Foreign Affairs (Czech-Polish Forum), grant no.
+          8/2009/DT/czpl
           <br />
           role: principal investigator
         </Project>
@@ -677,50 +729,55 @@ export const En = () => {
         <Project>
           <Date> 2016-2018: </Date>
           <Name>SUPPORT OF THE CENTER FOR EMPIRICAL RESEARCH </Name>
-          funding: Ministry of Education, Youth and Sports; Silesian University in Opava, grant no. 0601/2016 <br />
+          funding: Ministry of Education, Youth and Sports; Silesian University
+          in Opava, grant no. 0601/2016 <br />
           role: principal coordinator
         </Project>
 
         <Project>
           <Date> 2016 – 2018:</Date>
           <Name>
-          INDICATORS DETERMINING THE FAILURE OF TERTIARY EDUCATION STUDENTS AT THE SILESIA UNIVERSITY IN OPAVA
+            INDICATORS DETERMINING THE FAILURE OF TERTIARY EDUCATION STUDENTS AT
+            THE SILESIA UNIVERSITY IN OPAVA
           </Name>
-          funding: Silesian University in Opava (ISIP), grant no. 24/ISIP/2016   
+          funding: Silesian University in Opava (ISIP), grant no. 24/ISIP/2016
           <br /> role: co-investigator
-         </Project>
-         <Project>
+        </Project>
+        <Project>
           <Date> 2015:</Date>
           <Name>
-          INNOVATION AND DEVELOPMENT OF PRACTICAL SKILLS IN COURSES OF METHODOLOGY AND SOCIAL SCIENTIFIC RESEARCH
+            INNOVATION AND DEVELOPMENT OF PRACTICAL SKILLS IN COURSES OF
+            METHODOLOGY AND SOCIAL SCIENTIFIC RESEARCH
           </Name>
           funding: Silesian University in Opava (ISIP), grant no. 02/ISIP/2015
           <br /> role: co-coordinator
         </Project>
         <Project>
           <Date> 2015:</Date> <Name>CREATING A COURSE IN ENGLISH</Name>
-          funding:  Silesian University in Opava (ISIP), grant no.  09/ISIP/2015
+          funding: Silesian University in Opava (ISIP), grant no. 09/ISIP/2015
           <br /> role: co-coordinator
         </Project>
         <Project>
           <Date> 2014:</Date>
           <Name>
-          CREATION OF A UNIVERSITY TEXTBOOK IN ENGLISH LANGUAGE AND INCREASING STUDENT LANGUAGE COMPETENCES
+            CREATION OF A UNIVERSITY TEXTBOOK IN ENGLISH LANGUAGE AND INCREASING
+            STUDENT LANGUAGE COMPETENCES
           </Name>
-          funding: Silesian University in Opava (ISIP), grant no.  09/ISIP/2015
+          funding: Silesian University in Opava (ISIP), grant no. 09/ISIP/2015
           <br /> role: principal coordinator
         </Project>
         <Project>
           <Date> 2010 – 2018:</Date>
           <Name>VISEGRAD: SOCIAL THOUGHT, STRUCTURE AND TRANSFORMATION </Name>
-          funding: Visegrad fund, Visegrad university studies  grant no. 60900007
+          funding: Visegrad fund, Visegrad university studies grant no. 60900007
           <br /> role: principal coordinator
         </Project>
 
         <Project>
           <Date> 2005-2007:</Date>
           <Name>
-          SYSTEMATIZATION OF STUDENT QUALITY ASSESSMENT PROCESSES IN THE CZECH REPUBLIC
+            SYSTEMATIZATION OF STUDENT QUALITY ASSESSMENT PROCESSES IN THE CZECH
+            REPUBLIC
           </Name>
           funding: Ministry of Education, Youth and Sports
           <br /> role: team member
@@ -728,52 +785,82 @@ export const En = () => {
       </Section>
       <Section>
         <H4>
-        Membership and functions in commissions, councils or other bodies related to the field:
+          Membership and functions in commissions, councils or other bodies
+          related to the field:
         </H4>
 
         <Project>
-          <Date> 2015 – present:</Date> Member of the Executive Committee of the Czech Sociological Society (member of the society since 2009)
+          <Date> 2015 – present:</Date> Member of the Executive Committee of the
+          Czech Sociological Society (member of the society since 2009)
         </Project>
         <Project>
-          <Date>2014 – present:</Date> Member of the Commission of the Miloslav Petrusek Award, annual award of the Czech Sociological Society for the best PhD student article (Chairman of the commission since 2021)
+          <Date>2014 – present:</Date> Member of the Commission of the Miloslav
+          Petrusek Award, annual award of the Czech Sociological Society for the
+          best PhD student article (Chairman of the commission since 2021)
         </Project>
         <Project>
-          <Date>2013 – present:</Date> Assistant editor, Central European Papers. Faculty of Public Policies, Silesian University in Opava, the Czech Republic
+          <Date>2013 – present:</Date> Assistant editor, Central European
+          Papers. Faculty of Public Policies, Silesian University in Opava, the
+          Czech Republic
         </Project>
       </Section>
       <Section>
         <H4>Teaching activities at university:</H4>
         <Project>
-          <Date>2009 – present:</Date> The focus of pedagogical activities at the Faculty of Public Policy lies in the field of Central European Studies and in the teaching of sociological and methodological courses across the fields of the faculty. Since 2009, a guarantee of a total of 48 courses within 4 fields of FVP
+          <Date>2009 – present:</Date> The focus of pedagogical activities at
+          the Faculty of Public Policy lies in the field of Central European
+          Studies and in the teaching of sociological and methodological courses
+          across the fields of the faculty. Since 2009, a guarantee of a total
+          of 48 courses within 4 fields of FVP
         </Project>
         <Project>
-          <Date> 2014-2018:</Date> coordinator of one, co-coordinator of two and member of the team of one project of the Internal Competition of the Institutional Plan of the Silesian University focused on the development of teaching at FVP SU (see development projects above)
+          <Date> 2014-2018:</Date> coordinator of one, co-coordinator of two and
+          member of the team of one project of the Internal Competition of the
+          Institutional Plan of the Silesian University focused on the
+          development of teaching at FVP SU (see development projects above)
         </Project>
         <Project>
-          <Date> 2015/2016:</Date> Visiting professor, National University of Public Service, Budapest, Hungary (regular teaching for undergraduate and PhD students)
+          <Date> 2015/2016:</Date> Visiting professor, National University of
+          Public Service, Budapest, Hungary (regular teaching for undergraduate
+          and PhD students)
         </Project>
         <Project>
-          <Date> 2013 – present:</Date>
-          : supervisor-specialist in doctoral studies in the field of Modern History of Central Europe at FVP SU
+          <Date> 2013 – present:</Date>: supervisor-specialist in doctoral
+          studies in the field of Modern History of Central Europe at FVP SU
         </Project>
         <Project>
-          <Date>2014, 2015:</Date> SU's internal project for the development of the Center for Empirical Research, which included the systematization of the connection between research and teaching in the form of student involvement in research
+          <Date>2014, 2015:</Date> SU's internal project for the development of
+          the Center for Empirical Research, which included the systematization
+          of the connection between research and teaching in the form of student
+          involvement in research
         </Project>
         <Project>
           <Date> 2012 – 2016:</Date>
-          principal investigator of one and co-investigator or team member of two projects of the student grant system of the Silesian University carrying out research of academic staff together with students (see the overview of research projects above)
+          principal investigator of one and co-investigator or team member of
+          two projects of the student grant system of the Silesian University
+          carrying out research of academic staff together with students (see
+          the overview of research projects above)
         </Project>
         <Project>
-          <Date> 2011, 2012, 2015:</Date> creation of five  teaching materials (textbooks)
+          <Date> 2011, 2012, 2015:</Date> creation of five teaching materials
+          (textbooks)
         </Project>
         <Project>
-          <Date> 2010 – 2018:</Date> University studies grant of the Visegrad Fund (VUSG No. 60900007) consisting in the creation, coordination and teaching of the course "Visegrad: social thought, structure and transformation" with the participation of researchers from V4 countries in the field of Central European Studies FVP
+          <Date> 2010 – 2018:</Date> University studies grant of the Visegrad
+          Fund (VUSG No. 60900007) consisting in the creation, coordination and
+          teaching of the course "Visegrad: social thought, structure and
+          transformation" with the participation of researchers from V4
+          countries in the field of Central European Studies FVP
         </Project>
         <Project>
-          <Date> 2006 – 2008: </Date>external teaching of the whole-faculty course Sociology at the Faculty of Economics and Administration, Masaryk University in Brno
+          <Date> 2006 – 2008: </Date>external teaching of the whole-faculty
+          course Sociology at the Faculty of Economics and Administration,
+          Masaryk University in Brno
         </Project>
         <Project>
-          <Date>2005 – 2007:</Date> member of the team of the project Systematization of Student Quality Assessment Processes in the Czech Republic (project holder: Academic Center for Student Activities)
+          <Date>2005 – 2007:</Date> member of the team of the project
+          Systematization of Student Quality Assessment Processes in the Czech
+          Republic (project holder: Academic Center for Student Activities)
         </Project>
       </Section>
     </>

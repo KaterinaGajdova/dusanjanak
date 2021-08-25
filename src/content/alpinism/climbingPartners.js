@@ -176,7 +176,7 @@ export const climbingPartnersEn = [
     imageTitle: "stracena",
     name: "Jan Straka „Stračena“",
     description:
-      "Strong and cool, "homo stropus" with whom I share the love of overhangs.",
+      "Strong and cool, „homo stropus“ with whom I share the love of overhangs.",
   },
   {
     imageTitle: "miro",
@@ -242,7 +242,12 @@ export const En1 = () => {
   return (
     <>
       <p>
-      The older I get, the less I care about what and where I climb, and the more with whom. I gained a lot of friends thanks to climbing. I cannot mention them all here, but with some of them, I am connected by mountain experiences that are more powerful than those from the rocks. An exception is sandstone climbing, as sandstones are small mountains and climbing experiences often big…
+        The older I get, the less I care about what and where I climb, and the
+        more with whom. I gained a lot of friends thanks to climbing. I cannot
+        mention them all here, but with some of them, I am connected by mountain
+        experiences that are more powerful than those from the rocks. An
+        exception is sandstone climbing, as sandstones are small mountains and
+        climbing experiences often big…
       </p>
     </>
   );
@@ -251,11 +256,16 @@ export const En2 = () => {
   return (
     <>
       <p>
-      The beginnings of my climbing activities are closely linked with my friends from the mountaineering club HO Lokomotiva - Ingstav Brno, such as  <b>Vojta Dvořák "Watt"</b>,{" "}
-        <b>Radek Lienerth "Zoban"</b>,or <b>Petr Holzer "Hop"</b>, who took me on a climbing trip in the mountains as a novice and watched over me.
+        The beginnings of my climbing activities are closely linked with my
+        friends from the mountaineering club HO Lokomotiva - Ingstav Brno, such
+        as <b>Vojta Dvořák "Watt"</b>, <b>Radek Lienerth "Zoban"</b>,or{" "}
+        <b>Petr Holzer "Hop"</b>, who took me on a climbing trip in the
+        mountains as a novice and watched over me.
       </p>
       <p>
-      As a sociologist, I pay attention to gender equality and omitting ladies as my fellow climbers would be at least incorrect. So last but not least:
+        As a sociologist, I pay attention to gender equality and omitting ladies
+        as my fellow climbers would be at least incorrect. So last but not
+        least:
       </p>
     </>
   );
