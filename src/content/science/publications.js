@@ -354,8 +354,9 @@ export const Cz = () => {
       <Section>
         <H4>Studie a články v ostatních vědeckých časopisech:</H4>
         <Project>
-        Janák, D. 2021. "Skryté menšiny: ke koncepčním otázkám výzkumu menšin ve veřejné správě." <i>Veřejná správa a sociální politika</i>{" "}
-        1 (1): 73-91.
+          Janák, D. 2021. "Skryté menšiny: ke koncepčním otázkám výzkumu menšin
+          ve veřejné správě." <i>Veřejná správa a sociální politika</i> 1 (1):
+          73-91.
         </Project>
         <Project>
           Janák, D., Kuděla M., Kulhavý V. 2016. „Sociologický výzkum města Brna
@@ -494,28 +495,35 @@ export const Cz = () => {
           katalozích:
         </H4>
         <Project>
-        Janák D. ml., Janák D., Hlavienka L. 2021. "Menšiny a migrace: základní pojmy a východiska výzkumu."{" "}
+          Janák D. ml., Janák D., Hlavienka L. 2021. "Menšiny a migrace:
+          základní pojmy a východiska výzkumu."{" "}
           <i>
             {" "}
-            In: Dušan Janák a kol. Národnostní menšiny a migrace v českém Slezsku a na severní Moravě ve 20. a 21. století.{" "}
+            In: Dušan Janák a kol. Národnostní menšiny a migrace v českém
+            Slezsku a na severní Moravě ve 20. a 21. století.{" "}
           </i>
-          Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě, 2021, s. 11-26. ISBN 978-80-7510-487-8.
+          Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě,
+          2021, s. 11-26. ISBN 978-80-7510-487-8.
         </Project>
         <Project>
-        Janák, D. ml. 2021. "Exkurz: Z výzkumu „skrytých“ menšin na Osoblažsku."{" "}
+          Janák, D. ml. 2021. "Exkurz: Z výzkumu „skrytých“ menšin na
+          Osoblažsku."{" "}
           <i>
             {" "}
-            In: Dušan Janák a kol. Národnostní menšiny a migrace v českém Slezsku a na severní Moravě ve 20. a 21. století.{" "}
+            In: Dušan Janák a kol. Národnostní menšiny a migrace v českém
+            Slezsku a na severní Moravě ve 20. a 21. století.{" "}
           </i>
-          Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě, 2021, s. 169 - 182. ISBN 978-80-7510-487-8.
+          Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě,
+          2021, s. 169 - 182. ISBN 978-80-7510-487-8.
         </Project>
         <Project>
-        Janák, D. 2021. "K pojetí menšinovosti v sociálních vědách" In: Hlavienka L., Janák D., Janák D. ml., Kolář O., Nová M., Petráš R., Scheu H. Ch., Šrajerová O.{" "}
-          <i>
-            {" "}
-            „Staré“ a „nové“ menšiny v České republice.{" "}
-          </i>
-          Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě, Slezské zemské muzeum 2021, s. 7-11. ISBN 978-80-7510-469-4 (Slezská univerzita v Opavě), ISBN 978-80-87789-82-7 (Slezské zemské muzeum)
+          Janák, D. 2021. "K pojetí menšinovosti v sociálních vědách" In:
+          Hlavienka L., Janák D., Janák D. ml., Kolář O., Nová M., Petráš R.,
+          Scheu H. Ch., Šrajerová O.{" "}
+          <i> „Staré“ a „nové“ menšiny v České republice. </i>
+          Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě,
+          Slezské zemské muzeum 2021, s. 7-11. ISBN 978-80-7510-469-4 (Slezská
+          univerzita v Opavě), ISBN 978-80-87789-82-7 (Slezské zemské muzeum)
         </Project>
         <Project>
           Janák, D., Oláh, G. 2020. "Teoretické souvislosti poznávání
@@ -653,16 +661,14 @@ export const Cz = () => {
         </Project>{" "}
       </Section>
 
-<Section>
-  <H4>
-    Certifikované metodiky:
-  </H4>
-  <Project>
-  Janák D., Pilát M. a kolektiv (Gábor Oláh, Lubomír Hlavienka). 2021. Metodika výzkumu mikroregionu s menšinovou problematikou.{" "}
-    </i>{" "}
-    Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě.
-  </Project>
-
+      <Section>
+        <H4>Certifikované metodiky:</H4>
+        <Project>
+          Janák D., Pilát M. a kolektiv (Gábor Oláh, Lubomír Hlavienka). 2021.{" "}
+          <i>Metodika výzkumu mikroregionu s menšinovou problematikou. </i>{" "}
+          Opava: Fakulta veřejných politik v Opavě, Slezská univerzita v Opavě.
+        </Project>
+      </Section>
       <Section>
         <H4>Slovníková hesla:</H4>
         <Project>
