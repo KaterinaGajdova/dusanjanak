@@ -113,6 +113,22 @@ export const Cz = () => {
           Vědecké grantové projekty a výzkumy (základní i aplikovaný výzkum)
         </H4>
         <Project>
+          <Date>2021-2025:</Date>
+          <Name>
+            VZDELÁVACIE DRÁHY MLADÝCH ĽUDÍ – FAKTORY A MECHANIZMY ICH VOĽBY
+          </Name>
+          poskytovatel: Agentúra na podporu výskumu a vývoja SR, číslo grantu:
+          APVV-20-0449 <br /> role: člen týmu
+        </Project>
+        <Project>
+          <Date>2023:</Date>
+          <Name>
+            RIZIKOVÝ A ROZVOJOVÝ POTENCIÁL NÁVRATU VLKŮ DO REGIONŮ KULTURNÍ
+            KRAJINY ČR
+          </Name>
+          poskytovatel: Mendelova univerzita v Brně. <br /> role: řešitel
+        </Project>
+        <Project>
           <Date>2018 – 2021:</Date>
           <Name>
             Právní, historické a společenskovědní aspekty nových a tradičních
@@ -547,6 +563,24 @@ export const En = () => {
 
       <Section>
         <H4>Research grant projects (basic as well as applied research)</H4>
+        <Project>
+          <Date>2021-2025:</Date>
+          <Name>
+            EDUCATIONAL PATHWAYS OF YOUNG PEOPLE - FACTORS AND MECHANISMS OF
+            THEIR CHOICE
+          </Name>
+          funding: Ministry of Culture, project NAKI II, no. DG18P02OVV064{" "}
+          <br /> role: team member
+        </Project>
+        <Project>
+          <Date>2023:</Date>
+          <Name>
+            RISK AND DEVELOPMENT POTENTIAL OF THE RETURN OF WOLVES TO THE
+            REGIONS OF THE CULTURAL LANDSCAPE OF THE CZECH REPUBLIC
+          </Name>
+          funding: Mendel University, Brno
+          <br /> role: principal investigator
+        </Project>
         <Project>
           <Date>2018 – 2021:</Date>
           <Name>

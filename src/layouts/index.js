@@ -200,6 +200,13 @@ const Layout = ({ children, location }) => {
                       >
                         {content.menu.lectures}
                       </StyledLink>
+                      <StyledLink
+                        name="alpinism-contact"
+                        className={getClass("alpinism-contact")}
+                        to="/alpinism-contact"
+                      >
+                        {content.menu.contact}
+                      </StyledLink>
                     </>
                   ) : isScience ? (
                     <>
@@ -259,6 +266,13 @@ const Layout = ({ children, location }) => {
                         to="/science-awards"
                       >
                         {content.menu.awards}
+                      </StyledLink>
+                      <StyledLink
+                        name="science-contact"
+                        className={getClass("science-contact")}
+                        to="/science-contact"
+                      >
+                        {content.menu.contact}
                       </StyledLink>
                     </>
                   ) : (

@@ -16,7 +16,7 @@ export const Cz = () => {
           <b>Knihy:</b> 9 (3 jediný autor, 5 hlavní autor, 1 spoluautor)
         </div>
         <div>
-          <b>Články v časopisech indexovaných na Web of Science:</b> 12
+          <b>Články v časopisech indexovaných na Web of Science:</b> 13
         </div>
         <div>
           <b>Články v časopisech indexovaných ve SCOPUS:</b> 5
@@ -174,7 +174,17 @@ export const Cz = () => {
 
       <Section>
         <H4>Články v časopisech indexovaných na Web of Science:</H4>
-
+        <Project>
+          Janák, D. 2022. „Interpretativní sociologie zvířat? K možnostem pojetí
+          zvířat jako sociálních aktérů z pohledu rozumějící sociologie Maxe
+          Webera.“ <i>Sociológia - Slovak Sociological Review.</i> Sociológia 54
+          (5): 412-436. https://doi.org/10.31577/sociologia.2022.54.5.15.
+          <br />
+          Dostupné{" "}
+          <ALink href="https://doi.org/10.31577/sociologia.2022.54.5.15.">
+            zde
+          </ALink>
+        </Project>
         <Project>
           Janák, D. 2019. „Problematika národa v počátcích sociologické teorie
           ve střední Evropě prizmatem tzv. habsburského dilematu Ernesta
@@ -836,7 +846,7 @@ export const En = () => {
           <b>Books:</b> 9 (3 single author, 5 main author, 1 co-author)
         </div>
         <div>
-          <b>Articles in journals indexed on the Web of Science:</b> 12
+          <b>Articles in journals indexed on the Web of Science:</b> 13
         </div>
         <div>
           <b>Articles in journals indexed in SCOPUS:</b> 5
@@ -1000,7 +1010,17 @@ export const En = () => {
 
       <Section>
         <H4>Articles in journals indexed on the Web of Science:</H4>
-
+        <Project>
+          Janák, D. 2022. „Interpretativní sociologie zvířat? K možnostem pojetí
+          zvířat jako sociálních aktérů z pohledu rozumějící sociologie Maxe
+          Webera.“ <i>Sociológia - Slovak Sociological Review.</i> Sociológia 54
+          (5): 412-436. <br /> https://doi.org/10.31577/sociologia.2022.54.5.15.
+          <br />
+          Available{" "}
+          <ALink href="https://doi.org/10.31577/sociologia.2022.54.5.15.">
+            here
+          </ALink>
+        </Project>
         <Project>
           Janák, D. 2019. „Problematika národa v počátcích sociologické teorie
           ve střední Evropě prizmatem tzv. habsburského dilematu Ernesta
