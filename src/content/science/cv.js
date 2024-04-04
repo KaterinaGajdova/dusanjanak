@@ -12,7 +12,14 @@ export const Cz = () => {
         <H4>Pracovní zařazení:</H4>
         <ul>
           <li>
-            <Date>2018 – dosud</Date>: docent Fakulty veřejných politik Slezské
+            <Date>2022 – dosud</Date>: Docent sociologie, Filosofická fakulta Univerzity Komenského v Bratislavě
+          </li>
+          <li>
+            <Date>2021 – dosud</Date>: Docent sociologie, Fakulta regionálního rozvoje a mezinárodních studií, Mendelova
+univerzita v Brně
+          </li>
+          <li>
+            <Date>2018 – 2021</Date>: docent Fakulty veřejných politik Slezské
             univerzity v Opavě
           </li>
           <li>
@@ -452,7 +459,15 @@ export const En = () => {
         <H4>working position:</H4>
         <ul>
           <li>
-            <Date>2018 – present</Date>: docent (senior lecturer) in sociology,
+            <Date>2022 – present:</Date>: dDocent (senior lecturer) in sociology, Faculty of Arts, Comenius University, Bratislava,
+Slovakia
+          </li>
+          <li>
+            <Date>2021 – present:</Date>: Docent (senior lecturer) in sociology, The Faculty of Regional Development and
+International Studies, Mendel University, Brno, Czech Republic
+          </li>
+          <li>
+            <Date>2018 – 2021</Date>: docent (senior lecturer) in sociology,
             Faculty of Public Policies, Silesian University in Opava, Czech
             Republic
           </li>
