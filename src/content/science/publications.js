@@ -49,17 +49,9 @@ export const Cz = () => {
         (Janák 2013a) a o sociologických školách v meziválečné české sociologii
         (Janák 2013b). Důležitý pro formování obecné sociologické teorie a
         současné výzkumné zaměření je studie o dialogické subjektivitě (Janák
-        2020), pro empirický výzkum mezidruhové komunikace pilotní studie (Janák
-        2021 -{" "}
-        <ALinkStyled
-          href="/Abstract_UNCHARTED_LANGUAGE.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          abstrakt dostupný zde
-        </ALinkStyled>
-        ). Z těch s Jindřichem Štreitem bych jmenoval tu první z Osoblažska
+        2020) a možnostech pojetí zvířat jako sociálních aktérů z pohledu
+        rozumějící sociologie Maxe Webera (Janák 2022).
+        Z těch s Jindřichem Štreitem bych jmenoval tu první z Osoblažska
         (Janák, Pilát, Bezděk 2014), která byla zajímavá i velmi komplexní
         metodologií terénního výzkumu. Pobavilo nás, že zaujala prezidenta
         republiky Miloše Zemana při jeho návštěvě v regionu.
@@ -881,17 +873,9 @@ export const En = () => {
         about sociological schools in interwar Czech sociology (Janák 2013b).
         Important for the formation of general sociological theory and the
         current research focus is the study of dialogic subjectivity (Janák
-        2020), for the empirical research of interspecies communication the
-        pilot study (Janák 2021 –{" "}
-        <ALinkStyled
-          href="/Abstract_UNCHARTED_LANGUAGE.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          download abstract here
-        </ALinkStyled>
-        ). Of the ones with Jindřich Štreit, I would like to name the first one
+        2020) and possibilities of conceiving animals as social actors from
+        the perspective of Max Weber's sociological approach (Janák 2022).
+        Of the ones with Jindřich Štreit, I would like to name the first one
         from Osoblažsko (Janák, Pilát, Bezděk 2014), which is also noteworthy
         for its use of a very complex methodology of field research. It amused
         us that it had caught the attention of the President of the Czech
