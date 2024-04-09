@@ -50,11 +50,11 @@ export const Cz = () => {
         (Janák 2013b). Důležitý pro formování obecné sociologické teorie a
         současné výzkumné zaměření je studie o dialogické subjektivitě (Janák
         2020) a možnostech pojetí zvířat jako sociálních aktérů z pohledu
-        rozumějící sociologie Maxe Webera (Janák 2022).
-        Z těch s Jindřichem Štreitem bych jmenoval tu první z Osoblažska
-        (Janák, Pilát, Bezděk 2014), která byla zajímavá i velmi komplexní
-        metodologií terénního výzkumu. Pobavilo nás, že zaujala prezidenta
-        republiky Miloše Zemana při jeho návštěvě v regionu.
+        rozumějící sociologie Maxe Webera (Janák 2022). Z těch s Jindřichem
+        Štreitem bych jmenoval tu první z Osoblažska (Janák, Pilát, Bezděk
+        2014), která byla zajímavá i velmi komplexní metodologií terénního
+        výzkumu. Pobavilo nás, že zaujala prezidenta republiky Miloše Zemana při
+        jeho návštěvě v regionu.
       </p>
 
       <Section>
@@ -826,6 +826,43 @@ export const Cz = () => {
           </ALink>
         </Project>
       </Section>
+      <Section>
+        <H4>Konferenční příspěvky:</H4>
+        <Project>
+          Janák, D. 2023 , May 8 – 12. ”Towards an Interpretive Sociology of
+          Animals. On the Possibilities of Conceiving Animals as Social Actors
+          from the Perspective of Max Weber&#39;s Sociological Approach” [Online
+          symposium paper]{" "}
+          <i>International Multispecies Methods Research Symposium</i>,
+          University of Saskatchewan, Saskatoon, Canada. <br />
+          Available{" "}
+          <ALinkStyled
+            href="/conf_2023.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
+        </Project>
+        <Project>
+          The Accuracy of Intuitive Interspecies Communication through the Lens
+          of a Content Analysis of the Written Materials Created by Animal
+          Communicators” [Online symposium paper]{" "}
+          <i>International Multispecies Methods Research Symposium</i>,
+          University of Saskatchewan, Saskatoon, Canada.
+          <br />
+          Available{" "}
+          <ALinkStyled
+            href="/conf_2022.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
+        </Project>
+      </Section>
     </Content>
   );
 };
@@ -873,13 +910,13 @@ export const En = () => {
         about sociological schools in interwar Czech sociology (Janák 2013b).
         Important for the formation of general sociological theory and the
         current research focus is the study of dialogic subjectivity (Janák
-        2020) and possibilities of conceiving animals as social actors from
-        the perspective of Max Weber's sociological approach (Janák 2022).
-        Of the ones with Jindřich Štreit, I would like to name the first one
-        from Osoblažsko (Janák, Pilát, Bezděk 2014), which is also noteworthy
-        for its use of a very complex methodology of field research. It amused
-        us that it had caught the attention of the President of the Czech
-        Republic Miloš Zeman during his visit to the region.
+        2020) and possibilities of conceiving animals as social actors from the
+        perspective of Max Weber's sociological approach (Janák 2022). Of the
+        ones with Jindřich Štreit, I would like to name the first one from
+        Osoblažsko (Janák, Pilát, Bezděk 2014), which is also noteworthy for its
+        use of a very complex methodology of field research. It amused us that
+        it had caught the attention of the President of the Czech Republic Miloš
+        Zeman during his visit to the region.
       </p>
 
       <Section>
@@ -1622,6 +1659,44 @@ export const En = () => {
           <ALink href="https://encyklopedie.soc.cas.cz/w/Weyr_Franti%C5%A1ek">
             here
           </ALink>
+        </Project>
+      </Section>
+
+      <Section>
+        <H4>Conference papers:</H4>
+        <Project>
+          Janák, D. 2023 , May 8 – 12. ”Towards an Interpretive Sociology of
+          Animals. On the Possibilities of Conceiving Animals as Social Actors
+          from the Perspective of Max Weber&#39;s Sociological Approach” [Online
+          symposium paper]{" "}
+          <i>International Multispecies Methods Research Symposium</i>,
+          University of Saskatchewan, Saskatoon, Canada. <br />
+          Available{" "}
+          <ALinkStyled
+            href="/conf_2023.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            here
+          </ALinkStyled>
+        </Project>
+        <Project>
+          The Accuracy of Intuitive Interspecies Communication through the Lens
+          of a Content Analysis of the Written Materials Created by Animal
+          Communicators” [Online symposium paper]{" "}
+          <i>International Multispecies Methods Research Symposium</i>,
+          University of Saskatchewan, Saskatoon, Canada.
+          <br />
+          Available{" "}
+          <ALinkStyled
+            href="/conf_2022.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            here
+          </ALinkStyled>
         </Project>
       </Section>
     </Content>
