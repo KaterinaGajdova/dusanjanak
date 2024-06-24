@@ -835,7 +835,7 @@ export const Cz = () => {
           symposium paper]{" "}
           <i>International Multispecies Methods Research Symposium</i>,
           University of Saskatchewan, Saskatoon, Canada. <br />
-          Available{" "}
+          Dostupné{" "}
           <ALinkStyled
             href="/conf_2023.pdf"
             target="_blank"
@@ -852,9 +852,25 @@ export const Cz = () => {
           <i>International Multispecies Methods Research Symposium</i>,
           University of Saskatchewan, Saskatoon, Canada.
           <br />
-          Available{" "}
+          Dostupné{" "}
           <ALinkStyled
             href="/conf_2022.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            zde
+          </ALinkStyled>
+        </Project>
+      </Section>
+      <Section>
+        <H4>Popularizace:</H4>
+        <Project>
+          Janák, D. 2024. Intuitivní komunikace se zvířaty – mýty a poznatky.{" "}
+          <i>revue Prostor 121 / Pozemšťané</i>. <br />
+          Dostupné{" "}
+          <ALinkStyled
+            href="https://revueprostor.cz/intuitivni-komunikace-se-zviraty-myty-a-poznatky"
             target="_blank"
             rel="noopener noreferrer"
             download
@@ -1691,6 +1707,22 @@ export const En = () => {
           Available{" "}
           <ALinkStyled
             href="/conf_2022.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            here
+          </ALinkStyled>
+        </Project>
+      </Section>
+      <Section>
+        <H4>Popularization:</H4>
+        <Project>
+          Janák, D. 2024. Intuitivní komunikace se zvířaty – mýty a poznatky.{" "}
+          <i>revue Prostor 121 / Pozemšťané</i>. <br />
+          Available{" "}
+          <ALinkStyled
+            href="https://revueprostor.cz/intuitivni-komunikace-se-zviraty-myty-a-poznatky"
             target="_blank"
             rel="noopener noreferrer"
             download
