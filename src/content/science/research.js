@@ -431,6 +431,17 @@ export const CommunicationCz = () => {
       </p>
       <Project>
         <p>
+          Janák, D. 2025. „Intuitive Interspecies Communicators Relatively
+          Frequently Give Socially Valid, Nondeducible, and Specific, Even if
+          Unsystematic, Information.“ <i>Society &amp; Animals</i>.
+          doi:10.1163/15685306-bja10260 (Published online 7 November 2025).
+          <br />
+          Dostupné{" "}
+          <ALink href="https://doi.org/10.1163/15685306-bja10260">zde</ALink>
+        </p>
+      </Project>
+      <Project>
+        <p>
           <b>
             * Prvním dokončeným výstupem, o kterém je možné se zmínit, je
             rukopis studie z výzkumu intuitivní mezidruhové komunikace
@@ -780,8 +791,19 @@ export const CommunicationEn = () => {
       </p>
       <Project>
         <p>
+          Janák, D. 2025. “Intuitive Interspecies Communicators Relatively
+          Frequently Give Socially Valid, Nondeducible, and Specific, Even if
+          Unsystematic, Information.” <i>Society &amp; Animals</i>.
+          doi:10.1163/15685306-bja10260 (Published online 7 November 2025).
+          <br />
+          Available{" "}
+          <ALink href="https://doi.org/10.1163/15685306-bja10260">here</ALink>
+        </p>
+      </Project>
+      <Project>
+        <p>
           <b>
-            * The first completed output that can be mentioned is the manuscript of a study from the research of intuitive interspecies communication carried out with animal communicators in the period of 2018 - 2019. The manuscript is now under review by the Journal of Ethnobiology. Data from the research are publicly available in the Czech Social Science Data Archive of the Academy of Sciences:
+            * The first completed output that can be mentioned is the manuscript of a study from the research of intuitive interspecies communication carried out with animal communicators in the period of 2018 - 2019. Data from the research are publicly available in the Czech Social Science Data Archive of the Academy of Sciences:
           </b>
         </p>
         <p>

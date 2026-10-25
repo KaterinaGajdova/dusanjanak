@@ -12,7 +12,12 @@ export const Cz = () => {
         <H4>Pracovní zařazení:</H4>
         <ul>
           <li>
-            <Date>2022 – dosud</Date>: Docent sociologie, Filosofická fakulta Univerzity Komenského v Bratislavě
+            <Date>2026 – dosud</Date>: profesor sociologie, katedra sociologie,
+            Filosofická fakulta Univerzity Komenského v Bratislavě
+          </li>
+          <li>
+            <Date>2022 – 2026</Date>: docent sociologie, Filosofická fakulta
+            Univerzity Komenského v Bratislavě
           </li>
           <li>
             <Date>2021 – dosud</Date>: Docent sociologie, Fakulta regionálního rozvoje a mezinárodních studií, Mendelova
@@ -119,6 +124,17 @@ univerzita v Brně
         <H4>
           Vědecké grantové projekty a výzkumy (základní i aplikovaný výzkum)
         </H4>
+        <Project>
+          <Date>2024-2026:</Date>
+          <Name>
+            SOCIOLÓGIA NA HRANICIACH RODU HOMO SAPIENS: FORMOVANIE SOCIÁLNYCH
+            VZŤAHOV K ZVIERATÁM V KAŽDODENNÝCH INTERAKCIÁCH, KOLEKTÍVNYCH
+            PREDSTAVÁCH A VEREJNEJ POLITIKE
+          </Name>
+          poskytovatel: Vedecká grantová agentúra Ministerstva školstva,
+          výskumu, vývoja a mládeže Slovenskej republiky, číslo grantu: VEGA č.
+          1/0187/24 <br /> role: hlavní řešitel
+        </Project>
         <Project>
           <Date>2021-2025:</Date>
           <Name>
@@ -373,72 +389,37 @@ univerzita v Brně
         </H4>
 
         <Project>
-          <Date> 2015 – dosud:</Date> člen výkonného výboru České sociologické
+          <Date>2015 – 2022:</Date> člen výkonného výboru České sociologické
           společnosti
         </Project>
         <Project>
-          <Date>2014 – dosud:</Date> Člen poroty Ceny Miloslava Petruska (soutěž
-          České sociologické společnosti o nejlepší studenstkou stať)
+          <Date>2018, 2020:</Date> člen hodnotící komise Ceny České sociologické
+          společnosti o mimořádný publikační počin
         </Project>
         <Project>
-          <Date>2013 – dosud:</Date>
+          <Date>2014 – dosud:</Date> Člen poroty Ceny Miloslava Petruska (soutěž
+          České sociologické společnosti o nejlepší studentskou stať)
+        </Project>
+        <Project>
+          <Date>2013 – 2021:</Date>
           redaktor a člen redakční rady časopisu <i>Central European Papers</i>
         </Project>
       </Section>
       <Section>
         <H4>Pedagogické aktivity na VŠ:</H4>
         <Project>
-          <Date>2009 – dosud:</Date> Těžiště pedagogické činnosti na Fakultě
-          veřejných politik leží v oboru Středoevropská studia a ve výuce
-          sociologických a metodologických kurzů napříč obory fakulty. Od roku
-          2009 garance celkem 48 kurzů v rámci 4 oborů FVP
+          Od roku 2005 zkušenosti s výukou na
+          <ul>
+            <li>Masarykově univerzitě v Brně</li>
+            <li>Slezské univerzitě v Opavě</li>
+            <li>Mendelově univerzitě v Brně</li>
+            <li>Univerzitě Komenského v Bratislavě</li>
+            <li>Národní univerzitě veřejných služeb v Budapešti</li>
+          </ul>
         </Project>
         <Project>
-          <Date> 2014-2018:</Date> řešitel jednoho, spoluřešitel dvou a člen
-          týmu jednoho projektu Interní soutěže institucionálního plánu Slezské
-          univerzity zaměřených na rozvoj výuky na FVP SU (viz rozvojové
-          projekty výše)
-        </Project>
-        <Project>
-          <Date> 2015/2016:</Date> pedagogické působení na Národní univerzitě
-          veřejných služeb v Budapešti, Fakulta veřejné správy (v zimním
-          semestru výuka na Bc. a Ph.D. stupni, v letním semestru vlastní nový
-          kurz pro doktorandy FVS)
-        </Project>
-        <Project>
-          <Date> 2013 – dosud:</Date>
-          školitel-specialista v doktorském studiu oboru Moderní dějiny Střední
-          Evropy na FVP SU
-        </Project>
-        <Project>
-          <Date>2014, 2015:</Date> interní projekt SU na rozvoj Centra
-          empirických výzkumů, jehož součástí byla systematizace propojení
-          výzkumu a výuky formou zapojení studentů do výzkumů
-        </Project>
-        <Project>
-          <Date> 2012 – 2016:</Date>
-          hlavní řešitel jednoho a spoluřešitel dvou projektů studentského
-          grantového systému Slezské univerzity realizujících výzkumy
-          akademických pracovníků spolu se studenty (viz přehled výzkumných
-          projektů výše)
-        </Project>
-        <Project>
-          <Date> 2011, 2012, 2015:</Date> tvorba pěti učebních textů/skript
-        </Project>
-        <Project>
-          <Date> 2010 – 2018:</Date> University studies grant Visegradského
-          fondu (VUSG č. 60900007) spočívající v tvorbě, koordinaci a výuce
-          kurzu „Visegrad: sociální myšlení, struktura a transformace“ za účasti
-          vědců ze zemí V4 na oboru Středoevropská studia FVP
-        </Project>
-        <Project>
-          <Date> 2006 – 2008: </Date>externí výuka celofakultního kurzu
-          Sociologie na Ekonomicko-správní fakultě MU v Brně
-        </Project>
-        <Project>
-          <Date>2005 – 2007:</Date> člen týmu projektu Systematizace procesů
-          studentského hodnocení kvality v České republice (nositel projektu:
-          Akademické centrum studentských aktivit)
+          Krátkodobé výukové pobyty na Terstské univerzitě (Itálie) a Přímořské
+          univerzitě (Koper, Slovinsko)
         </Project>
       </Section>
     </>
@@ -456,29 +437,33 @@ export const En = () => {
         </div>
       </Section>
       <Section>
-        <H4>working position:</H4>
+        <H4>Working position:</H4>
         <ul>
           <li>
-            <Date>2022 – present:</Date>: dDocent (senior lecturer) in sociology, Faculty of Arts, Comenius University, Bratislava,
-Slovakia
+            <Date>2026 – present</Date>: Professor of Sociology, Department of
+            Sociology, Faculty of Arts, Comenius University, Bratislava,
+            Slovakia
           </li>
           <li>
-            <Date>2021 – present:</Date>: Docent (senior lecturer) in sociology, The Faculty of Regional Development and
-International Studies, Mendel University, Brno, Czech Republic
+            <Date>2022 – 2026</Date>: Senior Lecturer (Docent) in Sociology,
+            Faculty of Arts, Comenius University, Bratislava, Slovakia
           </li>
           <li>
-            <Date>2018 – 2021</Date>: docent (senior lecturer) in sociology,
-            Faculty of Public Policies, Silesian University in Opava, Czech
-            Republic
+            <Date>2021 – present</Date>: Senior Lecturer (Docent) in Sociology,
+            Faculty of Regional Development and International studies, Mendel
+            University in Brno, the Czech Republic
           </li>
           <li>
-            <Date> 2013 – 2017</Date>: Head of the Centre for Empirical Research
-            Faculty of Public Policies, Silesian University in Opava, Czech
-            Republic
+            <Date>2018 – 2021</Date>: Senior Lecturer (Docent) in Sociology,
+            Silesian University in Opava
           </li>
           <li>
-            <Date> 2009 – 2018</Date>: Assistant professor Faculty of Public
-            Policies, Silesian University in Opava, Czech Republic
+            <Date>2013 – 2017</Date>: Head of the Centre for Empirical Research,
+            Silesian University in Opava
+          </li>
+          <li>
+            <Date>2009 – 2018</Date>: Assistant Lecturer at the Faculty of
+            Public Policies in Opava, Silesian University in Opava
           </li>
         </ul>
       </Section>
@@ -579,12 +564,24 @@ International Studies, Mendel University, Brno, Czech Republic
       <Section>
         <H4>Research grant projects (basic as well as applied research)</H4>
         <Project>
+          <Date>2024 – 2026:</Date>
+          <Name>
+            SOCIOLOGY AT THE BORDERS OF THE GENUS HOMO SAPIENS: SOCIAL RELATIONS
+            TO ANIMALS AT THE MICRO-LEVEL OF EVERYDAY LIFE, THE MESO-LEVEL OF
+            COMMUNITIES AND THE MACRO-LEVEL OF PUBLIC POLICY INSTITUTIONS
+          </Name>
+          funding: The Ministry of Education, Research, Development and Youth of
+          the Slovak Republic, project VEGA, no. 1/0187/24
+          <br /> role: principal investigator
+        </Project>
+        <Project>
           <Date>2021-2025:</Date>
           <Name>
             EDUCATIONAL PATHWAYS OF YOUNG PEOPLE - FACTORS AND MECHANISMS OF
             THEIR CHOICE
           </Name>
-          funding: Ministry of Culture, project NAKI II, no. DG18P02OVV064{" "}
+          funding: Slovak Research and Development Agency, project APVV, no.
+          APVV-20-0449{" "}
           <br /> role: team member
         </Project>
         <Project>
@@ -839,77 +836,36 @@ International Studies, Mendel University, Brno, Czech Republic
         </H4>
 
         <Project>
-          <Date> 2015 – present:</Date> Member of the Executive Committee of the
+          <Date>2015 – 2022:</Date> Member of the Executive Committee of the
           Czech Sociological Society (member of the society since 2009)
         </Project>
         <Project>
           <Date>2014 – present:</Date> Member of the Commission of the Miloslav
           Petrusek Award, annual award of the Czech Sociological Society for the
-          best PhD student article (Chairman of the commission since 2021)
+          best PhD student article (Chairman of the commission from 2021 to
+          2023)
         </Project>
         <Project>
-          <Date>2013 – present:</Date> Assistant editor, Central European
-          Papers. Faculty of Public Policies, Silesian University in Opava, the
-          Czech Republic
+          <Date>2013 – 2021:</Date> Assistant editor, Central European Papers.
+          Faculty of Public Policies, Silesian University in Opava, the Czech
+          Republic
         </Project>
       </Section>
       <Section>
         <H4>Teaching activities at university:</H4>
         <Project>
-          <Date>2009 – present:</Date> The focus of pedagogical activities at
-          the Faculty of Public Policy lies in the field of Central European
-          Studies and in the teaching of sociological and methodological courses
-          across the fields of the faculty. Since 2009, a guarantee of a total
-          of 48 courses within 4 fields of FVP
+          Teaching experience since 2005 at
+          <ul>
+            <li>Masaryk University, Brno, the Czech Republic</li>
+            <li>Mendel University, Brno, the Czech Republic</li>
+            <li>Silesian University, Opava, the Czech Republic</li>
+            <li>National University of Public Services, Budapest, Hungary</li>
+            <li>Comenius University, Bratislava, Slovakia</li>
+          </ul>
         </Project>
         <Project>
-          <Date> 2014-2018:</Date> coordinator of one, co-coordinator of two and
-          member of the team of one project of the Internal Competition of the
-          Institutional Plan of the Silesian University focused on the
-          development of teaching at FVP SU (see development projects above)
-        </Project>
-        <Project>
-          <Date> 2015/2016:</Date> Visiting professor, National University of
-          Public Service, Budapest, Hungary (regular teaching for undergraduate
-          and PhD students)
-        </Project>
-        <Project>
-          <Date> 2013 – present:</Date>: supervisor-specialist in doctoral
-          studies in the field of Modern History of Central Europe at FVP SU
-        </Project>
-        <Project>
-          <Date>2014, 2015:</Date> SU's internal project for the development of
-          the Center for Empirical Research, which included the systematization
-          of the connection between research and teaching in the form of student
-          involvement in research
-        </Project>
-        <Project>
-          <Date> 2012 – 2016:</Date>
-          principal investigator of one and co-investigator or team member of
-          two projects of the student grant system of the Silesian University
-          carrying out research of academic staff together with students (see
-          the overview of research projects above)
-        </Project>
-        <Project>
-          <Date> 2011, 2012, 2015:</Date> creation of five teaching materials
-          (textbooks)
-        </Project>
-        <Project>
-          <Date> 2010 – 2018:</Date> University studies grant of the Visegrad
-          Fund (VUSG No. 60900007) consisting in the creation, coordination and
-          teaching of the course "Visegrad: social thought, structure and
-          transformation" with the participation of researchers from V4
-          countries in the field of Central European Studies FVP
-        </Project>
-        <Project>
-          <Date> 2006 – 2008: </Date>external teaching of the whole-faculty
-          course Sociology at the Faculty of Economics and Administration,
-          Masaryk University in Brno
-        </Project>
-        <Project>
-          <Date>2005 – 2007:</Date> member of the team of the project
-          Systematization of Student Quality Assessment Processes in the Czech
-          Republic (project holder: Academic Center for Student Activities)
+          Short term teaching academic visits at University of Trieste,
+          Trieste, Italy; University of Primorska, Koper, Slovenia
         </Project>
       </Section>
     </>
