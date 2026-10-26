@@ -31,11 +31,7 @@ const getGallery = graphql`
           caption
           src {
             childImageSharp {
-              thumb: gatsbyImageData(
-                width: 350
-                height: 350
-                placeholder: BLURRED
-              )
+              thumb: gatsbyImageData(width: 350, placeholder: BLURRED)
               full: gatsbyImageData(layout: FULL_WIDTH)
             }
           }
