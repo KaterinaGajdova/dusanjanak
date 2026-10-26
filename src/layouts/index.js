@@ -268,6 +268,13 @@ const Layout = ({ children, location }) => {
                         {content.menu.awards}
                       </StyledLink>
                       <StyledLink
+                        name="science-photo"
+                        className={getClass("science-photo")}
+                        to="/science-photo"
+                      >
+                        {content.menu.photo}
+                      </StyledLink>
+                      <StyledLink
                         name="science-contact"
                         className={getClass("science-contact")}
                         to="/science-contact"

@@ -302,16 +302,6 @@ export const AppliedResearchCz = () => {
         <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2006/04/08.pdf">
           zde
         </ALink>
-        <p>Mírně upravená anglická verze:</p>
-        Janák, D. 2010."Social Introspection Of I. A. Bláha and Wittgenstein’s’
-        Argument Counter To Private Language. Anniversary Study On Introspection
-        Approach In Social Sciences." <i>Qualitative Sociology Review</i>, roč.6
-        č. 2, s. 51-72, ISSN 1733-8077.
-        <br />
-        Dostupné{" "}
-        <ALink href="http://www.qualitativesociologyreview.org/ENG/Volume16/QSR_6_2_Janak.pdf">
-          zde
-        </ALink>
       </Project>
 
       <H4>aplikovaný výzkum:</H4>
@@ -431,6 +421,13 @@ export const CommunicationCz = () => {
       </p>
       <Project>
         <p>
+          <b>
+            * Prvním dokončeným výstupem, o kterém je možné se zmínit, je
+            rukopis studie z výzkumu intuitivní mezidruhové komunikace
+            realizovaný s komunikátory se zvířaty v letech 2018 – 2019.
+          </b>
+        </p>
+        <p>
           Janák, D. 2025. „Intuitive Interspecies Communicators Relatively
           Frequently Give Socially Valid, Nondeducible, and Specific, Even if
           Unsystematic, Information.“ <i>Society &amp; Animals</i>.
@@ -438,24 +435,6 @@ export const CommunicationCz = () => {
           <br />
           Dostupné{" "}
           <ALink href="https://doi.org/10.1163/15685306-bja10260">zde</ALink>
-        </p>
-      </Project>
-      <Project>
-        <p>
-          <b>
-            * Prvním dokončeným výstupem, o kterém je možné se zmínit, je
-            rukopis studie z výzkumu intuitivní mezidruhové komunikace
-            realizovaný s komunikátory se zvířaty v letech 2018 – 2019. Rukopis
-            je nyní v recenzním řízení časopisu <i>Journal of Ethnobiology</i>.
-            Data z výzkumu jsou veřejně dostupná v Českém sociálněvědním datovém
-            archivu Akademie věd:
-          </b>
-        </p>
-        <p>
-          {" "}
-          Janák, D. 2021. “An Uncharted Language? A Content Analysis of the
-          Materials Created by Animal Communicators Using an Animal Photograph”
-          Journal of Ethnobiology (in review).{" "}
         </p>
         <p>
           Data jsou dostupná po registraci v Českém sociálněvědním datovém
@@ -489,7 +468,8 @@ export const IntroductionEn = () => {
     <>
       <Introduction>
         <div>
-        I divided this section into three subgroups according to my main research topics:
+          I divided this section into three subgroups according to my main
+          research topics:
           <ol>
             <li>{researchTopicsEn.historySociology}</li>
             <li>{researchTopicsEn.appliedResearch}</li>
@@ -497,7 +477,11 @@ export const IntroductionEn = () => {
           </ol>
         </div>
         <div>
-        In them, I briefly present the main thing that I have managed to find out for myself or with a team of co-workers. An overview of the supported research projects that I have participated in either as a leader or as a team member can be found in my CV and a list of major publications is included in the publications section.
+          In them, I briefly present the main thing that I have managed to find
+          out for myself or with a team of co-workers. An overview of the
+          supported research projects that I have participated in either as a
+          leader or as a team member can be found in my CV and a list of major
+          publications is included in the publications section.
         </div>
       </Introduction>
     </>
@@ -508,19 +492,36 @@ export const HistorySociologyEn = () => {
   return (
     <div>
       <p>
-      The history of sociology can be essentially approached in three different ways. Either as a history of scientific institutions (in the broadest sense), or as a history of ideas, or as a sociological theory. While the hundred-year-old empirical research is largely a sociological archaism, the theoretical solutions and methodological considerations of the classics can often be successfully used when dealing with current theoretical issues in sociology.
+        The history of sociology can be essentially approached in three
+        different ways. Either as a history of scientific institutions (in the
+        broadest sense), or as a history of ideas, or as a sociological theory.
+        While the hundred-year-old empirical research is largely a sociological
+        archaism, the theoretical solutions and methodological considerations of
+        the classics can often be successfully used when dealing with current
+        theoretical issues in sociology.
       </p>
       <p>
-      In my first book in this field (Janák 2009), I focused on the work of one of the founders of Czech sociology, I. A. Bláha, and I was already asking myself a question about the use of classical sociology in contemporary discussions. I gradually expanded my interest to the history of Czech sociology and sociology in Central Europe. A book from 2018 (Janák 2018) is a certain synthesis of my research in the field of the history of sociology and theoretical sociology.
+        In my first book in this field (Janák 2009), I focused on the work of
+        one of the founders of Czech sociology, I. A. Bláha, and I was already
+        asking myself a question about the use of classical sociology in
+        contemporary discussions. I gradually expanded my interest to the
+        history of Czech sociology and sociology in Central Europe. A book from
+        2018 (Janák 2018) is a certain synthesis of my research in the field of
+        the history of sociology and theoretical sociology.
       </p>
       <p>
-      I select some of the works that I consider to be the most interesting in this area, with a brief description. For the complete list of publications and an overview of projects please see CV and the publishing activities:
+        I select some of the works that I consider to be the most interesting in
+        this area, with a brief description. For the complete list of
+        publications and an overview of projects please see CV and the
+        publishing activities:
       </p>
 
       <Project>
         <p>
           <b>
-            * Studies using sociological classics to address the current issues of sociological theory. A step towards a general theory of multimodal communication:
+            * Studies using sociological classics to address the current issues
+            of sociological theory. A step towards a general theory of
+            multimodal communication:
           </b>
         </p>
         Janák, D. 2020. &quot;Kritický realismus <i>revisited</i>: Příspěvek k
@@ -535,7 +536,12 @@ export const HistorySociologyEn = () => {
       <Project>
         <p>
           <b>
-            * For several years, we studied the unique data from the as yet unprocessed sociological research on the city of Brno from 1947. Data from about 20,000 questionnaires are exceptional in the European context and were not processed due to the communist coup in 1948, after which sociology in the Eastern bloc countries was declared a bourgeois pseudo-science:
+            * For several years, we studied the unique data from the as yet
+            unprocessed sociological research on the city of Brno from 1947.
+            Data from about 20,000 questionnaires are exceptional in the
+            European context and were not processed due to the communist coup in
+            1948, after which sociology in the Eastern bloc countries was
+            declared a bourgeois pseudo-science:
           </b>
         </p>
         Janák, D. 2019. "Brněnští dělníci v roce 1947: sociologický exkurz." Pp
@@ -547,7 +553,12 @@ export const HistorySociologyEn = () => {
       <Project>
         <p>
           <b>
-            * A synthesis of what I have come up with in about 15 years in the field of research into the history of sociology and sociological theory. The last part of the book is devoted to an outline of a general sociological theory built "on the shoulders of giants", which is a guide for me in the research on multimodal interspecies communication:
+            * A synthesis of what I have come up with in about 15 years in the
+            field of research into the history of sociology and sociological
+            theory. The last part of the book is devoted to an outline of a
+            general sociological theory built "on the shoulders of giants",
+            which is a guide for me in the research on multimodal interspecies
+            communication:
           </b>
         </p>
         Janák, D. 2018.
@@ -558,7 +569,10 @@ export const HistorySociologyEn = () => {
       <Project>
         <p>
           <b>
-            * This text dedicated to one of the two Czechoslovak presidents and sociologists in one person took quite a long time to create, and I am quite satisfied with it. A theoretical probe into the relationship between sociology and politics:
+            * This text dedicated to one of the two Czechoslovak presidents and
+            sociologists in one person took quite a long time to create, and I
+            am quite satisfied with it. A theoretical probe into the
+            relationship between sociology and politics:
           </b>
         </p>
         Janák, D. 2014. „Problém národní identity v díle Edvarda Beneše.“
@@ -573,7 +587,8 @@ export const HistorySociologyEn = () => {
       <Project>
         <p>
           <b>
-            * A thoroughly elaborated big topic of Czech interwar sociology, its division into the Brno and the Prague sociological schools:
+            * A thoroughly elaborated big topic of Czech interwar sociology, its
+            division into the Brno and the Prague sociological schools:
           </b>
         </p>
         Janák, D. 2013. „Brněnská versus pražská sociologická škola: mýtus a
@@ -588,9 +603,13 @@ export const HistorySociologyEn = () => {
       <Project>
         <p>
           <b>
-            * A design of the typology of sociological theory, which I was thought was not bad at all, and its application to classical Czech sociology. I dedicated the text to the memory of 
-Prof. Petrusek, who devoted himself to the sociological theory in the context of sociological history essentially throughout his life, and unintentionally influenced my staying on the scientific, and not only the climbing track:
-
+            * A design of the typology of sociological theory, which I was
+            thought was not bad at all, and its application to classical Czech
+            sociology. I dedicated the text to the memory of Prof. Petrusek, who
+            devoted himself to the sociological theory in the context of
+            sociological history essentially throughout his life, and
+            unintentionally influenced my staying on the scientific, and not
+            only the climbing track:
           </b>
         </p>
         Janák, D. 2013. „Počátky teoretické sociologie v českých zemích. Text
@@ -606,7 +625,9 @@ Prof. Petrusek, who devoted himself to the sociological theory in the context of
       <Project>
         <p>
           <b>
-            * My first book, created from my dissertation awarded in the competition for the best doctoral thesis of the Faculty of Social Studies of Masaryk University:
+            * My first book, created from my dissertation awarded in the
+            competition for the best doctoral thesis of the Faculty of Social
+            Studies of Masaryk University:
           </b>
         </p>
         Janák, D. 2009. „Ohlédnutí za sociologií Inocence Arnošta Bláhy.“
@@ -621,7 +642,11 @@ Prof. Petrusek, who devoted himself to the sociological theory in the context of
       <Project>
         <p>
           <b>
-            * My very first article, in which I drew on my study stay at the University of Vienna and my permanent interest in social philosophy and the philosophy of social sciences. The article was awarded in the competition for the best doctoral article of the Sociological Journal / Czech Sociological Review:{" "}
+            * My very first article, in which I drew on my study stay at the
+            University of Vienna and my permanent interest in social philosophy
+            and the philosophy of social sciences. The article was awarded in
+            the competition for the best doctoral article of the Sociological
+            Journal / Czech Sociological Review:{" "}
             <i>Sociologického časopisu / Czech Sociological Review</i>:
           </b>
         </p>
@@ -645,20 +670,52 @@ export const AppliedResearchEn = () => {
   return (
     <div>
       <p>
-      It is great to do sociology for sociology itself and the joy of knowledge, but if one can contribute to solving a practical problem in this way, it will increase the joy even more. Also,  applied research is the ideal way to master the methodological craft of empirical research. Thanks to a varied range of research orders, I had the opportunity to try different types of observation, interviews, focus groups, questionnaire surveys and document analyses in various combinations and variations, as well as different ways of sample construction or data analysis. The valuable experience includes the opportunity to get into a variety of environments which one would rarely become acquainted with otherwise: for example, minority groups, volunteers in helping professions, socially excluded localities, regional business and political elites, or gaining some insight into public administration practices, and also becoming a member of the jury of a regional culinary competition for the best potato pancake (sejkora).
+        It is great to do sociology for sociology itself and the joy of
+        knowledge, but if one can contribute to solving a practical problem in
+        this way, it will increase the joy even more. Also, applied research is
+        the ideal way to master the methodological craft of empirical research.
+        Thanks to a varied range of research orders, I had the opportunity to
+        try different types of observation, interviews, focus groups,
+        questionnaire surveys and document analyses in various combinations and
+        variations, as well as different ways of sample construction or data
+        analysis. The valuable experience includes the opportunity to get into a
+        variety of environments which one would rarely become acquainted with
+        otherwise: for example, minority groups, volunteers in helping
+        professions, socially excluded localities, regional business and
+        political elites, or gaining some insight into public administration
+        practices, and also becoming a member of the jury of a regional culinary
+        competition for the best potato pancake (sejkora).
       </p>
       <p>
-      One of the most inspirational methodological experiences of applied research has been the cooperation with the renowned Czech photographer Prof. Jindřich Štreit, which led me to think about the possibilities of using art, and especially painting, in scientific work, and it also turned my attention to the field of what is known as public sociology, i.e sociology intended for the general public (more about the cooperation here is included in the cooperation section).
+        One of the most inspirational methodological experiences of applied
+        research has been the cooperation with the renowned Czech photographer
+        Prof. Jindřich Štreit, which led me to think about the possibilities of
+        using art, and especially painting, in scientific work, and it also
+        turned my attention to the field of what is known as public sociology,
+        i.e sociology intended for the general public (more about the
+        cooperation here is included in the cooperation section).
       </p>
       <p>
-      The downside of applied research is that within the continuing work on different research contracts there is not enough time to think about the problems methodically, the collected data are not always made full use of and analyses are not given theoretical backing as it is not needed for immediate practice. The research tasks are diverse, but one subject is usually not worked on systematically. Between 2013 and 2017, I led the Center for Empirical Research at the Faculty of Public Policies of the Silesian University in Opava, where we would try to reach an academic overlap of the research contracts and we prepared books or professional articles based on the larger ones beyond the requirements of the client.
+        The downside of applied research is that within the continuing work on
+        different research contracts there is not enough time to think about the
+        problems methodically, the collected data are not always made full use
+        of and analyses are not given theoretical backing as it is not needed
+        for immediate practice. The research tasks are diverse, but one subject
+        is usually not worked on systematically. Between 2013 and 2017, I led
+        the Center for Empirical Research at the Faculty of Public Policies of
+        the Silesian University in Opava, where we would try to reach an
+        academic overlap of the research contracts and we prepared books or
+        professional articles based on the larger ones beyond the requirements
+        of the client.
       </p>
 
       <H4>a selection of methodological publications:</H4>
       <Project>
         <p>
           <b>
-            * On the questions of introspection, objections to the subjectivism of introspective procedures and objectification strategies in qualitative research:
+            * On the questions of introspection, objections to the subjectivism
+            of introspective procedures and objectification strategies in
+            qualitative research:
           </b>
         </p>
         Stanoev M., Janák D. 2013. „Koncepce (sub)kulturního kapitálu a
@@ -670,7 +727,8 @@ export const AppliedResearchEn = () => {
       <Project>
         <p>
           <b>
-            * A methodological study concerning the processing of three quarters of a century old primary sociological data:
+            * A methodological study concerning the processing of three quarters
+            of a century old primary sociological data:
           </b>
         </p>
         Janák, Dušan, Martin Stanoev a Petr Hušek. 2014. „Poválečný sociologický
@@ -687,7 +745,16 @@ export const AppliedResearchEn = () => {
       <Project>
         <p>
           <b>
-            * The great topic of the social sciences: What follows from the fact that the scientist is part of the subject he is researching and has internal experience with? Is it possible to arrive at objective "knowledge" from subjective "impressions"? Frankly, I haven’t solved this methodological problem, but at least I have clarified the fundamental problems that self-reflexive methodologies encounter. And I also saw more precisely the limits of the so-called objective procedures of quantifying methods. I continue to benefit from this initial reflection, even when considering multiomodal interspecies communication:
+            * The great topic of the social sciences: What follows from the fact
+            that the scientist is part of the subject he is researching and has
+            internal experience with? Is it possible to arrive at objective
+            "knowledge" from subjective "impressions"? Frankly, I haven’t solved
+            this methodological problem, but at least I have clarified the
+            fundamental problems that self-reflexive methodologies encounter.
+            And I also saw more precisely the limits of the so-called objective
+            procedures of quantifying methods. I continue to benefit from this
+            initial reflection, even when considering multiomodal interspecies
+            communication:
           </b>
         </p>
         Janák, D. 2006. „Sociální introspekce In. A. Bláhy a Wittgensteinův
@@ -699,25 +766,19 @@ export const AppliedResearchEn = () => {
         <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2006/04/08.pdf">
           here
         </ALink>
-        <p>Slightly modified English version:</p>
-        Janák, D. 2010."Social Introspection Of I. A. Bláha and Wittgenstein’s’
-        Argument Counter To Private Language. Anniversary Study On Introspection
-        Approach In Social Sciences." <i>Qualitative Sociology Review</i>, roč.6
-        č. 2, s. 51-72, ISSN 1733-8077.
-        <br />
-        Available{" "}
-        <ALink href="http://www.qualitativesociologyreview.org/ENG/Volume16/QSR_6_2_Janak.pdf">
-          here
-        </ALink>
       </Project>
 
       <H4>applied research:</H4>
       <b>
-      three books by the research teams that I led and which I have written in large part
+        three books by the research teams that I led and which I have written in
+        large part
       </b>
       <Project>
         <p>
-          <b>* The role of food in the re / construction of national and regional identity:</b>
+          <b>
+            * The role of food in the re / construction of national and regional
+            identity:
+          </b>
         </p>
         Janák, D. a kolektiv. 2020.{" "}
         <i>
@@ -731,7 +792,8 @@ export const AppliedResearchEn = () => {
       <Project>
         <p>
           <b>
-            * Inequalities and social inclusion in education is a major topic of the public policy and academic research:
+            * Inequalities and social inclusion in education is a major topic of
+            the public policy and academic research:
           </b>
         </p>
         Janák, D., M. Stanoev a kolektiv. 2015.{" "}
@@ -745,7 +807,8 @@ export const AppliedResearchEn = () => {
       <Project>
         <p>
           <b>
-            * Social exclusion in border regions, socially excluded localities and possibilities of their socio-economic development:
+            * Social exclusion in border regions, socially excluded localities
+            and possibilities of their socio-economic development:
           </b>
         </p>
         Janák, D. – M. Pilát – J. Bezděk. 2014.{" "}
@@ -761,7 +824,13 @@ export const AppliedResearchEn = () => {
       <Project>
         <p>
           <b>
-            * The Roma are a big topic in Czech society. This book is an attempt to make an impartial contribution to the public debate, which will be accessible to the general public as well. Cooperation with renowned Czech photographer Prof. Jindřich Štreit. I do not think we have made full use of this opportunity to speak about the big topic and we will need to return to it once again. But we already have a solid pilot study:
+            * The Roma are a big topic in Czech society. This book is an attempt
+            to make an impartial contribution to the public debate, which will
+            be accessible to the general public as well. Cooperation with
+            renowned Czech photographer Prof. Jindřich Štreit. I do not think we
+            have made full use of this opportunity to speak about the big topic
+            and we will need to return to it once again. But we already have a
+            solid pilot study:
           </b>
         </p>
         Janák, D., J. Štreit a kolektiv. 2017. Romové obrazem.{" "}
@@ -778,18 +847,58 @@ export const CommunicationEn = () => {
   return (
     <div>
       <p>
-      How come some dogs know their master is coming home? How do some animals feel the impending tsunami? How is it possible to make friendly contacts with wild grizzly bears? What made it possible to domesticate different species of animals? Can karate fighters catch a alien attack when blindfolded? How do I know that my dog is happy or that our cat really likes me? Why do many house plant growers talk to their flowers the way my grandmother did? How do flocks of birds coordinate sudden changes of direction? Do talking parrots speak, or do they just make sounds whose meanings they do not understand at all? Can a rabbit be ashamed? ...
+        How come some dogs know their master is coming home? How do some animals
+        feel the impending tsunami? How is it possible to make friendly contacts
+        with wild grizzly bears? What made it possible to domesticate different
+        species of animals? Can karate fighters catch a alien attack when
+        blindfolded? How do I know that my dog is happy or that our cat really
+        likes me? Why do many house plant growers talk to their flowers the way
+        my grandmother did? How do flocks of birds coordinate sudden changes of
+        direction? Do talking parrots speak, or do they just make sounds whose
+        meanings they do not understand at all? Can a rabbit be ashamed? ...
       </p>
       <p>
-      These exciting, interesting and basically simple questions can only be answered provided that a number of relatively complex theoretical problems have been solved and complex measurements taken. However, I feel that it is worth it and my research programme for the coming years is already set out.
+        These exciting, interesting and basically simple questions can only be
+        answered provided that a number of relatively complex theoretical
+        problems have been solved and complex measurements taken. However, I
+        feel that it is worth it and my research programme for the coming years
+        is already set out.
       </p>
       <p>
-      As with all "high risk - high gain" scientific topics, it takes time for research to bear fruit. Among other things, also because risk involving topics need to be often done as a leisure activity as there is not much space for uncertainty in academic reporting and business. A scientist needs to have a lot of “birds in the hand” before they can afford to try and hunt for “those in the bush”. This is quite understandable from the employer's point of view, but of course a bit frustrating from the concerned scientist's point of view, because there is not so much time available in one human life in this world. I could easily publish another book on the history of sociology every three years, write one or two articles each year, do some research work from time to time, and look forward to retirement. It’s not that I couldn't really enjoy doing science at such pace, but if I'm lucky enough to have a research topic that spontaneously attracts my attention, it's a shame to write about the subject the essence of which, in my view, I have already captured. At least for some time…
+        As with all "high risk - high gain" scientific topics, it takes time for
+        research to bear fruit. Among other things, also because risk involving
+        topics need to be often done as a leisure activity as there is not much
+        space for uncertainty in academic reporting and business. A scientist
+        needs to have a lot of “birds in the hand” before they can afford to try
+        and hunt for “those in the bush”. This is quite understandable from the
+        employer's point of view, but of course a bit frustrating from the
+        concerned scientist's point of view, because there is not so much time
+        available in one human life in this world. I could easily publish
+        another book on the history of sociology every three years, write one or
+        two articles each year, do some research work from time to time, and
+        look forward to retirement. It’s not that I couldn't really enjoy doing
+        science at such pace, but if I'm lucky enough to have a research topic
+        that spontaneously attracts my attention, it's a shame to write about
+        the subject the essence of which, in my view, I have already captured.
+        At least for some time…
       </p>
       <p>
-      So I proceed slowly but steadily. Since 2016, when I started working on the topic, I have carried out several interesting research activities, mostly in my free time: An expedition to explore animals in British Columbia in 2017; research of the so-called communicators with animals between 2018 - 2019; measurements with karatekas in 2019 or with plants 2019 - 2020. I do not like presenting something that is not finished yet.
+        So I proceed slowly but steadily. Since 2016, when I started working on
+        the topic, I have carried out several interesting research activities,
+        mostly in my free time: An expedition to explore animals in British
+        Columbia in 2017; research of the so-called communicators with animals
+        between 2018 - 2019; measurements with karatekas in 2019 or with plants
+        2019 - 2020. I do not like presenting something that is not finished
+        yet.
       </p>
       <Project>
+        <p>
+          <b>
+            * The first completed output that can be mentioned is the manuscript
+            of a study from the research of intuitive interspecies communication
+            carried out with animal communicators in the period of 2018 - 2019.
+          </b>
+        </p>
         <p>
           Janák, D. 2025. “Intuitive Interspecies Communicators Relatively
           Frequently Give Socially Valid, Nondeducible, and Specific, Even if
@@ -799,21 +908,9 @@ export const CommunicationEn = () => {
           Available{" "}
           <ALink href="https://doi.org/10.1163/15685306-bja10260">here</ALink>
         </p>
-      </Project>
-      <Project>
         <p>
-          <b>
-            * The first completed output that can be mentioned is the manuscript of a study from the research of intuitive interspecies communication carried out with animal communicators in the period of 2018 - 2019. Data from the research are publicly available in the Czech Social Science Data Archive of the Academy of Sciences:
-          </b>
-        </p>
-        <p>
-          {" "}
-          Janák, D. 2021. “An Uncharted Language? A Content Analysis of the
-          Materials Created by Animal Communicators Using an Animal Photograph”
-          Journal of Ethnobiology (in review).{" "}
-        </p>
-        <p>
-        The data are available after registration in the Czech Social Science Data Archive of the Academy of Sciences: {" "}
+          The data are available after registration in the Czech Social Science
+          Data Archive of the Academy of Sciences:{" "}
           <ALink href=" http://archiv.soc.cas.cz">
             http://archiv.soc.cas.cz
           </ALink>

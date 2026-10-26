@@ -68,15 +68,6 @@ export const Cz = () => {
           </i>{" "}
           Brno: Mendelova univerzita. ISBN 978-80-7509-973-0 (tisk), ISBN
           978-80-7509-974-7 (online ; pdf).
-          https://doi.org/10.11118/978-80-7509-974-7.
-          <br />K stáhnutí{" "}
-          <ALinkStyled
-            href="https://doi.org/10.11118/978-80-7509-974-7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            zde
-          </ALinkStyled>
         </Project>
         <Project>
           Janák, D. a kolektiv. 2020.
@@ -191,8 +182,7 @@ export const Cz = () => {
           autocratic pressures.“ <i>Conservation Science and Practice.</i>{" "}
           e70304. DOI: 10.1111/csp2.70304.
           <br />
-          Dostupné{" "}
-          <ALink href="https://doi.org/10.1111/csp2.70304">zde</ALink>
+          Dostupné <ALink href="https://doi.org/10.1111/csp2.70304">zde</ALink>
         </Project>
         <Project>
           Janák, D. 2025. „Intuitive Interspecies Communicators Relatively
@@ -353,16 +343,14 @@ export const Cz = () => {
           </ALink>
         </Project>
         <Project>
-          Janák, D. 2010.&quot;Social Introspection Of I. A. Bláha and
-          Wittgenstein’s’ Argument Counter To Private Language. Anniversary
-          Study On Introspection Approach In Social Sciences.&quot;{" "}
-          <i>Qualitative Sociology Review</i>, roč.6 č. 2, s. 51-72, ISSN
-          1733-8077.
+          Janák, D. 2010. „Klasická sociologie Inocence A. Bláhy v kontextu
+          soudobých diskusí.“ <i>Historická sociologie</i>. 1/2010: 63-79, ISSN
+          1804-0616.
           <br />
           Dostupné{" "}
-          <ALink href="http://www.qualitativesociologyreview.org/ENG/Volume16/QSR_6_2_Janak.pdf">
+          <ALink href="https://karolinum.cz/data/clanek/4124/HS_2_1_0063.pdf">
             zde
-          </ALink>
+          </ALink>{" "}
         </Project>
         <Project>
           Janák D. - Buchtíková O. 2008. „Sociologie města a filmu. Inocenc
@@ -480,16 +468,6 @@ export const Cz = () => {
           </ALink>{" "}
         </Project>
         <Project>
-          Janák, D. 2010. „Klasická sociologie Inocence A. Bláhy v kontextu
-          soudobých diskusí.“ <i>Historická sociologie</i>. 1/2010: 63-79, ISSN
-          1804-0616.
-          <br />
-          Dostupné{" "}
-          <ALink href="https://karolinum.cz/data/clanek/4124/HS_2_1_0063.pdf">
-            zde
-          </ALink>{" "}
-        </Project>
-        <Project>
           Bereś A. - Janák D. 2010. „Refleksje klasyków nad czeskim i polskim
           społeczeństwem lat trzydziestych XX wieku. (Na podstawie analizy
           zawartości „Przeglądu socjologicznego“ i „Sociologická revue“)“{" "}
@@ -548,8 +526,7 @@ export const Cz = () => {
           Haring, M., Janák, D. 2025. „Medvede na Slovensku, medzi faktami a
           emóciami.“ Pp. 44-47 in: Kosnáč, R., Gloss, H., Cigáneková, V.{" "}
           <i>Polarizácia a Antisystém 2025: Slovensko.</i> DEKK inštitút. ISBN:
-          978-80-974572-2-8. DOI:
-          https://doi.org/10.31577/2025.9788097457228.
+          978-80-974572-2-8. DOI: https://doi.org/10.31577/2025.9788097457228.
         </Project>
         <Project>
           Janák, D. 2023. „Rozvoj metodologie empirického výzkumu v počátcích
@@ -1019,18 +996,8 @@ export const En = () => {
             čtvrtině 21. století.
           </i>{" "}
           [CZECH SOCIETY REVEALED: Important Facts About Our Lives in The First
-          Quarter of The 21st Century] Brno: Mendelova univerzita. ISBN 978-80-7509-973-0 (tisk), ISBN
-          978-80-7509-974-7 (online ; pdf).
-          https://doi.org/10.11118/978-80-7509-974-7.
-          <br />
-          Available{" "}
-          <ALinkStyled
-            href="https://doi.org/10.11118/978-80-7509-974-7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            here
-          </ALinkStyled>
+          Quarter of The 21st Century] Brno: Mendelova univerzita. ISBN
+          978-80-7509-973-0 (tisk), ISBN 978-80-7509-974-7 (online ; pdf).
         </Project>
         <Project>
           Janák, D. a kolektiv. 2020.
@@ -1041,7 +1008,8 @@ export const En = () => {
           </i>{" "}
           [FOOD IS NOT JUST ‘SOMETHING TO EAT’: Traditional Eating Habits and
           Dishes as Part Of Regional and National Identity in the Consciousness
-          and Memory of Contemporary Society] Opava: Slezská univerzita. ISBN 978-80-7510-428-1.
+          and Memory of Contemporary Society] Opava: Slezská univerzita. ISBN
+          978-80-7510-428-1.
         </Project>
         <Project>
           Janák, D. 2018.
@@ -1049,7 +1017,8 @@ export const En = () => {
             Klasická sociologie ve střední Evropě: Mezi centrem a periferií.
           </i>{" "}
           [CLASSICAL SOCIOLOGY IN CENTRAL EUROPE: Between the Centre and the
-          Periphery.] Praha: Sociologické nakladatelství. ISBN 978-80-7419-278-4.
+          Periphery.] Praha: Sociologické nakladatelství. ISBN
+          978-80-7419-278-4.
         </Project>
         <Project>
           Janák, D., J. Štreit a kolektiv. 2017.
@@ -1058,7 +1027,8 @@ export const En = () => {
             v české společnosti.
           </i>{" "}
           [THE ROMA IN PICTURES: A Contribution to the Study of Social
-          Representations of the Roma in Czech Society] Opava: Slezská univerzita. 138 s., ISBN: 978-80-7510-266-9
+          Representations of the Roma in Czech Society] Opava: Slezská
+          univerzita. 138 s., ISBN: 978-80-7510-266-9
           <br />
           Download{" "}
           <ALinkStyled
@@ -1078,7 +1048,8 @@ export const En = () => {
           </i>{" "}
           [WIDEN THE RIVER CHANNEL OF THE MAIN STREAM OF EDUCATION. Social
           Inclusion of Pupils and the Transformation of the Education System in
-          Krnov and Sokolov] foto: J. Štreit. Opava: Slezská univerzita. 978-80-7510-157-0.
+          Krnov and Sokolov] foto: J. Štreit. Opava: Slezská univerzita.
+          978-80-7510-157-0.
           <br />
           Download{" "}
           <ALinkStyled
@@ -1098,8 +1069,9 @@ export const En = () => {
             analýza Osoblažska a možností jeho socioekonomického rozvoje.
           </i>{" "}
           [THE DISTRIBUTION OF SOCIAL INEQUALITIES UNDER STATE AUSPICES. A
-          Situational Analysis of the Osoblažsko Region and the Possibilities for
-          Its Socio-Economic Development.] (foto: J. Štreit) Opava: Slezská univerzita. ISBN: 978-80-7248-947-3.
+          Situational Analysis of the Osoblažsko Region and the Possibilities
+          for Its Socio-Economic Development.] (foto: J. Štreit) Opava: Slezská
+          univerzita. ISBN: 978-80-7248-947-3.
           <br />
           Download{" "}
           <ALinkStyled
@@ -1130,15 +1102,16 @@ export const En = () => {
           </i>{" "}
           [THE BEGINNINGS OF SOCIOLOGY IN CENTRAL EUROPE. A Study of the
           Development of Sociology as a Science in Poland, the Czech Lands,
-          Slovakia and Hungary] Praha: Sociologické nakladatelství. ISBN 978-80-7419-176-3.
+          Slovakia and Hungary] Praha: Sociologické nakladatelství. ISBN
+          978-80-7419-176-3.
         </Project>
         <Project>
           Krajčík, Vladimír - Janák ml., Dušan a kol.
-          <i>Mikropodnikání v sociálních službách.</i>{" "}
-          [MICRO-ENTERPRISES IN THE SOCIAL SERVICES] 1. vyd. Ostrava - Opava:
-          Vysoká škola podnikání a.s. a Slezská univerzita v Opavě, Fakulta
-          veřejných politik v Opavě, 2011. 177 s. ISBN 978-80-7410-056-7 (Vysoká
-          škola podnikání a.s.), 978-80-7248-766-0 (Slezská univerzita v Opavě).
+          <i>Mikropodnikání v sociálních službách.</i> [MICRO-ENTERPRISES IN THE
+          SOCIAL SERVICES] 1. vyd. Ostrava - Opava: Vysoká škola podnikání a.s.
+          a Slezská univerzita v Opavě, Fakulta veřejných politik v Opavě, 2011.
+          177 s. ISBN 978-80-7410-056-7 (Vysoká škola podnikání a.s.),
+          978-80-7248-766-0 (Slezská univerzita v Opavě).
         </Project>
         <Project>
           Janák, D. 2009.
@@ -1147,8 +1120,8 @@ export const En = () => {
             z dějin klasické české sociologie.
           </i>{" "}
           [VALUES AND EVALUATION IN THE SOCIOLOGY OF INOCENCE ARNOŠT BLÁHA. A
-          Study in the History of Classical Czech Sociology] 1. vyd. Brno: Mezinárodní politologický ústav. ISBN:
-          978-80-210-5038-9.
+          Study in the History of Classical Czech Sociology] 1. vyd. Brno:
+          Mezinárodní politologický ústav. ISBN: 978-80-210-5038-9.
         </Project>
       </Section>
 
@@ -1178,7 +1151,8 @@ export const En = () => {
           Webera.“ [Interpretive Sociology of Animals? On the Possibilities of
           Conceiving Animals as Social Actors from the Perspective of Max
           Weber's Sociological Approach]{" "}
-          <i>Sociológia / Slovak Sociological Review</i> 54 (5): 412-436. <br /> https://doi.org/10.31577/sociologia.2022.54.5.15.
+          <i>Sociológia / Slovak Sociological Review</i> 54 (5): 412-436. <br />{" "}
+          https://doi.org/10.31577/sociologia.2022.54.5.15.
           <br />
           Available{" "}
           <ALink href="https://doi.org/10.31577/sociologia.2022.54.5.15.">
@@ -1188,10 +1162,10 @@ export const En = () => {
         <Project>
           Janák, D. 2019. „Problematika národa v počátcích sociologické teorie
           ve střední Evropě prizmatem tzv. habsburského dilematu Ernesta
-          Gellnera: Příspěvek k historické sociologii vědění.“ [The Issue of the Nation at the Beginning of
-          Sociological Theory in Central Europe through the Lens of Ernest
-          Gellner´s Concept of the Habsburg Dilemma: Contribution to Historical
-          Sociology of Knowledge]{" "}
+          Gellnera: Příspěvek k historické sociologii vědění.“ [The Issue of the
+          Nation at the Beginning of Sociological Theory in Central Europe
+          through the Lens of Ernest Gellner´s Concept of the Habsburg Dilemma:
+          Contribution to Historical Sociology of Knowledge]{" "}
           <i>Sociológia / Slovak Sociological Review.</i> Vol. 51, no. 2 (2019),
           p. 152-178. DOI: https://doi.org/10.31577/sociologia.2019.51.2.8.
           <br />
@@ -1219,19 +1193,18 @@ export const En = () => {
           současnosti.“ [What Would We Know about Sociology If We Only Read
           Sociologický časopis and Sociológia? A Content Analysis of Two
           Journals of Sociology from the Velvet Revolution to the Present Day]{" "}
-          <i>Sociologický časopis / Czech Sociological Review</i>{" "}
-          50 (5): 645-670, http://dx.doi.org/10.13060/00380288.2014.50.5.118.{" "}
-          <br />
+          <i>Sociologický časopis / Czech Sociological Review</i> 50 (5):
+          645-670, http://dx.doi.org/10.13060/00380288.2014.50.5.118. <br />
           Available{" "}
           <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2014/05/02.pdf">
             here
           </ALink>
         </Project>
         <Project>
-          Janák, D. 2014. „Problém národní identity v díle Edvarda Beneše.“
-          [The Issue of National Identity in the Work of Edvard Beneš]{" "}
-          <i>Sociologický časopis / Czech Sociological Review.</i> roč. 50 (2): 233-263. ISSN 0038-0288.{" "}
-          <br />
+          Janák, D. 2014. „Problém národní identity v díle Edvarda Beneše.“ [The
+          Issue of National Identity in the Work of Edvard Beneš]{" "}
+          <i>Sociologický časopis / Czech Sociological Review.</i> roč. 50 (2):
+          233-263. ISSN 0038-0288. <br />
           Available{" "}
           <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2014/02/04.pdf">
             here
@@ -1240,10 +1213,10 @@ export const En = () => {
 
         <Project>
           Janák, D. 2013. „Počátky teoretické sociologie v českých zemích. Text
-          věnovaný památce prof. M. Petruska.“ [Origins of Sociological Theory in the Czech
-          Lands. A Text Devoted to the Memory of Prof. M. Petrusek.]{" "}
-          <i>Sociológia / Slovak Sociological Review.</i> 45 (4): 339-364. ISSN
-          0049-1225, ISSN 1336- 8613. <br />
+          věnovaný památce prof. M. Petruska.“ [Origins of Sociological Theory
+          in the Czech Lands. A Text Devoted to the Memory of Prof. M.
+          Petrusek.] <i>Sociológia / Slovak Sociological Review.</i> 45 (4):
+          339-364. ISSN 0049-1225, ISSN 1336- 8613. <br />
           Available{" "}
           <ALink href="https://www.sav.sk/journals/uploads/09030817Janak%20OK.pdf">
             here
@@ -1252,9 +1225,8 @@ export const En = () => {
         <Project>
           Janák, D. 2013. „Brněnská versus pražská sociologická škola: mýtus a
           skutečnost“. [The Brno versus the Prague School of Sociology: Myth and
-          Reality]{" "}
-          <i>Sociologický časopis / Czech Sociological Review.</i> 49 (3): 577-602. ISSN
-          0038-028. <br />
+          Reality] <i>Sociologický časopis / Czech Sociological Review.</i> 49
+          (3): 577-602. ISSN 0038-028. <br />
           Available{" "}
           <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2013/04/04.pdf">
             here
@@ -1263,9 +1235,9 @@ export const En = () => {
         <Project>
           Janák, D. 2012. „Jan Mertl: pravdu hájící kolaborant, který nezradil.“
           [Jan Mertl: A Collaborator Standing Up for the Truth, Who Did Not
-          Betray]{" "}
-          <i>Sociologický časopis / Czech Sociological Review</i>, 48 (2): 374-380. ISSN 0038-0288.
-          (diskusní text neprocházející anonymním recenzním řízením) <br />
+          Betray] <i>Sociologický časopis / Czech Sociological Review</i>, 48
+          (2): 374-380. ISSN 0038-0288. (discussion paper, not subject to
+          anonymous peer review) <br />
           Available{" "}
           <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2012/02/08.pdf">
             here
@@ -1273,8 +1245,8 @@ export const En = () => {
         </Project>
         <Project>
           Janák, D. 2012. „Sociologie Antona Štefánka v kontextu dobových
-          sociologických časopisů.“ [The Sociology of Anton Štefánek in the Context of
-          Contemporary Sociological Journals.]{" "}
+          sociologických časopisů.“ [The Sociology of Anton Štefánek in the
+          Context of Contemporary Sociological Journals.]{" "}
           <i>Sociológia / Slovak Sociological Review.</i>
           Volume 44, 2012, No. 1: 34-61. ISSN 0049-1225, ISSN 1336-8613. <br />
           Available{" "}
@@ -1284,9 +1256,9 @@ export const En = () => {
         </Project>
         <Project>
           Janák, D. 2011. „Obsahová analýza <i>Sociologického sborníku</i>.
-          Příspěvek k dějinám česko/slovenské sociologie.“ [The Content Analysis of the Journal
-          Sociologický Sborník. A Contribution to the History of Czecho/Slovak
-          Sociology.]{" "}
+          Příspěvek k dějinám česko/slovenské sociologie.“ [The Content Analysis
+          of the Journal Sociologický Sborník. A Contribution to the History of
+          Czecho/Slovak Sociology.]{" "}
           <i>Sociológia / Slovak Sociological Review</i> 43 (5): 584-603, ISSN
           0049-1225, ISSN 1336- 8613. <br />
           Available{" "}
@@ -1298,10 +1270,10 @@ export const En = () => {
         <Project>
           Janák, D. 2011. „Autorská a tematická struktura{" "}
           <i>Sociologické revue</i>. Příspěvek k sociologickému rozboru dějin
-          české sociologie.“
-          [Authors and Themes in Sociologická revue: A Contribution to the
-          Sociological Analysis of the History of Czech Sociology]{" "}
-          <i>Sociologický časopis / Czech Sociological Review</i> 47 (5): 991-1016, ISSN 0038-0288. <br />
+          české sociologie.“ [Authors and Themes in Sociologická revue: A
+          Contribution to the Sociological Analysis of the History of Czech
+          Sociology] <i>Sociologický časopis / Czech Sociological Review</i> 47
+          (5): 991-1016, ISSN 0038-0288. <br />
           Available{" "}
           <ALink href=" https://sreview.soc.cas.cz/pdfs/csr/2011/05/05.pdf">
             here
@@ -1309,10 +1281,10 @@ export const En = () => {
         </Project>
 
         <Project>
-          Janák, D. 2009. „Ohlédnutí za sociologií Inocence Arnošta Bláhy.“
-          [A Look Back at the Sociology of Inocence Arnošt Bláha]{" "}
-          <i>Sociologický časopis / Czech Sociological Review</i> roč. 45, č. 5, s. 1081-1090, ISSN
-          0038-0288. <br />
+          Janák, D. 2009. „Ohlédnutí za sociologií Inocence Arnošta Bláhy.“ [A
+          Look Back at the Sociology of Inocence Arnošt Bláha]{" "}
+          <i>Sociologický časopis / Czech Sociological Review</i> roč. 45, č. 5,
+          s. 1081-1090, ISSN 0038-0288. <br />
           Available{" "}
           <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2009/05/12.pdf">
             here
@@ -1325,8 +1297,8 @@ export const En = () => {
           v sociálních vědách.” [The Social Introspection of I. A. Blaha and
           Wittgenstein’s Argument against a Private Language. Notes on the
           Introspective Approach in the Social Sciences]{" "}
-          <i>Sociologický časopis / Czech Sociological Review</i>, Vol. 42 (No.4): 761
-          – 782, ISSN:0038-0288. <br />
+          <i>Sociologický časopis / Czech Sociological Review</i>, Vol. 42
+          (No.4): 761 – 782, ISSN:0038-0288. <br />
           Available{" "}
           <ALink href="https://sreview.soc.cas.cz/pdfs/csr/2006/04/08.pdf">
             here
@@ -1338,36 +1310,37 @@ export const En = () => {
         <H4>Articles in journals indexed in SCOPUS:</H4>
         <Project>
           Janák, D. 2020. &quot;Kritický realismus <i>revisited</i>: Příspěvek k
-          sociologické koncepci subjektivity.&quot; [Critical Realism Revisited: A Contribution to the
-          Sociological Theory of Subjectivity] <i>Sociální studia</i>, 17
-          (1): 69-88. ISSN: 1803-6104 (on-line), ISSN: 1214-813X (print). <br />
+          sociologické koncepci subjektivity.&quot; [Critical Realism Revisited:
+          A Contribution to the Sociological Theory of Subjectivity]{" "}
+          <i>Sociální studia</i>, 17 (1): 69-88. ISSN: 1803-6104 (on-line),
+          ISSN: 1214-813X (print). <br />
           Available{" "}
           <ALink href="https://journals.muni.cz/socialni_studia/article/download/14069/11802">
             here
           </ALink>
         </Project>
         <Project>
-          Janák, D. 2010.&quot;Social Introspection Of I. A. Bláha and
-          Wittgenstein’s’ Argument Counter To Private Language. Anniversary
-          Study On Introspection Approach In Social Sciences.&quot;{" "}
-          <i>Qualitative Sociology Review</i>, roč.6 č. 2, s. 51-72, ISSN
-          1733-8077.
+          Janák, D. 2010. „Klasická sociologie Inocence A. Bláhy v kontextu
+          soudobých diskusí.“ [Classical Sociology of Inocence A. Bláha in the
+          Context of Contemporary Discussions] <i>Historická sociologie</i>.
+          1/2010: 63-79, ISSN 1804-0616.
           <br />
           Available{" "}
-          <ALink href="http://www.qualitativesociologyreview.org/ENG/Volume16/QSR_6_2_Janak.pdf">
+          <ALink href="https://karolinum.cz/data/clanek/4124/HS_2_1_0063.pdf">
             here
-          </ALink>
+          </ALink>{" "}
         </Project>
         <Project>
           Janák D. - Buchtíková O. 2008. „Sociologie města a filmu. Inocenc
-          Arnošt Bláha a jeho role ve výzkumu Brna po druhé světové válce.“
-          [The Sociology of the City and Film: Inocenc Arnošt Bláha and His Role
-          in Research on Brno After the Second World War]{" "}
-          <i>Iluminace</i> Vol. 20, No.1 (69): 161-178, ISSN: 0862-397X.
+          Arnošt Bláha a jeho role ve výzkumu Brna po druhé světové válce.“ [The
+          Sociology of the City and Film: Inocenc Arnošt Bláha and His Role in
+          Research on Brno After the Second World War] <i>Iluminace</i> Vol. 20,
+          No.1 (69): 161-178, ISSN: 0862-397X.
         </Project>
         <Project>
-          Janák, D. 2006. „In. A. Bláha a počátky české sociologie města“ [In. A. Bláha and the Beginnings of Czech Urban
-          Sociology] <i>Sociální studia</i> 2/2006: 11-32, ISSN: 1214-813X.
+          Janák, D. 2006. „In. A. Bláha a počátky české sociologie města“ [In.
+          A. Bláha and the Beginnings of Czech Urban Sociology]{" "}
+          <i>Sociální studia</i> 2/2006: 11-32, ISSN: 1214-813X.
           <br />
           Available{" "}
           <ALink href="https://journals.muni.cz/socialni_studia/article/view/5532/4630">
@@ -1379,8 +1352,8 @@ export const En = () => {
           kultury v klasickém sporu o metodu sociálních věd a jeho brněnské
           reminiscence.” [Social Science Versus Natural Science. The Opposition
           Between Nature and Culture in the Classical Dispute over the Method of
-          Social Sciences and Its Reminiscences in Brno]{" "}
-          <i>Sociální studia</i> 2/2005:71-87, ISSN: 1214- 813X.
+          Social Sciences and Its Reminiscences in Brno] <i>Sociální studia</i>{" "}
+          2/2005:71-87, ISSN: 1214- 813X.
           <br />
           Available{" "}
           <ALink href="https://journals.muni.cz/socialni_studia/article/view/5509/4607">
@@ -1474,18 +1447,6 @@ export const En = () => {
           </ALink>{" "}
         </Project>
         <Project>
-          Janák, D. 2010. „Klasická sociologie Inocence A. Bláhy v kontextu
-          soudobých diskusí.“ [Classical Sociology of Inocence A. Bláha in the
-          Context of Contemporary Discussions]{" "}
-          <i>Historická sociologie</i>. 1/2010: 63-79, ISSN
-          1804-0616.
-          <br />
-          Available{" "}
-          <ALink href="https://karolinum.cz/data/clanek/4124/HS_2_1_0063.pdf">
-            here
-          </ALink>{" "}
-        </Project>
-        <Project>
           Bereś A. - Janák D. 2010. „Refleksje klasyków nad czeskim i polskim
           społeczeństwem lat trzydziestych XX wieku. (Na podstawie analizy
           zawartości „Przeglądu socjologicznego“ i „Sociologická revue“)“{" "}
@@ -1544,8 +1505,7 @@ export const En = () => {
           Haring, M., Janák, D. 2025. „Medvede na Slovensku, medzi faktami a
           emóciami.“ Pp. 44-47 in: Kosnáč, R., Gloss, H., Cigáneková, V.{" "}
           <i>Polarizácia a Antisystém 2025: Slovensko.</i> DEKK inštitút. ISBN:
-          978-80-974572-2-8. DOI:
-          https://doi.org/10.31577/2025.9788097457228.
+          978-80-974572-2-8. DOI: https://doi.org/10.31577/2025.9788097457228.
         </Project>
         <Project>
           Janák, D. 2023. „Rozvoj metodologie empirického výzkumu v počátcích
